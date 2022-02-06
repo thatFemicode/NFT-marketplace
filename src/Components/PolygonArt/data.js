@@ -315,3 +315,4 @@ const items = [
     image: Wizard,
   },
 ];
+export default items;

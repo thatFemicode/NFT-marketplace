@@ -155,3 +155,4 @@ const items = [
     image: Travis,
   },
 ];
+export default items;

@@ -241,3 +241,4 @@ const items = [
     image: Zach,
   },
 ];
+export default items;

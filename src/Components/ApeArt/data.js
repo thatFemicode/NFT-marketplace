@@ -177,3 +177,4 @@ const items = [
     image: Yatch,
   },
 ];
+export default items;
