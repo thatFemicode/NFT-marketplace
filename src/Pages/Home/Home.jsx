@@ -2,11 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "../../Components/Hero/Hero";
 import { HomeStyled } from "./HomeStyled";
-
+import { MainStyled } from "../../MainStyled";
 const Home = () => {
   return (
     <HomeStyled>
-      <Hero />
+      <MainStyled>
+        <Hero />
+      </MainStyled>
     </HomeStyled>
   );
 };
