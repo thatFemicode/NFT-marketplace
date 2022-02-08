@@ -13,7 +13,7 @@ export const OuterLayout = styled.section`
     width: 100%;
   }
   @media (max-width: ${({ theme }) => theme.mind}) {
-    max-width: 950px;
+    max-width: 900px;
     width: 100%;
   }
   @media (max-width: ${({ theme }) => theme.post}) {
@@ -40,6 +40,7 @@ export const InnerLayout = styled.section`
   /* width: 70%; */
   margin: 0 auto;
   position: relative;
+
   /* padding: 3rem 2rem; */
   @media (max-width: ${({ theme }) => theme.mins}) {
     max-width: 1100px;

@@ -6,6 +6,8 @@ import animate from "./animation";
 import Africa from "./HeroImgs/Africa.jpg";
 import Head from "./HeroImgs/Head.jpg";
 import Kaby from "./HeroImgs/Kaby.jpg";
+// import Head from
+// import Head from "."
 const Hero = () => {
   const img1 = useRef(null);
   const img2 = useRef(null);
@@ -16,9 +18,9 @@ const Hero = () => {
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img12_bcljeo.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
-  // useEffect(() => {
-  //   animate(img1.current, img2.current, img3.current);
-  // }, []);
+  useEffect(() => {
+    animate(img1.current, img2.current, img3.current);
+  }, []);
   useEffect(() => {
     new hoverEffect({
       parent: img1.current,
@@ -27,7 +29,7 @@ const Hero = () => {
       image1: Africa,
       image2: Head,
       displacementImage: imgs[0],
-      imagesRatio: 1.2,
+      imagesRatio: 1.4,
     });
 
     new hoverEffect({
@@ -64,22 +66,6 @@ const Hero = () => {
             blanditiis animi, modi dolores eos quod provident illum eius
             necessitatibus voluptas libero qui reiciendis. Mollitia id, ipsa
             ullam obcaecati nobis eum consequuntur sequi voluptatibus natus
-            pariatur nam accusamus vitae odit cum in. Perspiciatis, veritatis!
-            Excepturi, voluptatibus aperiam blanditiis optio facilis aut natus
-            sequi eveniet unde est ipsa voluptate, provident reiciendis
-            consequatur nostrum enim? Vero, non repellendus. Dolores delectus,
-            itaque reprehenderit nobis facilis temporibus et ea aut voluptatem
-            exercitationem repudiandae accusantium odit libero quae officia.
-            Quos eius doloremque neque illo libero fugit odit placeat deserunt
-            animi laboriosam delectus non ipsum nesciunt explicabo, aliquam
-            magni autem ipsam facere et repudiandae sequi velit! Ullam dolores
-            dolorem, doloribus temporibus perspiciatis quis atque. Ipsa
-            accusamus, accusantium voluptates laboriosam esse deleniti!
-            Architecto ipsum voluptate, molestias et corporis beatae cupiditate
-            omnis, placeat ad ipsa odio odit maiores quos doloremque nihil eius
-            esse, consectetur ducimus? Veritatis facere facilis beatae ipsum
-            fuga earum officia culpa exercitationem magnam quaerat ut rerum
-            dicta distinctio velit, ipsam iusto at eligendi?
           </div>
           <div className="hero-right">
             <div ref={img1} className="box box-1"></div>
