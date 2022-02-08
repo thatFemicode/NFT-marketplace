@@ -18,9 +18,9 @@ const Hero = () => {
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img12_bcljeo.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
-  useEffect(() => {
-    animate(img1.current, img2.current, img3.current);
-  }, []);
+  // useEffect(() => {
+  //   animate(img1.current, img2.current, img3.current);
+  // }, []);
   useEffect(() => {
     new hoverEffect({
       parent: img1.current,
@@ -49,7 +49,7 @@ const Hero = () => {
       image1: imgs[1],
       image2: imgs[1],
       displacementImage: imgs[1],
-      imagesRatio: 0.9,
+      imagesRatio: 1.2,
     });
   });
 
