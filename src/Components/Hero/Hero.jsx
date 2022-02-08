@@ -58,14 +58,12 @@ const Hero = () => {
       <OuterLayout>
         <div className="hero">
           <div className="hero-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            facilis vero repudiandae, magni dolor voluptatum maiores, neque
-            reiciendis doloremque, eaque quaerat. In incidunt aliquam earum
-            corporis recusandae similique! Placeat, dolorum fuga, quia
-            doloremque eaque eveniet ipsam nam tenetur cumque sunt et molestias
-            blanditiis animi, modi dolores eos quod provident illum eius
-            necessitatibus voluptas libero qui reiciendis. Mollitia id, ipsa
-            ullam obcaecati nobis eum consequuntur sequi voluptatibus natus
+            <h1>ExpressSea NFT Market Place</h1>
+            <p>
+              Discover and collect NFTs that are extraordinary on the largest
+              market place{" "}
+            </p>
+            <button>Visit Marketplace</button>
           </div>
           <div className="hero-right">
             <div ref={img1} className="box box-1"></div>
