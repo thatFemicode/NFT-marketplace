@@ -6,6 +6,7 @@ import animate from "./animation";
 import Africa from "./HeroImgs/Africa.jpg";
 import Head from "./HeroImgs/Head.jpg";
 import Kaby from "./HeroImgs/Kaby.jpg";
+// import Kaby from "./"
 // import Head from
 // import Head from "."
 const Hero = () => {

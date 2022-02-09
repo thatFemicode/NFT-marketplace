@@ -1,4 +1,3 @@
-// import styled from "styled-components";
 import styled from "styled-components";
 
 export const HeroStyled = styled.section`
@@ -8,6 +7,7 @@ export const HeroStyled = styled.section`
   padding-right: 2rem;
   height: 100%;
   width: 100%;
+
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
   @media (max-width: ${({ theme }) => theme.service}) {
@@ -18,8 +18,7 @@ export const HeroStyled = styled.section`
     width: 100%;
     /* position: relative; */
     display: flex;
-    /* align-items: center; */
-    @media screen and (max-width: 900px) {
+    @media (max-width: ${({ theme }) => theme.text}) {
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -30,16 +29,18 @@ export const HeroStyled = styled.section`
       flex: 2;
       text-align: left;
       padding-top: 8.5rem;
+      /* i will use 4.5 before the breakpoint */
       /* @media (max-width: ${({ theme }) => theme.mind}) {
         flex: 3;
       } */
-      @media (max-width: ${({ theme }) => theme.service}) {
+      @media (max-width: ${({ theme }) => theme.text}) {
         padding-top: 0;
       }
       h1 {
         max-width: 500px;
         font-size: 4rem;
         color: transparent;
+
         background: conic-gradient(
           #d9d7f1 12%,
           #baabda 12%,
@@ -72,7 +73,7 @@ export const HeroStyled = styled.section`
         flex: 3;
       } */
       .box {
-        position: relative;
+        position: absolute;
 
         &-1 {
           top: 50%;
@@ -86,7 +87,7 @@ export const HeroStyled = styled.section`
           /* height: 200px;
           width: 130px; */
           top: 150px;
-          left: -22%;
+          left: 10%;
           /* @media screen and (max-width: 900px) {
             height: 250px;
             width: 150px;
@@ -94,17 +95,22 @@ export const HeroStyled = styled.section`
             left: -120px;
           } */
           @media (max-width: ${({ theme }) => theme.mins}) {
-            width: 200px;
-            height: 320px;
-            left: -19%;
+            /* width: 220px;
+            height: 350px; */
+            /* left: -19%; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
-            width: 190px;
             height: 300px;
+            width: 200px;
+            /* width: 190px;
+            height: 300px; */
+            top: 190px;
+            left: 15%;
           }
-          @media (max-width: ${({ theme }) => theme.service}) {
+          @media (max-width: ${({ theme }) => theme.dont}) {
             width: 180px;
             height: 290px;
+            left: 10%;
           }
           @media screen and (max-width: 545px) {
             height: 200px;
@@ -123,7 +129,7 @@ export const HeroStyled = styled.section`
           height: 240px;
           width: 200px;
           left: 50%;
-          /* top: 100px; */
+          top: 74px; /* top: 100px; */
           /* @media screen and (max-width: 1100px) {
             height: 250px;
             width: 200px;
@@ -136,19 +142,22 @@ export const HeroStyled = styled.section`
           } */
           @media (max-width: ${({ theme }) => theme.mins}) {
             width: 180px;
-            height: 230px;
-            left: 53%;
-            top: 30%;
+            /* height: 230px; */
+            left: 330px;
+            /* top: 105px; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
             width: 170px;
             height: 200px;
-            left: 55%;
+            left: 60%;
+            top: 125px;
           }
-          @media (max-width: ${({ theme }) => theme.service}) {
-            width: 160px;
+          @media (max-width: ${({ theme }) => theme.dont}) {
+            width: 140px;
             height: 180px;
-            left: 58%;
+            left: 245px;
+            top: 140px;
+            /* top: 400px; */
           }
           @media screen and (max-width: 545px) {
             height: 120px;
@@ -163,7 +172,7 @@ export const HeroStyled = styled.section`
           position: absolute;
 
           /* top: 500px; */
-          top: 90%;
+          top: 340px;
 
           width: 240px;
           height: 200px;
@@ -179,18 +188,23 @@ export const HeroStyled = styled.section`
           } */
           @media (max-width: ${({ theme }) => theme.mins}) {
             width: 180px;
-            height: 230px;
-            left: 55%;
-            top: 105%;
+            /* height: 230px; */
+            /* left: 56%; */
+            left: 330px;
+            /* top: 360px; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
             width: 170px;
-            height: 200px;
+            height: 210px;
+            left: 60%;
+            top: 350px;
+            /* top: 95%; */
           }
-          @media (max-width: ${({ theme }) => theme.service}) {
-            width: 160px;
+
+          @media (max-width: ${({ theme }) => theme.dont}) {
+            width: 140px;
             height: 180px;
-            left: 58%;
+            left: 245px;
           }
           @media screen and (max-width: 545px) {
             height: 120px;

@@ -37,7 +37,7 @@ function App() {
     hero: "992px",
     kobe: "1200px",
     mind: "1100px",
-    mins: "1300px",
+    mins: "1400px",
     minsx: "1280px",
     minss: "1500px",
     team: "1700px",
