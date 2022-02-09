@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import Head from "./HeroImgs/Head.jpg";
+import Kaby from "./HeroImgs/Kaby.jpg";
 export const HeroStyled = styled.section`
   position: relative;
   padding-top: 1rem;
@@ -10,36 +11,55 @@ export const HeroStyled = styled.section`
 
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
-  @media (max-width: ${({ theme }) => theme.service}) {
-    padding-top: 4rem;
+  @media (max-width: ${({ theme }) => theme.desktop}) {
+    /* padding-top: 5rem; */
   }
   .hero {
     height: 100%;
     width: 100%;
-    /* position: relative; */
     display: flex;
-    @media (max-width: ${({ theme }) => theme.text}) {
+    @media (max-width: ${({ theme }) => theme.desktop}) {
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      align-items: start;
+      justify-content: flex-start;
     }
     &-left {
       width: 100%;
       position: relative;
       flex: 2;
       text-align: left;
-      padding-top: 8.5rem;
+      padding-top: 8.2rem;
       /* i will use 4.5 before the breakpoint */
       /* @media (max-width: ${({ theme }) => theme.mind}) {
         flex: 3;
       } */
-      @media (max-width: ${({ theme }) => theme.text}) {
-        padding-top: 0;
+      @media (max-width: ${({ theme }) => theme.dont}) {
+        /* padding-top: 6rem; */
       }
+      @media (max-width: ${({ theme }) => theme.desktop}) {
+        padding-top: 0;
+        margin-top: 6rem;
+      }
+
       h1 {
         max-width: 500px;
         font-size: 4rem;
-        color: transparent;
+        line-height: 1.4;
+        /* color: transparent; */
+        @media (max-width: ${({ theme }) => theme.dont}) {
+          font-size: 3.5rem;
+        }
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          font-size: 3rem;
+        }
+        @media (max-width: ${({ theme }) => theme.make}) {
+          font-size: 2.5rem;
+          max-width: 400px;
+        }
+        @media (max-width: ${({ theme }) => theme.max}) {
+          font-size: 2rem;
+          max-width: 400px;
+        }
 
         background: conic-gradient(
           #d9d7f1 12%,
@@ -62,48 +82,90 @@ export const HeroStyled = styled.section`
           animation: expand 0.5s ease forwards;
         }
       }
+      p {
+        max-width: 400px;
+      }
     }
     &-right {
       position: relative;
       flex: 2;
       width: 100%;
-      display: grid;
-      place-items: center;
-      /* @media (max-width: ${({ theme }) => theme.mind}) {
-        flex: 3;
-      } */
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: ${({ theme }) => theme.desktop}) {
+        padding-top: 3rem;
+        justify-content: flex-start;
+      }
+      .img-box {
+        position: absolute;
+        left: 71%;
+        transform: translateX(-50%);
+        height: 50px;
+        width: 50px;
+        background-image: url(${Head});
+        border-radius: 50%;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken;
+        top: 150px;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+          display: none;
+        }
+      }
+      .img-box2 {
+        position: absolute;
+        left: 80%;
+        transform: translateX(-50%);
+        height: 50px;
+        width: 50px;
+        background-image: url(${Kaby});
+        border-radius: 50%;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken;
+        top: 40px;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+          display: none;
+        }
+      }
+      .img-box3 {
+        position: absolute;
+        left: 50%;
+        height: 50px;
+        width: 50px;
+        background-image: url(${Kaby});
+        border-radius: 50%;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken;
+        top: 250px;
+        @media (min-width: ${({ theme }) => theme.desktop}) {
+          display: none;
+        }
+      }
       .box {
         position: absolute;
-
         &-1 {
           top: 50%;
-          /* transform: translateY(-50%); */
-          /* left: -50px; */
           background-repeat: no-repeat;
-
-          /* background-size: cover; */
           height: 400px;
           width: 250px;
-          /* height: 200px;
-          width: 130px; */
           top: 150px;
           left: 10%;
-          /* @media screen and (max-width: 900px) {
-            height: 250px;
-            width: 150px;
-            top: 100px;
-            left: -120px;
-          } */
           @media (max-width: ${({ theme }) => theme.mins}) {
-            /* width: 220px;
-            height: 350px; */
-            /* left: -19%; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
             height: 300px;
             width: 200px;
-            /* width: 190px;
-            height: 300px; */
             top: 190px;
             left: 15%;
           }
@@ -112,39 +174,42 @@ export const HeroStyled = styled.section`
             height: 290px;
             left: 10%;
           }
-          @media screen and (max-width: 545px) {
+          @media (max-width: ${({ theme }) => theme.text}) {
+            left: 5%;
+            width: 170px;
+            height: 280px;
+          }
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            /* position: relative; */
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%);
+          }
+          @media (max-width: ${({ theme }) => theme.make}) {
+            /* left: 25%;
+            transform: translateX(-50%); */
+            /* top: 120px;
+            height: 200px;
+            width: 130px; */
+            height: 280px;
+            width: 150px;
+          }
+          /* @media screen and (max-width: 545px) {
             height: 200px;
             width: 130px;
             top: 150px;
             left: -23%;
-            /* transform: translateX(50%); */
-          }
+          } */
         }
         &-2 {
-          position: absolute;
-          /* top: 250px; */
           background-size: cover;
-          /* height: 350px;
-          width: 300px; */
           height: 240px;
           width: 200px;
           left: 50%;
-          top: 74px; /* top: 100px; */
-          /* @media screen and (max-width: 1100px) {
-            height: 250px;
-            width: 200px;
-          } */
-          /* @media screen and (max-width: 900px) {
-            height: 150px;
-            width: 150px;
-
-            left: 220px;
-          } */
+          top: 74px;
           @media (max-width: ${({ theme }) => theme.mins}) {
             width: 180px;
-            /* height: 230px; */
             left: 330px;
-            /* top: 105px; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
             width: 170px;
@@ -156,63 +221,71 @@ export const HeroStyled = styled.section`
             width: 140px;
             height: 180px;
             left: 245px;
-            top: 140px;
-            /* top: 400px; */
+            top: 145px;
           }
-          @media screen and (max-width: 545px) {
-            height: 120px;
+          @media (max-width: ${({ theme }) => theme.text}) {
+            left: 57%;
             width: 120px;
-            left: 47%;
-            top: 100px;
-            /* left: -23%; */
-            /* transform: translateX(50%); */
+            height: 170px;
+          }
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            display: none;
+          }
+
+          @media (max-width: ${({ theme }) => theme.make}) {
+            left: 55%;
+            top: 90px;
+            width: 130px;
+            height: 130px;
+            width: 120px;
           }
         }
         &-3 {
-          position: absolute;
-
-          /* top: 500px; */
           top: 340px;
-
           width: 240px;
           height: 200px;
           position: absolute;
           height: 280px;
           width: 200px;
           left: 50%;
-          /* @media screen and (max-width: 900px) {
-            height: 150px;
-            width: 150px;
-            top: 250px;
-            left: 220px;
-          } */
+
           @media (max-width: ${({ theme }) => theme.mins}) {
             width: 180px;
-            /* height: 230px; */
-            /* left: 56%; */
             left: 330px;
-            /* top: 360px; */
           }
           @media (max-width: ${({ theme }) => theme.mind}) {
             width: 170px;
             height: 210px;
             left: 60%;
             top: 350px;
-            /* top: 95%; */
           }
 
           @media (max-width: ${({ theme }) => theme.dont}) {
             width: 140px;
             height: 180px;
             left: 245px;
+            top: 348px;
           }
-          @media screen and (max-width: 545px) {
-            height: 120px;
+
+          @media (max-width: ${({ theme }) => theme.text}) {
+            top: 335px;
+            left: 57%;
             width: 120px;
-            left: 47%;
-            top: 268px;
-            /* left: -23%; */
-            /* transform: translateX(50%); */
+            height: 170px;
+          }
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            display: none;
+
+            /* transform: translateX(-50%); */
+            /* top:50px; */
+          }
+
+          @media (max-width: ${({ theme }) => theme.make}) {
+            left: 55%;
+            top: 235px;
+            width: 130px;
+            height: 130px;
+            width: 120px;
           }
         }
       }
