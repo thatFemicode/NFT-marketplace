@@ -43,6 +43,9 @@ export const HeroStyled = styled.section`
         max-width: 500px;
         font-size: 4rem;
         /* color: transparent; */
+        @media (max-width: ${({ theme }) => theme.text}) {
+          font-size: 3.5rem;
+        }
         @media (max-width: ${({ theme }) => theme.desktop}) {
           font-size: 3rem;
         }
@@ -84,8 +87,7 @@ export const HeroStyled = styled.section`
       position: relative;
       flex: 2;
       width: 100%;
-      /* display: grid;
-      place-items: center; */
+
       @media (max-width: ${({ theme }) => theme.desktop}) {
         width: 50%;
       }
@@ -112,51 +114,32 @@ export const HeroStyled = styled.section`
             left: 10%;
           }
           @media (max-width: ${({ theme }) => theme.text}) {
-            /* left: 35%;
-            transform: translateX(-50%);
-            top: 120px;
-            height: 250px;
-            width: 150px; */
             left: 5%;
             width: 170px;
             height: 280px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            /* left: 35%;
-            transform: translateX(-50%);
-            top: 120px;
-            height: 250px;
-            width: 150px; */
-            left: 20%;
-            transform: translateX(-50%);
+            left: 0%;
+
             width: 170px;
             height: 280px;
             top: 100px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
-            left: 10%;
             width: 150px;
             height: 260px;
-            /* top: 120px; */
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            /* left: 55%;
-            top: 90px;
-            width: 130px;
-            height: 130px;
-            width: 120px; */
-            left: 5%;
+            left: -50px;
           }
-          /* @media screen and (max-width: 545px) {
-            height: 200px;
-            width: 130px;
-            top: 150px;
-            left: -23%;
-          } */
+
           @media (max-width: ${({ theme }) => theme.max}) {
-            left: 0;
             width: 130px;
             height: 210px;
+          }
+          @media (max-width: ${({ theme }) => theme.foot}) {
+            width: 110px;
+            height: 200px;
           }
         }
         &-2 {
@@ -182,62 +165,33 @@ export const HeroStyled = styled.section`
             top: 145px;
           }
           @media (max-width: ${({ theme }) => theme.text}) {
-            /* left: 56%;
-            transform: translateX(-50%);
-            top: 70px;
-            width: 120px;
-            height: 180px; */
-            /* transform: translateX(-50%); */
-            /* top: 80px; */
             left: 57%;
             width: 120px;
             height: 170px;
           }
+
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            /* left: 40%;
-            top: 50px; */
-            /* transform: translateX(-50%); */
-            /* top: 80px; */
-          }
-          /* @media screen and (max-width: 545px) {
-            height: 120px;
-            width: 120px;
-            left: 47%;
-            top: 100px;
-          } */
-          @media (max-width: ${({ theme }) => theme.desktop}) {
-            /* left: 35%;
-            transform: translateX(-50%);
-            top: 120px;
-            height: 250px;
-            width: 150px; */
-            left: 50%;
-            /* transform: translateX(-50%); */
-            /* height: 280px; */
+            left: 190px;
+
             top: 50px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
-            /* left: 55%;
-            top: 90px;
-            width: 130px;
-            height: 130px;
-            width: 120px; */
-            left: 42%;
+            left: 170px;
             width: 110px;
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            /* left: 55%;
-            top: 90px;
-            width: 130px;
-            height: 130px;
-            width: 120px; */
-            left: 45%;
+            left: 120px;
           }
           @media (max-width: ${({ theme }) => theme.max}) {
-            left: 46%;
+            left: 100px;
             width: 100px;
             height: 130px;
+          }
+          @media (max-width: ${({ theme }) => theme.foot}) {
+            left: 73px;
+            width: 100px;
+            height: 135px;
           }
         }
         &-3 {
@@ -268,52 +222,36 @@ export const HeroStyled = styled.section`
           }
 
           @media (max-width: ${({ theme }) => theme.text}) {
-            /* top: 270px;
-            left: 56%;
-            transform: translateX(-50%);
-            width: 120px;
-            height: 180px; */
-            /* transform: translateX(-50%); */
-            /* top: 80px; */
             top: 335px;
             left: 57%;
             width: 120px;
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            /* left: 35%;
-            transform: translateX(-50%);
-            top: 120px;
-            height: 250px;
-            width: 150px; */
-            left: 50%;
-            /* transform: translateX(-50%); */
+            left: 190px;
 
-            /* height: 280px; */
             top: 240px;
-            /* top: 50px; */
           }
           @media (max-width: ${({ theme }) => theme.desk}) {
-            /* left: 71%; */
           }
           @media (max-width: ${({ theme }) => theme.images}) {
-            /* left: 55%;
-            top: 240px;
-            width: 130px;
-            height: 130px;
-            width: 120px; */
-            left: 42%;
+            left: 170px;
             width: 110px;
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            left: 45%;
+            left: 120px;
           }
           @media (max-width: ${({ theme }) => theme.max}) {
-            left: 46%;
             width: 100px;
             height: 145px;
             top: 200px;
+            left: 100px;
+          }
+          @media (max-width: ${({ theme }) => theme.foot}) {
+            left: 73px;
+            width: 100px;
+            height: 135px;
           }
         }
       }
