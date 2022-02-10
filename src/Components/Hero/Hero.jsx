@@ -24,9 +24,9 @@ const Hero = () => {
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img12_bcljeo.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
-  useEffect(() => {
-    animate(img1.current, img2.current, img3.current);
-  }, []);
+  // useEffect(() => {
+  //   animate(img1.current, img2.current, img3.current);
+  // }, []);
   useEffect(() => {
     new hoverEffect({
       parent: img1.current,
@@ -64,11 +64,12 @@ const Hero = () => {
       <OuterLayout>
         <div className="hero">
           <div className="hero-left">
-            <h1>ExpressSea NFT Market Place</h1>
-            <p>
+            <a href="">ExpressSea NFT Market Place</a>
+            <h1>
               Discover and collect NFTs that are extraordinary on the largest
-              market place{" "}
-            </p>
+              market place
+            </h1>
+            <p></p>
             <button>Visit Marketplace</button>
           </div>
           <div className="hero-right">

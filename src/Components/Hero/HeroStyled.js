@@ -40,17 +40,18 @@ export const HeroStyled = styled.section`
         margin-top: 2rem;
       }
       h1 {
-        max-width: 500px;
-        font-size: 4rem;
+        max-width: 600px;
+        font-weight: 600;
+        font-size: 2.7rem;
         /* color: transparent; */
         @media (max-width: ${({ theme }) => theme.text}) {
-          font-size: 3.5rem;
+          font-size: 2.2rem;
         }
         @media (max-width: ${({ theme }) => theme.desktop}) {
-          font-size: 3rem;
+          font-size: 2.5rem;
         }
         @media (max-width: ${({ theme }) => theme.make}) {
-          font-size: 2.5rem;
+          font-size: 2rem;
           max-width: 400px;
         }
         @media (max-width: ${({ theme }) => theme.max}) {

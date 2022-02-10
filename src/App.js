@@ -7,7 +7,7 @@ import CustomRoute from "./Components/CustomSwitch/CustomSwitch";
 import { Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { MainStyled } from "./MainStyled";
-
+import Navbar from "./Components/Navbar/Navbar";
 function App() {
   const theme = {
     colors: {
@@ -48,11 +48,14 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <CustomRoute>
-          <Route path="/" element={<Home />} />
-          <Route path="/marketplace" element={<MarketPlace />} />
-          <Route path="/item:id" element={<Item />} />
-        </CustomRoute>
+        <Navbar />
+        <MainStyled>
+          <CustomRoute>
+            <Route path="/" element={<Home />} />
+            <Route path="/marketplace" element={<MarketPlace />} />
+            <Route path="/item:id" element={<Item />} />
+          </CustomRoute>
+        </MainStyled>
       </ThemeProvider>
     </div>
   );
