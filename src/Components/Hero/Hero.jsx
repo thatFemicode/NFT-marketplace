@@ -13,17 +13,15 @@ const Hero = () => {
   const img1 = useRef(null);
   const img2 = useRef(null);
   const img3 = useRef(null);
-  const img4 = useRef(null);
   var imgs = [
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img10_eelwxu.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472041/grapevine/img11_vep1pm.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img12_bcljeo.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
-
   // useEffect(() => {
   //   animate(img1.current, img2.current, img3.current);
-  // }, [small]);
+  // }, []);
   useEffect(() => {
     new hoverEffect({
       parent: img1.current,
@@ -72,9 +70,6 @@ const Hero = () => {
             <div ref={img1} className="box box-1"></div>
             <div ref={img2} className="box box-2"></div>
             <div ref={img3} className="box box-3"></div>
-            <div ref={img4} className="img-box"></div>
-            <div className="img-box2"></div>
-            <div className="img-box3"></div>
           </div>
         </div>
       </OuterLayout>

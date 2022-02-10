@@ -29,6 +29,7 @@ function App() {
     image: "900px",
     mobile: "500px",
     desktop: "769px",
+    desk: "700px",
     player: "751px",
     dont: "1020px",
     service: "900px",

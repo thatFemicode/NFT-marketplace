@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import Head from "./HeroImgs/Head.jpg";
-import Kaby from "./HeroImgs/Kaby.jpg";
+
 export const HeroStyled = styled.section`
   position: relative;
   padding-top: 1rem;
@@ -12,7 +11,7 @@ export const HeroStyled = styled.section`
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
-    /* padding-top: 5rem; */
+    padding-top: 5rem;
   }
   .hero {
     height: 100%;
@@ -20,15 +19,15 @@ export const HeroStyled = styled.section`
     display: flex;
     @media (max-width: ${({ theme }) => theme.desktop}) {
       flex-direction: column;
-      align-items: start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
     }
     &-left {
       width: 100%;
       position: relative;
       flex: 2;
       text-align: left;
-      padding-top: 8.2rem;
+      padding-top: 8.5rem;
       /* i will use 4.5 before the breakpoint */
       /* @media (max-width: ${({ theme }) => theme.mind}) {
         flex: 3;
@@ -38,17 +37,12 @@ export const HeroStyled = styled.section`
       }
       @media (max-width: ${({ theme }) => theme.desktop}) {
         padding-top: 0;
-        margin-top: 6rem;
+        margin-top: 2rem;
       }
-
       h1 {
         max-width: 500px;
         font-size: 4rem;
-        line-height: 1.4;
         /* color: transparent; */
-        @media (max-width: ${({ theme }) => theme.dont}) {
-          font-size: 3.5rem;
-        }
         @media (max-width: ${({ theme }) => theme.desktop}) {
           font-size: 3rem;
         }
@@ -90,67 +84,10 @@ export const HeroStyled = styled.section`
       position: relative;
       flex: 2;
       width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
+      /* display: grid;
+      place-items: center; */
       @media (max-width: ${({ theme }) => theme.desktop}) {
-        padding-top: 3rem;
-        justify-content: flex-start;
-      }
-      .img-box {
-        position: absolute;
-        left: 71%;
-        transform: translateX(-50%);
-        height: 50px;
-        width: 50px;
-        background-image: url(${Head});
-        border-radius: 50%;
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: darken;
-        top: 150px;
-        @media (min-width: ${({ theme }) => theme.desktop}) {
-          display: none;
-        }
-      }
-      .img-box2 {
-        position: absolute;
-        left: 80%;
-        transform: translateX(-50%);
-        height: 50px;
-        width: 50px;
-        background-image: url(${Kaby});
-        border-radius: 50%;
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: darken;
-        top: 40px;
-        @media (min-width: ${({ theme }) => theme.desktop}) {
-          display: none;
-        }
-      }
-      .img-box3 {
-        position: absolute;
-        left: 50%;
-        height: 50px;
-        width: 50px;
-        background-image: url(${Kaby});
-        border-radius: 50%;
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-blend-mode: darken;
-        top: 250px;
-        @media (min-width: ${({ theme }) => theme.desktop}) {
-          display: none;
-        }
+        width: 50%;
       }
       .box {
         position: absolute;
@@ -175,24 +112,40 @@ export const HeroStyled = styled.section`
             left: 10%;
           }
           @media (max-width: ${({ theme }) => theme.text}) {
+            /* left: 35%;
+            transform: translateX(-50%);
+            top: 120px;
+            height: 250px;
+            width: 150px; */
             left: 5%;
             width: 170px;
             height: 280px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            /* position: relative; */
-            left: 50%;
-            top: 50%;
+            /* left: 35%;
             transform: translateX(-50%);
+            top: 120px;
+            height: 250px;
+            width: 150px; */
+            left: 20%;
+            transform: translateX(-50%);
+            width: 170px;
+            height: 280px;
+            top: 100px;
+          }
+          @media (max-width: ${({ theme }) => theme.images}) {
+            left: 10%;
+            width: 150px;
+            height: 260px;
+            /* top: 120px; */
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            /* left: 25%;
-            transform: translateX(-50%); */
-            /* top: 120px;
-            height: 200px;
-            width: 130px; */
-            height: 280px;
-            width: 150px;
+            /* left: 55%;
+            top: 90px;
+            width: 130px;
+            height: 130px;
+            width: 120px; */
+            left: 5%;
           }
           /* @media screen and (max-width: 545px) {
             height: 200px;
@@ -200,6 +153,11 @@ export const HeroStyled = styled.section`
             top: 150px;
             left: -23%;
           } */
+          @media (max-width: ${({ theme }) => theme.max}) {
+            left: 0;
+            width: 130px;
+            height: 210px;
+          }
         }
         &-2 {
           background-size: cover;
@@ -224,20 +182,62 @@ export const HeroStyled = styled.section`
             top: 145px;
           }
           @media (max-width: ${({ theme }) => theme.text}) {
+            /* left: 56%;
+            transform: translateX(-50%);
+            top: 70px;
+            width: 120px;
+            height: 180px; */
+            /* transform: translateX(-50%); */
+            /* top: 80px; */
             left: 57%;
             width: 120px;
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            display: none;
+            /* left: 40%;
+            top: 50px; */
+            /* transform: translateX(-50%); */
+            /* top: 80px; */
           }
-
-          @media (max-width: ${({ theme }) => theme.make}) {
-            left: 55%;
+          /* @media screen and (max-width: 545px) {
+            height: 120px;
+            width: 120px;
+            left: 47%;
+            top: 100px;
+          } */
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            /* left: 35%;
+            transform: translateX(-50%);
+            top: 120px;
+            height: 250px;
+            width: 150px; */
+            left: 50%;
+            /* transform: translateX(-50%); */
+            /* height: 280px; */
+            top: 50px;
+          }
+          @media (max-width: ${({ theme }) => theme.images}) {
+            /* left: 55%;
             top: 90px;
             width: 130px;
             height: 130px;
-            width: 120px;
+            width: 120px; */
+            left: 42%;
+            width: 110px;
+            height: 170px;
+          }
+          @media (max-width: ${({ theme }) => theme.make}) {
+            /* left: 55%;
+            top: 90px;
+            width: 130px;
+            height: 130px;
+            width: 120px; */
+            left: 45%;
+          }
+          @media (max-width: ${({ theme }) => theme.max}) {
+            left: 46%;
+            width: 100px;
+            height: 130px;
           }
         }
         &-3 {
@@ -268,24 +268,52 @@ export const HeroStyled = styled.section`
           }
 
           @media (max-width: ${({ theme }) => theme.text}) {
+            /* top: 270px;
+            left: 56%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 180px; */
+            /* transform: translateX(-50%); */
+            /* top: 80px; */
             top: 335px;
             left: 57%;
             width: 120px;
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            display: none;
-
+            /* left: 35%;
+            transform: translateX(-50%);
+            top: 120px;
+            height: 250px;
+            width: 150px; */
+            left: 50%;
             /* transform: translateX(-50%); */
-            /* top:50px; */
-          }
 
-          @media (max-width: ${({ theme }) => theme.make}) {
-            left: 55%;
-            top: 235px;
+            /* height: 280px; */
+            top: 240px;
+            /* top: 50px; */
+          }
+          @media (max-width: ${({ theme }) => theme.desk}) {
+            /* left: 71%; */
+          }
+          @media (max-width: ${({ theme }) => theme.images}) {
+            /* left: 55%;
+            top: 240px;
             width: 130px;
             height: 130px;
-            width: 120px;
+            width: 120px; */
+            left: 42%;
+            width: 110px;
+            height: 170px;
+          }
+          @media (max-width: ${({ theme }) => theme.make}) {
+            left: 45%;
+          }
+          @media (max-width: ${({ theme }) => theme.max}) {
+            left: 46%;
+            width: 100px;
+            height: 145px;
+            top: 200px;
           }
         }
       }
