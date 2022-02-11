@@ -17,7 +17,7 @@ export function useDimensions(responsive = true) {
       };
 
       updateDimensions();
-
+      window.addEventListener("load", updateDimensions);
       if (responsive) {
         window.addEventListener("resize", updateDimensions);
 
@@ -27,5 +27,6 @@ export function useDimensions(responsive = true) {
       }
     }
   }, [element, hook, responsive]);
+
   return [hook, dimensions, element];
 }

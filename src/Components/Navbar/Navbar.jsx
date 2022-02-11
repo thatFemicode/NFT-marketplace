@@ -12,37 +12,46 @@ import { Link } from "react-router-dom";
 
 const Navbar = forwardRef(({ children }, ref) => {
   return (
-    <NavbarStyled ref={ref} className="Headds">
-      <OuterLayout>
-        <div className="navigation">
-          <div className="logo">
-            <Link to="/">
-              <img src={logo} alt="" />
-            </Link>
-          </div>
-          <div className="options">
-            <DropdownProvider>
-              <DropdownStyles>
-                <Container>
-                  <ul>
-                    <li>
-                      <DropdownOption
-                        name="About"
-                        content={About}
-                        backgroundHeight={286}
-                      />
-                    </li>
-                  </ul>
-                </Container>
-                <DropdownRoot />
-              </DropdownStyles>
-            </DropdownProvider>
-          </div>
-          <div className="hashtag">
-            <Link to="/input">Get Started</Link>
-          </div>
-        </div>
-      </OuterLayout>
+    <NavbarStyled>
+      <DropdownProvider>
+        <DropdownStyles>
+          <Container>
+            <div className="logo">
+              <Link to="/">
+                <img src={logo} alt="" />
+              </Link>
+            </div>
+            <ul>
+              <li>
+                <DropdownOption
+                  name="About"
+                  content={About}
+                  backgroundHeight={286}
+                />
+              </li>
+              <li>
+                <DropdownOption
+                  name="Collection"
+                  content={Collection}
+                  backgroundHeight={286}
+                />
+              </li>
+              <li>
+                <DropdownOption
+                  name="Why Express"
+                  content={Why}
+                  backgroundHeight={286}
+                />
+              </li>
+            </ul>
+            <div className="hashtag">
+              <Link to="/input">Get Started</Link>
+            </div>
+          </Container>
+
+          <DropdownRoot />
+        </DropdownStyles>
+      </DropdownProvider>
     </NavbarStyled>
   );
 });

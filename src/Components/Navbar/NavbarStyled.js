@@ -1,23 +1,24 @@
 import styled from "styled-components";
 
-export const NavbarStyled = styled.nav`
+export const NavbarStyled = styled.div`
   /* opacity: 0; */
   position: absolute;
   top: 0;
   left: 0;
   /* background: transparent; */
   width: 100%;
+  height: 100%;
   z-index: 10;
   .navigation {
     position: relative;
     /* background: transparent; */
     z-index: 10;
     /* width: 100%; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
@@ -42,8 +43,11 @@ export const NavbarStyled = styled.nav`
         display: none;
       }
     }
+    .options {
+      width: 300px;
+      position: relative;
+    }
     .hashtag {
-      margin-top: 1rem;
       display: flex;
       align-items: center;
       /* @media (max-width: ${({ theme }) => theme.images}) {
@@ -93,21 +97,37 @@ export const Buttons = styled.button`
 `;
 export const Container = styled.nav`
   /* background: linear-gradient(150deg, #53f 15%, #05d5ff); */
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* height: 100%; */
+  /* width: 100%; */
+  @media screen and (max-width: 1300px) {
+    /* max-width: 1100px; */
+  }
+  @media screen and (max-width: 1100px) {
+    max-width: 900px;
+  }
   > ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* position: relative; */
 
     /* padding: 0 21px; */
   }
 `;
 export const DropdownStyles = styled.div`
   .dropdown-option {
-    /* padding: 20px 25px; */
+    padding: 0 20px;
     outline: 0;
     color: #000;
-    font-size: 18px;
+    /* font-size: 18px; */
     border: none;
     transition: opacity 0.2s;
     background: transparent;
@@ -131,8 +151,7 @@ export const DropdownStyles = styled.div`
       width: 16px;
       height: 16px;
       background: #fff;
-
-      top: -6.5px;
+      top: -15.5px;
       left: -8px;
       border-radius: 4px 0 0 0;
 
@@ -148,7 +167,10 @@ export const DropdownStyles = styled.div`
       0 -18px 60px -10px rgba(0, 0, 0, 0.025);
 
     background: #fff;
-    border-radius: 4px;
+    border-radius: 6px;
+    width: 100%;
+    top: -10px;
+    z-index: 11;
   }
 
   .dropdown-section {
@@ -158,7 +180,7 @@ export const DropdownStyles = styled.div`
   .dropdown-background {
     position: absolute;
     bottom: 0;
-    background: #f6f9fc;
+    /* background: #f6f9fc; */
     width: 100%;
   }
 `;
