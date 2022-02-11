@@ -5,49 +5,36 @@ const About = () => {
   return (
     <AboutStyled>
       <div className="primary">
-        <span className="documentation" />
-
-        <div>
-          <h3>About ExpressSea</h3>
-          <p>The best digital market to get mind blowing digital art. </p>
-          <p>Connecting your wallet is so easy with the metamask. </p>
-          <p>ExpressSea provides rare digital arts that sways individuals. </p>
+        <h3>About ExpressSea</h3>
+        <li>
+          <span className="documentation" />
           <div>
-            <ul>
-              <li>
-                <h4>Comece já</h4>
-              </li>
-              <li>Checkout pré-integrado</li>
-              <li>Bibliotecas e SDKs</li>
-              <li>Plugins</li>
-              <li>Exemplos de código</li>
-            </ul>
-
-            <ul>
-              <li>
-                <h4>Guias</h4>
-              </li>
-              <li>Aceite pagamentos online</li>
-              <li>Gerencie assinaturas</li>
-              <li>Envie repasses</li>
-              {/* <li>Implemente pagamentos presenciais</li> */}
-            </ul>
+            <p>The best digital market to get mind blowing digital art. </p>
           </div>
-        </div>
+        </li>
+        <li>
+          <span className="documentation" />
+          <div>
+            <p>Connecting your wallet is so easy with the metamask.</p>
+          </div>
+        </li>
+        <li>
+          <span className="documentation" />
+          <div>
+            <p>ExpressSea provides rare digital arts that sways individuals.</p>
+          </div>
+        </li>
       </div>
 
       <ul className="secondary">
         <li>
-          <span className="api-reference" />
-          Referência completa da API
+          <span className="art"></span>
         </li>
         <li>
-          <span />
-          Status da API
+          <span className="ball"></span>
         </li>
         <li>
-          <span />
-          Código aberto
+          <span className="random"></span>
         </li>
       </ul>
     </AboutStyled>

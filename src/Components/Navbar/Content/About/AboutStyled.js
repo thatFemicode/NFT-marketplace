@@ -1,4 +1,7 @@
 import styled, { css } from "styled-components";
+import Ape from "./Img/BasketballBoredApe.png";
+import Can from "./Img/CrushedCan.jpg";
+import Tears from "./Img/CrushedCan.jpg";
 const h3 = css`
   font-size: 0.7rem;
   font-weight: bold;
@@ -29,53 +32,65 @@ const hover = css`
 export const AboutStyled = styled.div`
   padding: 32px 35px;
   white-space: nowrap;
+  width: 100%;
   .primary {
-    display: flex;
-
-    > span {
-      display: inline-block;
-      width: 14px;
-      height: 14px;
-      margin-right: 12px;
-      background: #505e7d;
-      border-radius: 3.5px;
+    h3 {
+      ${h3}
+      ${hover}
     }
-
-    > div {
-      > h3 {
-        ${h3}
+    li {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      div {
         ${hover}
-      }
-      p {
-        ${p}
-        margin-top: 5.7px;
-        max-width: 50px;
-      }
+        margin-left: 5px;
 
-      > div {
-        margin-top: 35px;
-        display: flex;
-        align-items: center;
-
-        > ul + ul {
-          margin-left: 41px;
-        }
-        > ul li {
-          ${hover}
-          color: #424770;
-
-          h4 {
-            color: #8898aa;
-            text-transform: uppercase;
-            text-align: left;
-          }
-
-          & + li {
-            margin-top: 13px;
-            text-align: left;
-          }
+        p {
+          ${p}
+          /* margin-top: 10px; */
+          text-align: left;
         }
       }
+
+      & + li {
+        /* margin-top: 32px; */
+      }
+
+      span {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        /* margin-right: 12px; */
+        background: #505e7d;
+        border-radius: 3.5px;
+      }
+    }
+  }
+  .secondary {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    li{
+        margin-right:20px;
+        margin-top:20px;
+        span {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+
+        &.art {
+          background: #80b9f9;
+        }
+        &.ball {
+          background: #64e5a7;
+        }
+        &.random {
+          background: #55d3f5;
+        }
+      }
+    }
     }
   }
 `;

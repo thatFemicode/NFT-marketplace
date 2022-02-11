@@ -26,7 +26,7 @@ const Navbar = forwardRef(({ children }, ref) => {
                 <DropdownOption
                   name="About"
                   content={About}
-                  backgroundHeight={286}
+                  backgroundHeight={80}
                 />
               </li>
               <li>
