@@ -3,9 +3,9 @@ import Ape from "./Img/MonkBoredApe.jpg";
 import Avocado from "./Img/Avocado.png";
 import Basket from "./Img/StephCurry.jpg";
 import Celeb from "./Img/Drake.png";
-
+import Random from "./Img/MoneyDrown.png";
 const h3 = css`
-  font-size: 16px;
+  font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #32325d;
@@ -14,6 +14,7 @@ const h3 = css`
 
 const p = css`
   color: #6b7c93;
+  font-size: 0.8rem;
 `;
 
 const hover = css`
@@ -51,8 +52,8 @@ export const CollectionStyled = styled.div`
 
       span {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 38px;
+        height: 38px;
         border-radius: 50%;
 
         &.ape {
@@ -60,11 +61,13 @@ export const CollectionStyled = styled.div`
           background-image: url(${Ape});
           background-size: cover;
           background-repeat: no-repeat;
+          background-position: center;
         }
         &.ball {
           background-image: url(${Avocado});
           background-size: cover;
           background-repeat: no-repeat;
+          background-position: center;
         }
         &.basket {
           background-image: url(${Basket});
@@ -77,6 +80,56 @@ export const CollectionStyled = styled.div`
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
+        }
+        &.random {
+          background-image: url(${Random});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
+  .secondary {
+    margin-top: 30px;
+
+    li {
+      ${hover}
+      display: flex;
+
+      & + li {
+        margin-top: 28px;
+      }
+
+      h3 {
+        ${h3}
+        margin-left: 16px;
+      }
+      p {
+        ${p}
+        margin-left: 14px;
+      }
+
+      span {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+
+        &.sigma {
+          background: #beaef0;
+        }
+        &.atlas {
+          background: #ffd876;
+        }
+        &.radar {
+          background: #fba2e8;
+        }
+        &.issuing {
+          background: #80b9f9;
+        }
+        &.terminal {
+          background: #5355ba;
         }
       }
     }

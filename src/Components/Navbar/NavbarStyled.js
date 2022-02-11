@@ -175,12 +175,13 @@ export const DropdownStyles = styled.div`
 
   .dropdown-section {
     position: absolute;
+    /* background: #fff; */
   }
 
   .dropdown-background {
     position: absolute;
     bottom: 0;
-    /* background: #f6f9fc; */
+    background: #f6f9fc;
     width: 100%;
   }
 `;
