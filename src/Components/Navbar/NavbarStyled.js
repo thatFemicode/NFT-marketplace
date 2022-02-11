@@ -4,11 +4,10 @@ export const NavbarStyled = styled.div`
   /* opacity: 0; */
   position: absolute;
   top: 0;
-  left: 0;
-  /* background: transparent; */
+
   width: 100%;
-  height: 100%;
-  z-index: 10;
+
+  z-index: 12;
   .navigation {
     position: relative;
     /* background: transparent; */
@@ -105,6 +104,8 @@ export const Container = styled.nav`
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  position: relative;
+  z-index: 14;
   /* height: 100%; */
   /* width: 100%; */
   @media screen and (max-width: 1300px) {

@@ -7,7 +7,7 @@ export const HeroStyled = styled.section`
   padding-right: 2rem;
   height: 100%;
   width: 100%;
-
+  z-index: 10;
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
@@ -44,11 +44,18 @@ export const HeroStyled = styled.section`
         font-weight: 600;
         font-size: 2.7rem;
         /* color: transparent; */
+        @media (max-width: ${({ theme }) => theme.dont}) {
+          /* font-size: 2.2rem; */
+
+          font-size: 2.6rem;
+        }
         @media (max-width: ${({ theme }) => theme.text}) {
           font-size: 2.2rem;
+          max-width: 400px;
         }
         @media (max-width: ${({ theme }) => theme.desktop}) {
-          font-size: 2.5rem;
+          font-size: 2.2rem;
+          max-width: 450px;
         }
         @media (max-width: ${({ theme }) => theme.make}) {
           font-size: 2rem;

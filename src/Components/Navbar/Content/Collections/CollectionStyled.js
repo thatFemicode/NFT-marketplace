@@ -4,12 +4,19 @@ import Avocado from "./Img/Avocado.png";
 import Basket from "./Img/StephCurry.jpg";
 import Celeb from "./Img/Drake.png";
 import Random from "./Img/MoneyDrown.png";
+import Logo from "./Img/slack.svg";
 const h3 = css`
   font-size: 0.7rem;
   font-weight: bold;
   text-transform: uppercase;
   color: #32325d;
   text-align: left;
+`;
+const h2 = css`
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #32325d;
+  /* text-align: left; */
 `;
 
 const p = css`
@@ -91,18 +98,19 @@ export const CollectionStyled = styled.div`
     }
   }
   .secondary {
-    margin-top: 30px;
+    margin-top: 40px;
 
     li {
       ${hover}
       display: flex;
+      align-items: center;
 
       & + li {
         margin-top: 28px;
       }
 
       h3 {
-        ${h3}
+        ${h2}
         margin-left: 16px;
       }
       p {
@@ -112,24 +120,15 @@ export const CollectionStyled = styled.div`
 
       span {
         display: inline-block;
-        width: 22px;
-        height: 22px;
-        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        /* border-radius: 60%; */
 
         &.sigma {
-          background: #beaef0;
-        }
-        &.atlas {
-          background: #ffd876;
-        }
-        &.radar {
-          background: #fba2e8;
-        }
-        &.issuing {
-          background: #80b9f9;
-        }
-        &.terminal {
-          background: #5355ba;
+          background-image: url(${Logo});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
         }
       }
     }
