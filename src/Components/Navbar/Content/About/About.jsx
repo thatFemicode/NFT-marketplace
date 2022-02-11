@@ -24,6 +24,12 @@ const About = () => {
             <p>ExpressSea provides rare digital arts that sways individuals.</p>
           </div>
         </li>
+        <li>
+          <span className="documentation" />
+          <div>
+            <p>Room for creative artist to show out awesome works .</p>
+          </div>
+        </li>
       </div>
 
       <ul className="secondary">

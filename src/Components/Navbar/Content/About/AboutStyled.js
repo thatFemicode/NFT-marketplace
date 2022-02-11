@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import Ape from "./Img/BasketballBoredApe.png";
 import Can from "./Img/CrushedCan.jpg";
-import Tears from "./Img/CrushedCan.jpg";
+import Tears from "./Img/Tears.png";
 const h3 = css`
   font-size: 0.7rem;
   font-weight: bold;
@@ -71,26 +71,34 @@ export const AboutStyled = styled.div`
     margin-top: 20px;
     display: flex;
     align-items: center;
-    li{
-        margin-right:20px;
-        margin-top:20px;
-        span {
+    li {
+      margin-right: 20px;
+      margin-top: 15px;
+      span {
         display: inline-block;
         width: 48px;
         height: 48px;
         border-radius: 50%;
 
         &.art {
-          background: #80b9f9;
+          background-image: url(${Can});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
         }
         &.ball {
-          background: #64e5a7;
+          background-image: url(${Ape});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
         }
         &.random {
-          background: #55d3f5;
+          background-image: url(${Tears});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
         }
       }
-    }
     }
   }
 `;
