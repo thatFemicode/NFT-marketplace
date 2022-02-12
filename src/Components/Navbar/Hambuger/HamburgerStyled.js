@@ -108,6 +108,9 @@ export const HamburgerStyled = styled.div`
             @media (max-width: ${({ theme }) => theme.max}) {
               font-size: 0.65rem;
             }
+            @media (max-width: ${({ theme }) => theme.se}) {
+              font-size: 0.53rem;
+            }
           }
         }
 
@@ -148,6 +151,7 @@ export const HamburgerStyled = styled.div`
         }
         @media (max-width: ${({ theme }) => theme.max}) {
           gap: 1rem;
+          padding-top: 0.5rem;
         }
 
         li {
@@ -167,6 +171,9 @@ export const HamburgerStyled = styled.div`
           }
           p {
             font-size: 0.65rem;
+            @media (max-width: ${({ theme }) => theme.se}) {
+              font-size: 0.55rem;
+            }
           }
           span {
             display: inline-block;

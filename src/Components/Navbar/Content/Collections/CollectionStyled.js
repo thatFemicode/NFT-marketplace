@@ -42,7 +42,7 @@ export const CollectionStyled = styled.div`
 
       div {
         ${hover}
-        margin-left: 19px;
+        /* margin-left: 19px; */
 
         h3 {
           ${h3}

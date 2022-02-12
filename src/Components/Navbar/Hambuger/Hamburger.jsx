@@ -10,7 +10,7 @@ import {
   handleHoverExit,
   staggerRevealClose,
 } from "./Animation";
-import Collection from "../Content/Collections/Collection";
+
 const Hamburger = ({ state }) => {
   let menuLayer = useRef(null);
   let reveal1 = useRef(null);
@@ -84,7 +84,7 @@ const Hamburger = ({ state }) => {
             </div>
             <div className="collection">
               <h3>Collections</h3>
-              {/* <Collection /> */}
+
               <ul className="collection-main">
                 <li>
                   <span className="ape"></span>

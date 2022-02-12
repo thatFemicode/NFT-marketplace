@@ -43,6 +43,7 @@ export const HeroStyled = styled.section`
         max-width: 600px;
         font-weight: 600;
         font-size: 2.7rem;
+        line-height: 1.6;
         /* color: transparent; */
         @media (max-width: ${({ theme }) => theme.dont}) {
           /* font-size: 2.2rem; */
@@ -62,7 +63,7 @@ export const HeroStyled = styled.section`
           max-width: 400px;
         }
         @media (max-width: ${({ theme }) => theme.max}) {
-          font-size: 2rem;
+          font-size: 1.5rem;
           max-width: 400px;
         }
 
