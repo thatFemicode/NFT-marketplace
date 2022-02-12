@@ -217,7 +217,41 @@ export const HamburgerStyled = styled.div`
       }
     }
     .why {
-      margin-bottom: 2rem;
+      h3 {
+        text-align: left;
+        font-size: 1.5rem;
+        @media (max-width: ${({ theme }) => theme.make}) {
+          font-size: 1.2rem;
+        }
+        @media (max-width: ${({ theme }) => theme.max}) {
+          font-size: 1rem;
+        }
+      }
+      &-main {
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0px, 1fr));
+        gap: 1.4rem;
+        @media (max-width: ${({ theme }) => theme.images}) {
+          grid-template-columns: repeat(1, minmax(0px, 1fr));
+        }
+        @media (max-width: ${({ theme }) => theme.max}) {
+          gap: 1rem;
+          padding-top: 0.5rem;
+        }
+        li {
+          display: flex;
+          align-items: center;
+          span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 3.5px;
+            background: #beaef0;
+            margin-right: 13px;
+          }
+        }
+      }
     }
   }
 `;

@@ -123,7 +123,31 @@ const Hamburger = ({ state }) => {
                 </li>
               </ul>
             </div>
-            <div className="why">Why Express</div>
+            <div className="why">
+              <h3>Why ExpressSea</h3>
+              <ul className="why-main">
+                <li>
+                  <span />
+                  Digital Art
+                </li>
+                <li>
+                  <span />
+                  Crypto Reliance
+                </li>
+                <li>
+                  <span />
+                  Wallet Connection
+                </li>
+                <li>
+                  <span />
+                  Creative Artist
+                </li>
+                <li>
+                  <span />
+                  Awesome Arts
+                </li>
+              </ul>
+            </div>
           </div>
         </OuterLayout>
       </div>
