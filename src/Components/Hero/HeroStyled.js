@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroStyled = styled.section`
   position: relative;
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
   height: 100%;

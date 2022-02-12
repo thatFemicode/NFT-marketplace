@@ -1,4 +1,6 @@
 import styled, { css } from "styled-components";
+import Logo from "./Img/slack.svg";
+
 const h3 = css`
   font-size: 0.7rem;
   font-weight: bold;
@@ -29,7 +31,8 @@ const hover = css`
 export const WhyStyled = styled.div`
   padding: 32px 35px;
   white-space: nowrap;
-
+  height: 100%;
+  width: 100%;
   .primary {
     > li {
       ${h3}
@@ -38,66 +41,54 @@ export const WhyStyled = styled.div`
       align-items: center;
 
       & + li {
-        margin-top: 22px;
+        margin-top: 20px;
       }
 
       > span {
         display: inline-block;
-        width: 17px;
-        height: 17px;
+        width: 14px;
+        height: 14px;
         border-radius: 3.5px;
-        background: #505e7d;
+        background: #beaef0;
         margin-right: 13px;
       }
     }
   }
   .secondary {
-    margin-top: 64.5px;
+    margin-top: 30px;
 
     li {
       display: flex;
       align-items: center;
+      span {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        /* border-radius: 60%; */
 
+        &.sigma {
+          background-image: url(${Logo});
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
       &:not(.title) {
         ${hover}
 
-        margin-top: 21px;
-        margin-left: 30px;
+        margin-top: 17px;
 
         color: #424770;
-
-        .new-tag {
-          text-transform: uppercase;
-          font-size: 10px;
-          background: #646ddf;
-          border-radius: 6px;
-          padding: 2px 4.5px;
-          color: #fff;
-          margin-left: 6px;
+        h3 {
+          margin-left: 13px;
         }
+
         .arrow {
-          margin-left: 6px;
+          /* margin-left: 6px; */
           font-weight: bold;
+          margin-top: 13px;
           transform: scaleX(0.7) scaleY(1.1);
         }
-      }
-
-      &:nth-child(2) {
-        margin-top: 30.2px;
-        font-weight: 500;
-      }
-    }
-
-    li.title {
-      ${h3}
-
-      .title-icon {
-        display: inline-block;
-        width: 17px;
-        height: 17px;
-        border-radius: 3.5px;
-        margin-right: 13px;
-        background: #505e7d;
       }
     }
   }

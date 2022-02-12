@@ -130,6 +130,7 @@ export const DropdownStyles = styled.div`
     border: none;
     transition: opacity 0.2s;
     background: transparent;
+    cursor: pointer;
     &:hover,
     &:focus {
       opacity: 0.55;

@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Navbar />
+        {/* <Navbar /> */}
         <MainStyled>
           <CustomRoute>
             <Route path="/" element={<Home />} />

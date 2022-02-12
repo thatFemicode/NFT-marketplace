@@ -1,57 +1,42 @@
 import React from "react";
 import { WhyStyled } from "./WhyStyled";
-
+import { Link } from "react-router-dom";
 const Why = () => {
   return (
     <WhyStyled>
       <ul className="primary">
         <li>
           <span />
-          Sobre a stripe
+          Digital Art
         </li>
         <li>
           <span />
-          Clientes
+          Crypto Reliance
         </li>
         <li>
           <span />
-          Corporativo
+          Wallet Connection
         </li>
         <li>
           <span />
-          Parceiros
+          Creative Artist
         </li>
         <li>
           <span />
-          Empregos
-        </li>
-        <li>
-          <span />
-          Meio ambiente
-        </li>
-        <li>
-          <span />
-          Notícias
+          Awesome Arts
         </li>
       </ul>
       <ul className="secondary">
-        <li className="title">
-          <span className="title-icon" />
-          Do blog
-        </li>
         <li>
-          Payouts with no code required
-          <span className="new-tag">Novo</span>
-          <span className="arrow">{">"}</span>
+          <span className="sigma" />
+          <h3>ExpressSea</h3>
         </li>
-        <li>
-          Introducing the Billing customer portal
-          <span className="arrow">{">"}</span>
-        </li>
-        {/* <li>
-          Online bank transfers through FPX are now...
-          <span className="arrow">{">"}</span>
-        </li> */}
+        <Link to="/marketplace">
+          <li>
+            Visit Marketplace
+            <span className="arrow">{">"}</span>
+          </li>
+        </Link>
       </ul>
     </WhyStyled>
   );

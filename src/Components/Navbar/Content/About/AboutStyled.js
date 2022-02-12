@@ -61,8 +61,8 @@ export const AboutStyled = styled.div`
         display: inline-block;
         width: 14px;
         height: 14px;
-        /* margin-right: 12px; */
-        background: #505e7d;
+        margin-right: 12px;
+        background: #80b9f9;
         border-radius: 3.5px;
       }
     }

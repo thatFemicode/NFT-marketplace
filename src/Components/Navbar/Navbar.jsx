@@ -8,6 +8,7 @@ import About from "./Content/About/About";
 import Collection from "./Content/Collections/Collection";
 import Why from "./Content/WhyExpress/Why";
 import { Link } from "react-router-dom";
+import Hamburger from "../Hero/Hambuger/Hamburger";
 // import { useGlobalContext } from "../../Context/context.js";
 
 const Navbar = forwardRef(({ children }, ref) => {
@@ -40,10 +41,11 @@ const Navbar = forwardRef(({ children }, ref) => {
                 <DropdownOption
                   name="Why ExpressSea"
                   content={Why}
-                  backgroundHeight={180}
+                  backgroundHeight={130}
                 />
               </li>
             </ul>
+            <Hamburger />
             <div className="hashtag">
               <Link to="/input">Get Started</Link>
             </div>
