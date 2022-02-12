@@ -42,20 +42,6 @@ export const NavbarStyled = styled.div`
         display: none;
       }
     }
-
-    .hashtag {
-      display: flex;
-      align-items: center;
-      /* @media (max-width: ${({ theme }) => theme.images}) {
-        display: none;
-      } */
-      button {
-        display: flex;
-        align-items: center;
-        background: transparent;
-        border: none;
-      }
-    }
   }
 `;
 export const Buttons = styled.button`
@@ -103,6 +89,7 @@ export const Container = styled.nav`
   padding-right: 2rem;
   position: relative;
   z-index: 14;
+  width: 100%;
   /* height: 100%; */
   /* width: 100%; */
   @media screen and (max-width: 1300px) {
@@ -117,6 +104,24 @@ export const Container = styled.nav`
     justify-content: center;
 
     @media (max-width: ${({ theme }) => theme.desktop}) {
+      display: none;
+    }
+  }
+  .hashtag {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-self: flex-end; */
+    @media (max-width: ${({ theme }) => theme.desktop}) {
+      display: none;
+    }
+  }
+  .mobile-nav {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    @media (min-width: ${({ theme }) => theme.desktop}) {
       display: none;
     }
   }

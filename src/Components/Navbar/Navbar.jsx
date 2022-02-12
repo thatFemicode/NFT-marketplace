@@ -45,10 +45,13 @@ const Navbar = forwardRef(({ children }, ref) => {
                 />
               </li>
             </ul>
-            <Hamburger />
             <div className="hashtag">
               <Link to="/input">Get Started</Link>
             </div>
+            <div className="mobile-nav">
+              <Link to="/input">Open</Link>
+            </div>
+            <Hamburger />
           </Container>
 
           <DropdownRoot />
