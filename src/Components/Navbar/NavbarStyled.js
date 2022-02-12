@@ -120,7 +120,12 @@ export const Container = styled.nav`
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-
+    button {
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: none;
+    }
     @media (min-width: ${({ theme }) => theme.desktop}) {
       display: none;
     }

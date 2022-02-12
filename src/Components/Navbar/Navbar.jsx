@@ -1,7 +1,6 @@
 import React, { forwardRef, useState, useEffect } from "react";
 import { NavbarStyled, Container, DropdownStyles } from "./NavbarStyled";
-import { OuterLayout } from "../../Layout/Layout";
-// import logo from "./img/GSW.svg";
+
 import logo from "./img/slack.svg";
 import { DropdownProvider, DropdownOption, DropdownRoot } from "./Dropdown";
 import About from "./Content/About/About";
@@ -10,6 +9,7 @@ import Why from "./Content/WhyExpress/Why";
 import { Link } from "react-router-dom";
 import Hamburger from "./Hambuger/Hamburger";
 // import { useGlobalContext } from "../../Context/context.js";
+import { Hash } from "react-feather";
 
 const Navbar = forwardRef(({ children }, ref) => {
   const [disabled, setDisabled] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = forwardRef(({ children }, ref) => {
     } else if (state.clicked === true) {
       setState({
         clicked: !state.clicked,
-        menuName: "Dubnation",
+        menuName: "Open",
       });
     } else if (state.clicked === false) {
       setState({
@@ -84,9 +84,11 @@ const Navbar = forwardRef(({ children }, ref) => {
               <Link to="/input">Get Started</Link>
             </div>
             <div className="mobile-nav">
-              <Link to="/input">Open</Link>
+              <button onClick={handleMenu} disabled={disabled}>
+                <Hash /> {state.menuName}
+              </button>
             </div>
-            <Hamburger />
+            <Hamburger state={state} />
           </Container>
 
           <DropdownRoot />
