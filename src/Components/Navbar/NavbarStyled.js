@@ -42,10 +42,7 @@ export const NavbarStyled = styled.div`
         display: none;
       }
     }
-    .options {
-      width: 300px;
-      position: relative;
-    }
+
     .hashtag {
       display: flex;
       align-items: center;
@@ -114,13 +111,14 @@ export const Container = styled.nav`
   @media screen and (max-width: 1100px) {
     max-width: 900px;
   }
-  > ul {
+  .options {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: relative; */
 
-    /* padding: 0 21px; */
+    @media (max-width: ${({ theme }) => theme.desktop}) {
+      display: none;
+    }
   }
 `;
 export const DropdownStyles = styled.div`

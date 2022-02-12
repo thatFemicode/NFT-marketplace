@@ -21,12 +21,12 @@ const Navbar = forwardRef(({ children }, ref) => {
                 <img src={logo} alt="" />
               </Link>
             </div>
-            <ul>
+            <ul className="options">
               <li>
                 <DropdownOption
                   name="About"
                   content={About}
-                  backgroundHeight={80}
+                  backgroundHeight={90}
                 />
               </li>
               <li>
@@ -38,9 +38,9 @@ const Navbar = forwardRef(({ children }, ref) => {
               </li>
               <li>
                 <DropdownOption
-                  name="Why Express"
+                  name="Why ExpressSea"
                   content={Why}
-                  backgroundHeight={286}
+                  backgroundHeight={180}
                 />
               </li>
             </ul>

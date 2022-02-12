@@ -68,16 +68,19 @@ export const AboutStyled = styled.div`
     }
   }
   .secondary {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 200px;
+
     li {
-      margin-right: 20px;
-      margin-top: 15px;
+      /* margin-right: 20px; */
+      margin-top: 20px;
       span {
         display: inline-block;
-        width: 48px;
-        height: 48px;
+        width: 40px;
+        height: 40px;
         border-radius: 50%;
 
         &.art {
