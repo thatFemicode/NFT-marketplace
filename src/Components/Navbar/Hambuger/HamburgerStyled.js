@@ -75,14 +75,29 @@ export const HamburgerStyled = styled.div`
     align-items: flex-start;
     .about {
       margin-bottom: 2rem;
+      @media (max-width: ${({ theme }) => theme.make}) {
+        margin-bottom: 1rem;
+      }
       h3 {
         text-align: left;
         font-size: 1.5rem;
+        @media (max-width: ${({ theme }) => theme.make}) {
+          font-size: 1.2rem;
+        }
+        @media (max-width: ${({ theme }) => theme.max}) {
+          font-size: 1rem;
+        }
       }
       li {
         display: flex;
         align-items: center;
         margin-top: 10px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.5;
+        }
         div {
           margin-left: 5px;
 
@@ -90,6 +105,9 @@ export const HamburgerStyled = styled.div`
             /* margin-top: 10px; */
             text-align: left;
             font-size: 0.75rem;
+            @media (max-width: ${({ theme }) => theme.max}) {
+              font-size: 0.65rem;
+            }
           }
         }
 
@@ -106,28 +124,46 @@ export const HamburgerStyled = styled.div`
 
     .collection {
       margin-bottom: 2rem;
+      @media (max-width: ${({ theme }) => theme.make}) {
+        margin-bottom: 1rem;
+      }
       /* width: 100%; */
       h3 {
         text-align: left;
         font-size: 1.5rem;
+        @media (max-width: ${({ theme }) => theme.make}) {
+          font-size: 1.2rem;
+        }
+        @media (max-width: ${({ theme }) => theme.max}) {
+          font-size: 1rem;
+        }
       }
       &-main {
         padding-top: 1rem;
         display: grid;
         grid-template-columns: repeat(2, minmax(0px, 1fr));
+        gap: 1.4rem;
         @media (max-width: ${({ theme }) => theme.images}) {
           grid-template-columns: repeat(1, minmax(0px, 1fr));
         }
-        gap: 1.4rem;
+        @media (max-width: ${({ theme }) => theme.max}) {
+          gap: 1rem;
+        }
+
         li {
           width: 100%;
           display: flex;
           align-items: center;
+          transition: all 0.5s ease;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.5;
+          }
           div {
             margin-left: 0.7rem;
           }
           h3 {
-            font-size: 1rem;
+            font-size: 0.9rem;
           }
           p {
             font-size: 0.65rem;
