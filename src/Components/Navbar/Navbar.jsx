@@ -11,6 +11,7 @@ import Hamburger from "./Hambuger/Hamburger";
 // import { useGlobalContext } from "../../Context/context.js";
 import { Hash } from "react-feather";
 import { useScrollLock } from "../ScrollLock/ScrollLock";
+import Button from "../Button/PrimaryButton";
 
 const Navbar = forwardRef(({ children }, ref) => {
   const [disabled, setDisabled] = useState(false);
@@ -86,7 +87,13 @@ const Navbar = forwardRef(({ children }, ref) => {
               </li>
             </ul>
             <div className="hashtag">
-              <Link to="/input">Visit Marketplace</Link>
+              <Link to="/input">
+                <Button
+                  name={"Visit Marketplace"}
+                  bgColor={"#beaef0"}
+                  margin={"0rem"}
+                />
+              </Link>
             </div>
             <div className="mobile-nav">
               <button onClick={handleMenu} disabled={disabled}>

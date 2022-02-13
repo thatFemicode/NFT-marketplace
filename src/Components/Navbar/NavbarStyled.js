@@ -175,7 +175,7 @@ export const DropdownStyles = styled.div`
 
     background: #fff;
     border-radius: 6px;
-    width: 100%;
+    /* width: 100%; */
     top: -10px;
     z-index: 11;
   }

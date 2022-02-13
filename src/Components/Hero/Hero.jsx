@@ -8,13 +8,10 @@ import Africa from "./HeroImgs/Africa.jpg";
 import Head from "./HeroImgs/Head.jpg";
 import Kaby from "./HeroImgs/Kaby.jpg";
 import Bird from "./HeroImgs/Bird.jpg";
-import Lion from "./HeroImgs/lion.jpg";
-import Alpha from "./HeroImgs/Alpha.jpg";
 import Bored from "./HeroImgs/Bored.png";
 import Every from "./HeroImgs/Everydays.jpg";
-// import Kaby from "./"
-// import Head from
-// import Head from "."
+import Button from "../Button/PrimaryButton";
+
 const Hero = () => {
   const img1 = useRef(null);
   const img2 = useRef(null);
@@ -91,13 +88,13 @@ const Hero = () => {
             </Link>
             <h1>
               Discover and collect <span>NFTs</span> that are extraordinary on
-              the largest market place
+              the largest <span className="market">market place</span>
             </h1>
             <p>
               A marketplace to discover rare and creative NFTs minted by
               thousands of creative artist
             </p>
-            <button>Visit Marketplace</button>
+            <Button name={"Discover Art"} bgColor={"#b06c49"} />
           </div>
           <div className="hero-right">
             <div ref={img1} className="box box-1"></div>

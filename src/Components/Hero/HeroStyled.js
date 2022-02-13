@@ -8,7 +8,7 @@ export const HeroStyled = styled.section`
   height: 100vh;
   width: 100%;
   z-index: 10;
-  background-color: #f6f8fb;
+  /* background-color: #f6f8fb; */
 
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
@@ -136,6 +136,9 @@ export const HeroStyled = styled.section`
 
         span {
           color: #beaef0;
+          &.market {
+            color: #b06c49;
+          }
           /* background: conic-gradient(
             #d9d7f1 12%,
             #baabda 12%,
