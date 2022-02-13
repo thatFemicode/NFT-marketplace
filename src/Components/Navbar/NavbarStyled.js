@@ -85,19 +85,16 @@ export const Container = styled.nav`
   max-width: 1400px;
   margin: 0 auto;
   padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+
   position: relative;
   z-index: 14;
   width: 100%;
-  /* height: 100%; */
-  /* width: 100%; */
+
   @media screen and (max-width: 1300px) {
-    /* max-width: 1100px; */
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
-  @media screen and (max-width: 1100px) {
-    max-width: 900px;
-  }
+
   .options {
     display: flex;
     align-items: center;

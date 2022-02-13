@@ -21,7 +21,8 @@ export const useScrollLock = () => {
     // document.body.style.paddingRight = "var(--scrollbar-compensation)";
 
     if (iOS) {
-      scrollOffset.current = window.pageYOffset;
+      scrollOffset = window.pageYOffset;
+      //   console.log(scrollOffset.current);
       document.body.style.position = "fixed";
       document.body.style.top = `-${scrollOffset.current}px`;
       document.body.style.width = "100%";

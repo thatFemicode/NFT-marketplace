@@ -12,13 +12,14 @@ export const HeroStyled = styled.section`
   }
   @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
     height: unset;
+    padding-bottom: 3rem;
   }
   @media (max-width: ${({ theme }) => theme.service}) {
-    height: 100vh;
+    height: 70vh;
     padding-top: 1rem;
   }
   @media (max-width: ${({ theme }) => theme.text}) {
-    padding-top: 3rem;
+    padding-top: 1rem;
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
     height: 100vh;
@@ -29,7 +30,7 @@ export const HeroStyled = styled.section`
     padding-top: 0rem;
   }
   @media (max-width: ${({ theme }) => theme.make}) {
-    padding-top: 5rem;
+    padding-top: 6rem;
   }
   .hero {
     height: 100%;
@@ -139,6 +140,10 @@ export const HeroStyled = styled.section`
         max-width: 500px;
         line-height: 1.6;
         font-weight: 700;
+        font-size: 1rem;
+        @media (max-width: ${({ theme }) => theme.max}) {
+          font-size: 0.9rem;
+        }
       }
     }
     &-right {
@@ -146,6 +151,7 @@ export const HeroStyled = styled.section`
       position: relative;
       flex: 2;
       width: 100%;
+      height: 20px;
       position: relative;
       /* min-height: 100%; */
       @media (max-width: ${({ theme }) => theme.desktop}) {
@@ -184,19 +190,24 @@ export const HeroStyled = styled.section`
 
             width: 170px;
             height: 280px;
-            top: 00px;
+            top: 60px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             width: 150px;
             height: 260px;
+            top: 40px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            left: -50px;
+            left: -60px;
+            width: 130px;
+            height: 210px;
           }
 
           @media (max-width: ${({ theme }) => theme.max}) {
             width: 130px;
             height: 210px;
+            left: -60px;
+            top: 70px;
           }
           @media (max-width: ${({ theme }) => theme.foot}) {
             width: 110px;
@@ -233,23 +244,27 @@ export const HeroStyled = styled.section`
 
           @media (max-width: ${({ theme }) => theme.desktop}) {
             left: 190px;
-            top: -40px;
+            top: 30px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             left: 170px;
             width: 110px;
             height: 170px;
+            top: 0px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            left: 120px;
-          }
-          @media (max-width: ${({ theme }) => theme.max}) {
-            left: 100px;
+            left: 90px;
             width: 100px;
             height: 130px;
           }
+          @media (max-width: ${({ theme }) => theme.max}) {
+            left: 90px;
+            width: 100px;
+            height: 130px;
+            top: 30px;
+          }
           @media (max-width: ${({ theme }) => theme.foot}) {
-            left: 73px;
+            left: 65px;
             width: 100px;
             height: 135px;
           }
@@ -291,7 +306,7 @@ export const HeroStyled = styled.section`
             left: 190px;
             width: 120px;
             height: 160px;
-            top: 150px;
+            top: 220px;
           }
           @media (max-width: ${({ theme }) => theme.desk}) {
           }
@@ -299,18 +314,22 @@ export const HeroStyled = styled.section`
             left: 170px;
             width: 110px;
             height: 170px;
+            top: 190px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
-            left: 120px;
+            left: 90px;
+            width: 100px;
+            height: 130px;
+            top: 150px;
           }
           @media (max-width: ${({ theme }) => theme.max}) {
             width: 100px;
             height: 145px;
-            top: 200px;
-            left: 100px;
+            top: 180px;
+            left: 90px;
           }
           @media (max-width: ${({ theme }) => theme.foot}) {
-            left: 73px;
+            left: 65px;
             width: 100px;
             height: 135px;
           }

@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
-export const GalleryStyled = styled.section`
+export const ShowCaseStyled = styled.section`
   position: relative;
   /* height: 100%; */
   width: 100%;
-
-  /* padding-top: 4rem; */
+  padding-top: 3rem;
 `;
