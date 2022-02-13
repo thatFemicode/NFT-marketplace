@@ -5,18 +5,37 @@ export const HeroStyled = styled.section`
   padding-top: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   z-index: 10;
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
+  @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
+    height: unset;
+  }
+  @media (max-width: ${({ theme }) => theme.service}) {
+    height: 100vh;
+    padding-top: 1rem;
+  }
+  @media (max-width: ${({ theme }) => theme.text}) {
+    padding-top: 3rem;
+  }
   @media (max-width: ${({ theme }) => theme.desktop}) {
+    height: 100vh;
+    padding-top: 5rem;
+  }
+  @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 900px) {
+    padding-bottom: 30rem;
+    padding-top: 0rem;
+  }
+  @media (max-width: ${({ theme }) => theme.make}) {
     padding-top: 5rem;
   }
   .hero {
     height: 100%;
     width: 100%;
     display: flex;
+    position: relative;
     @media (max-width: ${({ theme }) => theme.desktop}) {
       flex-direction: column;
       align-items: center;
@@ -45,6 +64,30 @@ export const HeroStyled = styled.section`
         font-size: 2.7rem;
         line-height: 1.6;
         /* color: transparent; */
+
+        span {
+          color: transparent;
+          background: conic-gradient(
+            #d9d7f1 12%,
+            #baabda 12%,
+            #baabda 33%,
+            #e7fbbe 33%,
+            #e7fbbe 55%,
+            #ffcbcb 55%,
+            #ffcbcb 70%,
+            #b5deff 70%,
+            #b5deff 87%,
+            #f7d1ba 87%
+          );
+          background-size: 50%;
+          background-clip: text;
+          -webkit-background-clip: text;
+          animation: expand-rev 0.5s ease forwards;
+          cursor: pointer;
+          &:hover {
+            animation: expand 0.5s ease forwards;
+          }
+        }
         @media (max-width: ${({ theme }) => theme.dont}) {
           /* font-size: 2.2rem; */
 
@@ -59,7 +102,7 @@ export const HeroStyled = styled.section`
           max-width: 450px;
         }
         @media (max-width: ${({ theme }) => theme.make}) {
-          font-size: 2rem;
+          font-size: 1.8rem;
           max-width: 400px;
         }
         @media (max-width: ${({ theme }) => theme.max}) {
@@ -67,10 +110,10 @@ export const HeroStyled = styled.section`
           max-width: 400px;
         }
         @media (max-width: ${({ theme }) => theme.foot}) {
-          font-size: 1.3rem;
+          font-size: 1.4rem;
           max-width: 400px;
         }
-
+        /* 
         background: conic-gradient(
           #d9d7f1 12%,
           #baabda 12%,
@@ -90,22 +133,27 @@ export const HeroStyled = styled.section`
         cursor: pointer;
         &:hover {
           animation: expand 0.5s ease forwards;
-        }
+        } */
       }
       p {
-        max-width: 400px;
+        max-width: 500px;
+        line-height: 1.6;
+        font-weight: 700;
       }
     }
     &-right {
+      display: block;
       position: relative;
       flex: 2;
       width: 100%;
-
+      position: relative;
+      /* min-height: 100%; */
       @media (max-width: ${({ theme }) => theme.desktop}) {
         width: 50%;
       }
       .box {
         position: absolute;
+        /* display: block; */
         &-1 {
           top: 50%;
           background-repeat: no-repeat;
@@ -136,7 +184,7 @@ export const HeroStyled = styled.section`
 
             width: 170px;
             height: 280px;
-            top: 100px;
+            top: 00px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             width: 150px;
@@ -185,8 +233,7 @@ export const HeroStyled = styled.section`
 
           @media (max-width: ${({ theme }) => theme.desktop}) {
             left: 190px;
-
-            top: 50px;
+            top: -40px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             left: 170px;
@@ -242,8 +289,9 @@ export const HeroStyled = styled.section`
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
             left: 190px;
-
-            top: 240px;
+            width: 120px;
+            height: 160px;
+            top: 150px;
           }
           @media (max-width: ${({ theme }) => theme.desk}) {
           }

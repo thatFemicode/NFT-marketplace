@@ -6,7 +6,7 @@ import Celeb from "./Img/Drake.png";
 import Random from "./Img/MoneyDrown.png";
 import Logo from "./Img/slack.svg";
 export const HamburgerStyled = styled.div`
-  /* display: none; */
+  display: none;
   z-index: -1;
   top: 0;
   left: 0;
@@ -52,7 +52,7 @@ export const HamburgerStyled = styled.div`
     background: #fff;
     height: 100%;
     overflow: hidden;
-    z-index: 90;
+    z-index: -1;
     width: 100%;
     @media (min-width: ${({ theme }) => theme.desktop}) {
       display: none;

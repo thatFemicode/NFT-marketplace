@@ -66,10 +66,13 @@ const Hero = () => {
           <div className="hero-left">
             <a href="">ExpressSea NFT Market Place</a>
             <h1>
-              Discover and collect NFTs that are extraordinary on the largest
-              market place
+              Discover and collect <span>NFTs</span> that are extraordinary on
+              the largest market place
             </h1>
-            <p></p>
+            <p>
+              A marketplace to discover rare and creative NFTs minted by
+              thousands of creative artist
+            </p>
             <button>Visit Marketplace</button>
           </div>
           <div className="hero-right">

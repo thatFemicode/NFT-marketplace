@@ -34,7 +34,7 @@ const hover = css`
 export const CollectionStyled = styled.div`
   padding: 32px 35px;
   white-space: nowrap;
-  /* width: 100%; */
+  width: 100%;
   .primary {
     li {
       display: flex;

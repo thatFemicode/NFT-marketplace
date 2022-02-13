@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import Hamburger from "./Hambuger/Hamburger";
 // import { useGlobalContext } from "../../Context/context.js";
 import { Hash } from "react-feather";
+import { useScrollLock } from "../ScrollLock/ScrollLock";
 
 const Navbar = forwardRef(({ children }, ref) => {
   const [disabled, setDisabled] = useState(false);
@@ -18,6 +19,7 @@ const Navbar = forwardRef(({ children }, ref) => {
     clicked: null,
     menuName: "Open",
   });
+  const { lockScroll, unlockScroll } = useScrollLock();
   // Disabled Menu function
   const disableMenu = () => {
     setDisabled(!disabled);
@@ -35,16 +37,19 @@ const Navbar = forwardRef(({ children }, ref) => {
         clicked: true,
         menuName: "Close",
       });
+      lockScroll();
     } else if (state.clicked === true) {
       setState({
         clicked: !state.clicked,
         menuName: "Open",
       });
+      unlockScroll();
     } else if (state.clicked === false) {
       setState({
         clicked: !state.clicked,
         menuName: "Close",
       });
+      lockScroll();
     }
   };
   return (
@@ -90,7 +95,6 @@ const Navbar = forwardRef(({ children }, ref) => {
             </div>
             <Hamburger state={state} />
           </Container>
-
           <DropdownRoot />
         </DropdownStyles>
       </DropdownProvider>

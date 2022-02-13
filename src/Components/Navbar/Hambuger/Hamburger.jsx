@@ -27,7 +27,7 @@ const Hamburger = ({ state }) => {
       (state.clicked === true && state.initial === null)
     ) {
       // Open the menu
-      gsap.to(menuLayer, { duration: 0, css: { display: "block" } });
+      gsap.to(menuLayer, { duration: 0, display: "block" });
       //Allow menu to have height of 100%
       gsap.to([reveal1, reveal2, reveal3], {
         duration: 0,
