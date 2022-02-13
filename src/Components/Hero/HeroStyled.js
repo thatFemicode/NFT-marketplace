@@ -51,13 +51,6 @@ export const HeroStyled = styled.section`
       text-align: left;
       padding-top: 8.5rem;
       padding-bottom: 8.5rem;
-      /* i will use 4.5 before the breakpoint */
-      /* @media (max-width: ${({ theme }) => theme.mind}) {
-        flex: 3;
-      } */
-      @media (max-width: ${({ theme }) => theme.dont}) {
-        /* padding-top: 6rem; */
-      }
 
       @media (max-width: ${({ theme }) => theme.desktop}) {
         padding-top: 0rem;
@@ -71,6 +64,69 @@ export const HeroStyled = styled.section`
         padding-top: 1rem;
         padding-bottom: 0;
       }
+      a {
+        position: relative;
+        display: inline-flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding-left: 0.625rem;
+        padding-right: 0.725rem;
+        border-radius: 9999px;
+        background: #beaef0;
+        padding-top: 0.3625rem;
+        padding-bottom: 0.3625rem;
+        color: rgba(0, 0, 0, 1);
+
+        @media (max-width: ${({ theme }) => theme.blogNav}) {
+          padding-left: 0.525rem;
+          padding-right: 0.525rem;
+        }
+        @media (max-width: ${({ theme }) => theme.make}) {
+          margin-bottom: 0.5rem;
+          padding-top: 0.3625rem;
+          padding-bottom: 0.3625rem;
+        }
+        svg {
+          display: block;
+          vertical-align: middle;
+          width: 1.25rem;
+        }
+
+        .express {
+          border-radius: 1.5rem;
+          /* background-color: rgba(0, 85, 186, 1); */
+          background: #fff;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          color: #000;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          font-size: 0.675rem;
+          font-weight: 700;
+          @media (max-width: ${({ theme }) => theme.images}) {
+            font-size: 0.65rem;
+          }
+          @media (min-width: ${({ theme }) => theme.auth}) {
+            font-size: 1.2rem;
+          }
+          @media (max-width: ${({ theme }) => theme.blogNav}) {
+            font-size: 0.6rem;
+          }
+        }
+        .visit {
+          margin-left: 0.63rem;
+          font-size: 0.8125rem;
+          @media (max-width: ${({ theme }) => theme.images}) {
+            font-size: 0.75rem;
+          }
+          @media (max-width: ${({ theme }) => theme.blogNav}) {
+            font-size: 0.7rem;
+          }
+          @media (min-width: ${({ theme }) => theme.auth}) {
+            font-size: 1.2rem;
+          }
+        }
+      }
       h1 {
         max-width: 600px;
         font-weight: 600;
@@ -79,8 +135,8 @@ export const HeroStyled = styled.section`
         /* color: transparent; */
 
         span {
-          color: transparent;
-          background: conic-gradient(
+          color: #beaef0;
+          /* background: conic-gradient(
             #d9d7f1 12%,
             #baabda 12%,
             #baabda 33%,
@@ -99,7 +155,7 @@ export const HeroStyled = styled.section`
           cursor: pointer;
           &:hover {
             animation: expand 0.5s ease forwards;
-          }
+          } */
         }
         @media (max-width: ${({ theme }) => theme.dont}) {
           /* font-size: 2.2rem; */
