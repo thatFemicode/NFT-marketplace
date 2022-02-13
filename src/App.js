@@ -24,6 +24,7 @@ function App() {
     blogNav: "610px",
     images: "680px",
     text: "810px",
+    nav: "800px",
     min: "520px",
     make: "548px",
     image: "900px",

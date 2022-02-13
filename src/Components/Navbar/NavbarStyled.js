@@ -103,7 +103,7 @@ export const Container = styled.nav`
     align-items: center;
     justify-content: center;
 
-    @media (max-width: ${({ theme }) => theme.desktop}) {
+    @media (max-width: ${({ theme }) => theme.nav}) {
       display: none;
     }
   }
@@ -111,7 +111,7 @@ export const Container = styled.nav`
     /* display: flex; */
     /* align-items: center; */
     /* justify-self: flex-end; */
-    @media (max-width: ${({ theme }) => theme.desktop}) {
+    @media (max-width: ${({ theme }) => theme.nav}) {
       display: none;
     }
   }
@@ -126,7 +126,7 @@ export const Container = styled.nav`
       background: transparent;
       border: none;
     }
-    @media (min-width: ${({ theme }) => theme.desktop}) {
+    @media (min-width: ${({ theme }) => theme.nav}) {
       display: none;
     }
   }

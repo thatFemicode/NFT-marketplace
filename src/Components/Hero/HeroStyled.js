@@ -66,6 +66,10 @@ export const HeroStyled = styled.section`
           font-size: 1.5rem;
           max-width: 400px;
         }
+        @media (max-width: ${({ theme }) => theme.foot}) {
+          font-size: 1.3rem;
+          max-width: 400px;
+        }
 
         background: conic-gradient(
           #d9d7f1 12%,

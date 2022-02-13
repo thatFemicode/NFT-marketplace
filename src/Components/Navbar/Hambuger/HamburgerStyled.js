@@ -18,7 +18,8 @@ export const HamburgerStyled = styled.div`
     display: none;
   }
   .menu-secondary-background-color {
-    background: #1d428a;
+    /* background: #55d3f5; */
+    background: #80b9f9;
     top: 0;
     left: 0;
     right: 0;
@@ -32,7 +33,8 @@ export const HamburgerStyled = styled.div`
     }
   }
   .menu-primary-background-color {
-    background: #ffc72c;
+    /* background: #ffc72c; */
+    background: #64e5a7;
     top: 0;
     left: 0;
     right: 0;
@@ -80,7 +82,7 @@ export const HamburgerStyled = styled.div`
       }
       h3 {
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         @media (max-width: ${({ theme }) => theme.make}) {
           font-size: 1.2rem;
         }
@@ -118,7 +120,7 @@ export const HamburgerStyled = styled.div`
           display: inline-block;
           width: 14px;
           height: 14px;
-          margin-right: 12px;
+          margin-right: 8px;
           background: #80b9f9;
           border-radius: 3.5px;
         }
@@ -133,7 +135,7 @@ export const HamburgerStyled = styled.div`
       /* width: 100%; */
       h3 {
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         @media (max-width: ${({ theme }) => theme.make}) {
           font-size: 1.2rem;
         }
@@ -219,7 +221,7 @@ export const HamburgerStyled = styled.div`
     .why {
       h3 {
         text-align: left;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         @media (max-width: ${({ theme }) => theme.make}) {
           font-size: 1.2rem;
         }
@@ -233,22 +235,30 @@ export const HamburgerStyled = styled.div`
         grid-template-columns: repeat(3, minmax(0px, 1fr));
         gap: 1.4rem;
         @media (max-width: ${({ theme }) => theme.images}) {
-          grid-template-columns: repeat(1, minmax(0px, 1fr));
+          grid-template-columns: repeat(3, minmax(0px, 1fr));
         }
         @media (max-width: ${({ theme }) => theme.max}) {
           gap: 1rem;
           padding-top: 0.5rem;
+          grid-template-columns: repeat(2, minmax(0px, 1fr));
         }
         li {
           display: flex;
           align-items: center;
+          font-size: 0.75rem;
+          @media (max-width: ${({ theme }) => theme.max}) {
+            font-size: 0.65rem;
+          }
+          @media (max-width: ${({ theme }) => theme.se}) {
+            font-size: 0.53rem;
+          }
           span {
             display: inline-block;
             width: 14px;
             height: 14px;
             border-radius: 3.5px;
             background: #beaef0;
-            margin-right: 13px;
+            margin-right: 9px;
           }
         }
       }
