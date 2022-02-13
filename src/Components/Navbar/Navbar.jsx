@@ -86,7 +86,7 @@ const Navbar = forwardRef(({ children }, ref) => {
               </li>
             </ul>
             <div className="hashtag">
-              <Link to="/input">Get Started</Link>
+              <Link to="/input">Visit Marketplace</Link>
             </div>
             <div className="mobile-nav">
               <button onClick={handleMenu} disabled={disabled}>

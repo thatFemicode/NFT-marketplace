@@ -56,7 +56,6 @@ height:100%;
 width:100%;
 color:var(--black);
 /* background-color:#e9dbd4; */
-background-color: #f6f8fb;
 -ms-overflow-style: none; /* Internet Explorer 10+ */
 scrollbar-width: none; /* Firefox */
 &::-webkit-scrollbar {

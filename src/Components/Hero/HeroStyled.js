@@ -8,6 +8,8 @@ export const HeroStyled = styled.section`
   height: 100vh;
   width: 100%;
   z-index: 10;
+  background-color: #f6f8fb;
+
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
   @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
@@ -15,7 +17,7 @@ export const HeroStyled = styled.section`
     padding-bottom: 3rem;
   }
   @media (max-width: ${({ theme }) => theme.service}) {
-    height: 70vh;
+    height: 100vh;
     padding-top: 1rem;
   }
   @media (max-width: ${({ theme }) => theme.text}) {
@@ -23,14 +25,14 @@ export const HeroStyled = styled.section`
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
     height: 100vh;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
   @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 900px) {
     padding-bottom: 30rem;
     padding-top: 0rem;
   }
   @media (max-width: ${({ theme }) => theme.make}) {
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
   .hero {
     height: 100%;
@@ -48,6 +50,7 @@ export const HeroStyled = styled.section`
       flex: 2;
       text-align: left;
       padding-top: 8.5rem;
+      padding-bottom: 8.5rem;
       /* i will use 4.5 before the breakpoint */
       /* @media (max-width: ${({ theme }) => theme.mind}) {
         flex: 3;
@@ -55,9 +58,18 @@ export const HeroStyled = styled.section`
       @media (max-width: ${({ theme }) => theme.dont}) {
         /* padding-top: 6rem; */
       }
+
       @media (max-width: ${({ theme }) => theme.desktop}) {
-        padding-top: 0;
+        padding-top: 0rem;
         margin-top: 2rem;
+        padding-bottom: 0rem;
+      }
+      @media screen and (min-height: 900px) and (max-height: 1024px) and (max-width: 768px) {
+        padding-bottom: 3rem;
+      }
+      @media (max-width: ${({ theme }) => theme.images}) {
+        padding-top: 1rem;
+        padding-bottom: 0;
       }
       h1 {
         max-width: 600px;
