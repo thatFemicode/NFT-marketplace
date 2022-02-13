@@ -25,7 +25,7 @@ export const HeroStyled = styled.section`
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
     height: 100vh;
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
   @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 900px) {
     padding-bottom: 30rem;
@@ -33,6 +33,12 @@ export const HeroStyled = styled.section`
   }
   @media (max-width: ${({ theme }) => theme.make}) {
     padding-top: 4rem;
+  }
+  @media (max-width: ${({ theme }) => theme.vSmall}) {
+    padding-top: 3rem;
+  }
+  @media (min-width: ${({ theme }) => theme.auth}) {
+    height: unset;
   }
   .hero {
     height: 100%;
@@ -86,6 +92,10 @@ export const HeroStyled = styled.section`
           padding-top: 0.3625rem;
           padding-bottom: 0.3625rem;
         }
+        @media (max-width: ${({ theme }) => theme.vSmall}) {
+          padding-top: 0.2625rem;
+          padding-bottom: 0.2625rem;
+        }
         svg {
           display: block;
           vertical-align: middle;
@@ -107,7 +117,7 @@ export const HeroStyled = styled.section`
             font-size: 0.65rem;
           }
           @media (min-width: ${({ theme }) => theme.auth}) {
-            font-size: 1.2rem;
+            font-size: 0.9rem;
           }
           @media (max-width: ${({ theme }) => theme.blogNav}) {
             font-size: 0.6rem;
@@ -116,14 +126,17 @@ export const HeroStyled = styled.section`
         .visit {
           margin-left: 0.63rem;
           font-size: 0.8125rem;
+          @media (min-width: ${({ theme }) => theme.auth}) {
+            font-size: 0.9rem;
+          }
           @media (max-width: ${({ theme }) => theme.images}) {
             font-size: 0.75rem;
           }
           @media (max-width: ${({ theme }) => theme.blogNav}) {
             font-size: 0.7rem;
           }
-          @media (min-width: ${({ theme }) => theme.auth}) {
-            font-size: 1.2rem;
+          @media (max-width: ${({ theme }) => theme.vSmall}) {
+            font-size: 0.6rem;
           }
         }
       }
@@ -185,27 +198,9 @@ export const HeroStyled = styled.section`
           font-size: 1.4rem;
           max-width: 400px;
         }
-        /* 
-        background: conic-gradient(
-          #d9d7f1 12%,
-          #baabda 12%,
-          #baabda 33%,
-          #e7fbbe 33%,
-          #e7fbbe 55%,
-          #ffcbcb 55%,
-          #ffcbcb 70%,
-          #b5deff 70%,
-          #b5deff 87%,
-          #f7d1ba 87%
-        );
-        background-size: 50%;
-        background-clip: text;
-        -webkit-background-clip: text;
-        animation: expand-rev 0.5s ease forwards;
-        cursor: pointer;
-        &:hover {
-          animation: expand 0.5s ease forwards;
-        } */
+        @media (max-width: ${({ theme }) => theme.vSmall}) {
+          font-size: 1.2rem;
+        }
       }
       p {
         max-width: 500px;
@@ -214,6 +209,9 @@ export const HeroStyled = styled.section`
         font-size: 1rem;
         @media (max-width: ${({ theme }) => theme.max}) {
           font-size: 0.9rem;
+        }
+        @media (max-width: ${({ theme }) => theme.vSmall}) {
+          font-size: 0.8rem;
         }
       }
     }
@@ -259,9 +257,9 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.desktop}) {
             left: 0%;
 
-            width: 170px;
-            height: 280px;
-            top: 60px;
+            width: 160px;
+            height: 260px;
+            top: 50px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             width: 150px;
@@ -282,7 +280,8 @@ export const HeroStyled = styled.section`
           }
           @media (max-width: ${({ theme }) => theme.foot}) {
             width: 110px;
-            height: 200px;
+            height: 190px;
+            top: 60px;
           }
         }
         &-2 {
@@ -314,13 +313,15 @@ export const HeroStyled = styled.section`
           }
 
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            left: 190px;
-            top: 30px;
+            left: 180px;
+            top: 20px;
+            width: 110px;
+            height: 160px;
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             left: 170px;
             width: 110px;
-            height: 170px;
+
             top: 0px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
@@ -337,7 +338,8 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 135px;
+            height: 125px;
+            top: 20px;
           }
         }
         &-3 {
@@ -374,18 +376,18 @@ export const HeroStyled = styled.section`
             height: 170px;
           }
           @media (max-width: ${({ theme }) => theme.desktop}) {
-            left: 190px;
-            width: 120px;
-            height: 160px;
-            top: 220px;
+            left: 180px;
+            top: 200px;
+            width: 110px;
+            height: 150px;
           }
           @media (max-width: ${({ theme }) => theme.desk}) {
           }
           @media (max-width: ${({ theme }) => theme.images}) {
             left: 170px;
             width: 110px;
-            height: 170px;
-            top: 190px;
+
+            top: 180px;
           }
           @media (max-width: ${({ theme }) => theme.make}) {
             left: 90px;
@@ -402,7 +404,8 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 135px;
+            height: 125px;
+            top: 160px;
           }
         }
       }

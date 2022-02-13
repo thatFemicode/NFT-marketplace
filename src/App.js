@@ -17,6 +17,7 @@ function App() {
     },
     adapt: "399px",
     se: "330px",
+    vSmall: "290px",
     teams: "350px",
     foot: "375px",
     max: "415px",

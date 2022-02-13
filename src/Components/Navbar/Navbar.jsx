@@ -87,11 +87,12 @@ const Navbar = forwardRef(({ children }, ref) => {
               </li>
             </ul>
             <div className="hashtag">
-              <Link to="/input">
+              <Link to="/marketplace">
                 <Button
                   name={"Visit Marketplace"}
                   bgColor={"#beaef0"}
                   margin={"0rem"}
+                  color={"#000"}
                 />
               </Link>
             </div>

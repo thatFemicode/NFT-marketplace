@@ -6,7 +6,7 @@ const ButtonStyled = styled.button`
   padding: 0.25rem 0.85rem;
   border-radius: 9px 0 9px 0px;
   border-color: transparent;
-  color: #fff;
+  color: ${({ color }) => color || "#fff"};
   background-color: ${({ bgColor }) => bgColor};
   cursor: pointer;
   display: flex;
@@ -18,9 +18,9 @@ const ButtonStyled = styled.button`
     width: 1.2rem;
   }
 `;
-const PrimaryButton = ({ name, bgColor, margin }) => {
+const PrimaryButton = ({ name, bgColor, margin, color }) => {
   return (
-    <ButtonStyled bgColor={bgColor} margin={margin}>
+    <ButtonStyled bgColor={bgColor} margin={margin} color={color}>
       {name}
       <svg
         viewBox="0 0 20 20"
