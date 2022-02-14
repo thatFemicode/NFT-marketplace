@@ -8,7 +8,7 @@ import {
   X_MIN,
   BOUNCE_HEIGHT,
   BOUNCE_TIME,
-} from "./constants";
+} from "./constant";
 import { randomBetween } from "./utils";
 
 export default {

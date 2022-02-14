@@ -1,0 +1,203 @@
+import Apple from "./Img/Apple.jpg";
+import Labador from "./Img/BlackLabrador.png";
+import Rock from "./Img/BlackRock.jpg";
+import Blend from "./Img/Blend.jpg";
+import BoredApre from "./Img/BoredApe.jpg";
+import BoredApe from "./Img/BoredApe.png";
+import CaptainBoredApe from "./Img/CaptainBoredApe.png";
+import CaveBoredApe from "./Img/CaveBoredApe.png";
+import TwochainzApe from "./Img/ChainzBoredApe.png";
+import Bust from "./Img/DigitalBust.jpg";
+import Mitchell from "./Img/DonovanMitchell.jpg";
+import Wade from "./Img/DwayneWade.jpg";
+import Frank from "./Img/FrankOcean.png";
+import Hidden from "./Img/Hidden.jpg";
+import HumanGrid from "./Img/HumanGrid.jpg";
+import Ja from "./Img/JaMorant.jpg";
+import Derulo from "./Img/JasonDerulo.jpg";
+import Jcole from "./Img/JCole.jpg";
+import Kanye from "./Img/Kanye.jpg";
+import Kendrick from "./Img/KendrickLamar.png";
+import Lefou from "./Img/Lefou.jpg";
+import Mark from "./Img/MarkRuffalo.jpg";
+import Paraphase from "./Img/PARAPHASE.jpg";
+import Steve from "./Img/SteveKerr.jpg";
+import Trae from "./Img/TraeYoung.jpg";
+const icons = [
+  {
+    s: 0.6,
+    x: 1134,
+    y: 45,
+    image: Labador,
+    title: "Labador",
+  },
+  {
+    s: 0.6,
+    x: 1620,
+    y: 271,
+    image: Steve,
+    title: "Steve Kerr",
+  },
+  {
+    s: 0.6,
+    x: 1761,
+    y: 372,
+    image: Paraphase,
+    title: "Paraphase",
+  },
+  {
+    s: 0.6,
+    x: 2499,
+    y: 79,
+    image: Lefou,
+    title: "Lefou",
+  },
+  {
+    s: 0.6,
+    x: 2704,
+    y: 334,
+    image: BoredApe,
+    title: "BoredApreSnot",
+  },
+  {
+    s: 0.6,
+    x: 2271,
+    y: 356,
+    image: Blend,
+    title: "Blend",
+  },
+  {
+    s: 0.6,
+    x: 795,
+    y: 226,
+    image: CaptainBoredApe,
+    title: "Captain Bored Ape",
+  },
+  {
+    s: 0.6,
+    x: 276,
+    y: 256,
+    image: CaveBoredApe,
+    title: "Cave Bored Ape",
+  },
+  {
+    s: 0.6,
+    x: 1210,
+    y: 365,
+    image: Apple,
+    title: "Apple",
+  },
+  {
+    s: 0.6,
+    x: 444,
+    y: 193,
+    image: Rock,
+    title: "Rock",
+  },
+  {
+    s: 0.6,
+    x: 2545,
+    y: 387,
+    image: BoredApre,
+    title: "Cool Bored Ape",
+  },
+  {
+    s: 0.8,
+    x: 1303,
+    y: 193,
+    image: TwochainzApe,
+    title: "2Chainz Ape",
+  },
+  {
+    s: 0.8,
+    x: 907,
+    y: 88,
+    image: Ja,
+    title: "Ja Morant",
+  },
+  {
+    s: 0.8,
+    x: 633,
+    y: 320,
+    image: Bust,
+    title: "Human Bust",
+  },
+  {
+    s: 0.8,
+    x: 323,
+    y: 60,
+    image: Mitchell,
+    title: "Donovan Mitchell",
+  },
+  {
+    s: 0.8,
+    x: 129,
+    y: 357,
+    image: HumanGrid,
+    title: "Human Grid",
+  },
+  {
+    s: 0.8,
+    x: 1440,
+    y: 342,
+    image: Derulo,
+    title: "Jason Derulo",
+  },
+  {
+    s: 0.8,
+    x: 1929,
+    y: 293,
+    image: Trae,
+    title: "Trae Young",
+  },
+  {
+    s: 0.8,
+    x: 2135,
+    y: 198,
+    image: Jcole,
+    title: "J Cole",
+  },
+  {
+    s: 0.8,
+    x: 2276,
+    y: 82,
+    image: Hidden,
+    title: "Hidden",
+  },
+  {
+    s: 0.8,
+    x: 2654,
+    y: 182,
+    image: Wade,
+    title: "Dwayne Wade",
+  },
+  {
+    s: 0.8,
+    x: 2783,
+    y: 60,
+    image: Frank,
+    title: "Frank Ocean",
+  },
+  {
+    s: 0.8,
+    x: 1519,
+    y: 118,
+    image: Kanye,
+    title: "Kanye West",
+  },
+  {
+    s: 0.8,
+    x: 1071,
+    y: 233,
+    image: Kendrick,
+    title: "Kendrick Lamar",
+  },
+  {
+    x: 1773,
+    y: 148,
+    image: Mark,
+    title: "Mark Ruffalo",
+  },
+];
+
+export default icons;
