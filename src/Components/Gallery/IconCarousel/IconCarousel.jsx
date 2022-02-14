@@ -4,9 +4,9 @@ import { IconCarouselStyled } from "./IconCarouselStyled";
 import { gsap } from "gsap";
 const IconCarousel = ({ icons }) => {
   let tl = gsap.timeline({ paused: true });
-  tl.add("start");
+  //   tl.add("start");
   const [numIconsLoaded, setNumIconsLoaded] = useState(0);
-  const [timeline, setTimeline] = useState(tl);
+  const [timeline] = useState(tl);
   const checkAllLoaded = () => {
     if (numIconsLoaded === icons.length) {
       timeline.play();
@@ -22,16 +22,19 @@ const IconCarousel = ({ icons }) => {
   };
   return (
     <IconCarouselStyled>
-      {icons.map((icon, index) => (
-        <IconContainer
-          image={icon.image}
-          title={icon.title}
-          timeline={timeline}
-          iconEntered={() => iconEntered()}
-          startingPos={{ x: icon.x, y: icon.y }}
-          scale={icon.s}
-        />
-      ))}
+      {icons.map((icon, index) => {
+        return (
+          <IconContainer
+            key={icon.id}
+            image={icon.image}
+            title={icon.title}
+            timeline={timeline}
+            iconEntered={iconEntered}
+            startingPos={{ x: icon.x, y: icon.y }}
+            scale={icon.s}
+          />
+        );
+      })}
     </IconCarouselStyled>
   );
 };

@@ -6,7 +6,7 @@ import IconCarousel from "./IconCarousel/IconCarousel";
 import { X_OFFSET, Y_OFFSET } from "./constant";
 const Gallery = () => {
   const icond = icons.map((icon, index) => {
-    const { s, x, y, image, title } = icon;
+    const { s, x, y, image, title, id } = icon;
     let newIcon = {};
     // let newIcon = { ...icon };
     newIcon.s = s || 1;
@@ -14,6 +14,7 @@ const Gallery = () => {
     newIcon.x = x - X_OFFSET;
     newIcon.image = icon.image;
     newIcon.title = title;
+    newIcon.id = id;
     return newIcon;
   });
   return (

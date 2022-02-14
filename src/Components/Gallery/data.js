@@ -25,6 +25,7 @@ import Steve from "./Img/SteveKerr.jpg";
 import Trae from "./Img/TraeYoung.jpg";
 const icons = [
   {
+    id: 1,
     s: 0.6,
     x: 1134,
     y: 45,
@@ -32,6 +33,7 @@ const icons = [
     title: "Labador",
   },
   {
+    id: 2,
     s: 0.6,
     x: 1620,
     y: 271,
@@ -39,6 +41,7 @@ const icons = [
     title: "Steve Kerr",
   },
   {
+    id: 3,
     s: 0.6,
     x: 1761,
     y: 372,
@@ -46,6 +49,7 @@ const icons = [
     title: "Paraphase",
   },
   {
+    id: 4,
     s: 0.6,
     x: 2499,
     y: 79,
@@ -53,6 +57,7 @@ const icons = [
     title: "Lefou",
   },
   {
+    id: 5,
     s: 0.6,
     x: 2704,
     y: 334,
@@ -60,6 +65,7 @@ const icons = [
     title: "BoredApreSnot",
   },
   {
+    id: 6,
     s: 0.6,
     x: 2271,
     y: 356,
@@ -67,6 +73,7 @@ const icons = [
     title: "Blend",
   },
   {
+    id: 7,
     s: 0.6,
     x: 795,
     y: 226,
@@ -74,20 +81,23 @@ const icons = [
     title: "Captain Bored Ape",
   },
   {
+    id: 8,
     s: 0.6,
-    x: 276,
-    y: 256,
+    x: 216,
+    y: 316,
     image: CaveBoredApe,
     title: "Cave Bored Ape",
   },
   {
+    id: 9,
     s: 0.6,
     x: 1210,
-    y: 365,
+    y: 505,
     image: Apple,
     title: "Apple",
   },
   {
+    id: 10,
     s: 0.6,
     x: 444,
     y: 193,
@@ -95,6 +105,7 @@ const icons = [
     title: "Rock",
   },
   {
+    id: 11,
     s: 0.6,
     x: 2545,
     y: 387,
@@ -102,6 +113,7 @@ const icons = [
     title: "Cool Bored Ape",
   },
   {
+    id: 12,
     s: 0.8,
     x: 1303,
     y: 193,
@@ -109,6 +121,7 @@ const icons = [
     title: "2Chainz Ape",
   },
   {
+    id: 13,
     s: 0.8,
     x: 907,
     y: 88,
@@ -116,6 +129,7 @@ const icons = [
     title: "Ja Morant",
   },
   {
+    id: 14,
     s: 0.8,
     x: 633,
     y: 320,
@@ -123,13 +137,15 @@ const icons = [
     title: "Human Bust",
   },
   {
+    id: 15,
     s: 0.8,
-    x: 323,
+    x: 213,
     y: 60,
     image: Mitchell,
     title: "Donovan Mitchell",
   },
   {
+    id: 16,
     s: 0.8,
     x: 129,
     y: 357,
@@ -137,6 +153,7 @@ const icons = [
     title: "Human Grid",
   },
   {
+    id: 17,
     s: 0.8,
     x: 1440,
     y: 342,
@@ -144,6 +161,7 @@ const icons = [
     title: "Jason Derulo",
   },
   {
+    id: 18,
     s: 0.8,
     x: 1929,
     y: 293,
@@ -151,6 +169,7 @@ const icons = [
     title: "Trae Young",
   },
   {
+    id: 19,
     s: 0.8,
     x: 2135,
     y: 198,
@@ -158,6 +177,7 @@ const icons = [
     title: "J Cole",
   },
   {
+    id: 20,
     s: 0.8,
     x: 2276,
     y: 82,
@@ -165,6 +185,7 @@ const icons = [
     title: "Hidden",
   },
   {
+    id: 21,
     s: 0.8,
     x: 2654,
     y: 182,
@@ -172,6 +193,7 @@ const icons = [
     title: "Dwayne Wade",
   },
   {
+    id: 22,
     s: 0.8,
     x: 2783,
     y: 60,
@@ -179,6 +201,7 @@ const icons = [
     title: "Frank Ocean",
   },
   {
+    id: 23,
     s: 0.8,
     x: 1519,
     y: 118,
@@ -186,6 +209,7 @@ const icons = [
     title: "Kanye West",
   },
   {
+    id: 24,
     s: 0.8,
     x: 1071,
     y: 233,
@@ -193,6 +217,7 @@ const icons = [
     title: "Kendrick Lamar",
   },
   {
+    id: 25,
     x: 1773,
     y: 148,
     image: Mark,

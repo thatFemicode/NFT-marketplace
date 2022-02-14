@@ -5,4 +5,5 @@ export const IconCarouselStyled = styled.div`
   height: 400px;
   position: relative;
   overflow-y: visible;
+  overflow-x: visible;
 `;

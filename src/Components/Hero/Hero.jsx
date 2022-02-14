@@ -65,24 +65,20 @@ const Hero = () => {
             <Link to="/marketplace">
               <span className="express">ExpressSea</span>
               <span className="visit">Visit Marketplace</span>
-              <svg
-                viewBox="0 0 20 20"
-                fill="none"
-                class="w-5 ml-1.25 transition-transform duration-75 transform group-hover:translate-x-0.5 flex-shrink-0"
-              >
+              <svg viewBox="0 0 20 20" fill="none">
                 <path
                   d="M6 10H14"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
                 <path
                   d="M10 6L14 10L10 14"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 ></path>
               </svg>
             </Link>
