@@ -32,9 +32,11 @@ const hover = css`
   }
 `;
 export const CollectionStyled = styled.div`
-  padding: 32px 35px;
+  padding: 32px 0;
+  padding-left: 35px;
+  padding-right: 35px;
   white-space: nowrap;
-  width: 100%;
+
   .primary {
     li {
       display: flex;
@@ -50,6 +52,7 @@ export const CollectionStyled = styled.div`
         p {
           ${p}
           margin-top: 10px;
+          text-align: left;
         }
       }
 
@@ -99,7 +102,7 @@ export const CollectionStyled = styled.div`
   }
   .secondary {
     margin-top: 40px;
-
+    width: 300px;
     li {
       ${hover}
       display: flex;

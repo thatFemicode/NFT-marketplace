@@ -34,6 +34,8 @@ export const AboutStyled = styled.div`
   white-space: nowrap;
   width: 100%;
   .primary {
+    width: 100%;
+
     h3 {
       ${h3}
       ${hover}
@@ -42,10 +44,11 @@ export const AboutStyled = styled.div`
       display: flex;
       align-items: center;
       margin-top: 10px;
+      width: 100%;
       div {
         ${hover}
         margin-left: 5px;
-
+        width: 100%;
         p {
           ${p}
           /* margin-top: 10px; */

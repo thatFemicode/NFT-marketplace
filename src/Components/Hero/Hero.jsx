@@ -22,9 +22,9 @@ const Hero = () => {
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img12_bcljeo.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
-  // useEffect(() => {
-  //   animate(img1.current, img2.current, img3.current);
-  // }, []);
+  useEffect(() => {
+    animate(img1.current, img2.current, img3.current);
+  }, []);
   useEffect(() => {
     new hoverEffect({
       parent: img1.current,

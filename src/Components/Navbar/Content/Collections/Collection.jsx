@@ -9,14 +9,14 @@ const Collection = () => {
           <span className="ape"></span>
           <div>
             <h3>Ape Collection</h3>
-            <p>A collection of different Apes in different forms</p>
+            <p>A collection of different Apes </p>
           </div>
         </li>
         <li>
           <span className="ball"></span>
           <div>
             <h3>Polygon Art Collection</h3>
-            <p>A collection of Polygon art of various objects </p>
+            <p>A collection of Polygon art </p>
           </div>
         </li>
         <li>
@@ -37,7 +37,7 @@ const Collection = () => {
           <span className="random"></span>
           <div>
             <h3>Random Art Collection</h3>
-            <p>Collection of Random Art by different artist</p>
+            <p>Collection of Random Art</p>
           </div>
         </li>
       </ul>
