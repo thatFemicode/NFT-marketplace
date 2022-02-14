@@ -7,6 +7,7 @@ export const GalleryStyled = styled.section`
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 4rem;
+  display: block;
   .gallery {
     h1 {
       max-width: 600px;
@@ -44,6 +45,9 @@ export const GalleryStyled = styled.section`
       @media (max-width: ${({ theme }) => theme.vSmall}) {
         font-size: 1.2rem;
       }
+    }
+    .carousel {
+      padding-top: 4rem;
     }
   }
 `;
