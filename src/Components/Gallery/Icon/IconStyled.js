@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const IconStyled = styled.div`
   .wrapper {
-    /* opacity: 0; */
+    opacity: 0;
     width: 150px;
     height: 150px;
     margin: 0px 0 0 -75px;

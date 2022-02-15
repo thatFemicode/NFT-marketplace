@@ -7,8 +7,8 @@ const Icon = ({ ...props }) => {
   let icon = useRef(null);
   const { startingPos, timeline, title, image } = { ...props };
   useEffect(() => {
-    timeline.add([slide(icon, startingPos), bounce(icon)], "start");
-  });
+    timeline.add([slide(icon, startingPos), bounce(icon)], "<");
+  }, []);
 
   return (
     <IconStyled>

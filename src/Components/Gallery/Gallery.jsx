@@ -12,7 +12,7 @@ const Gallery = () => {
     newIcon.s = s || 1;
     newIcon.y = y - Y_OFFSET;
     newIcon.x = x - X_OFFSET;
-    newIcon.image = icon.image;
+    newIcon.image = image;
     newIcon.title = title;
     newIcon.id = id;
     return newIcon;

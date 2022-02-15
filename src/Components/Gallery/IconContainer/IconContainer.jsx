@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Transition } from "react-transition-group";
 import { show, hide } from "../animation";
 import Icon from "../Icon/Icon";
 import { IconContainerStyled } from "./IconContainerStyled";
 import { APPEAR_TIME } from "../constant";
 const IconContainer = ({ iconEntered, scale, startingPos, ...props }) => {
-  const nodeRef = React.useRef(null);
+  const node3 = useRef(null);
   return (
     <IconContainerStyled>
       <Transition
@@ -22,9 +22,7 @@ const IconContainer = ({ iconEntered, scale, startingPos, ...props }) => {
         in
         timeout={APPEAR_TIME * 1000}
       >
-        <div ref={nodeRef}>
-          <Icon {...props} startingPos={startingPos} />
-        </div>
+        <Icon {...props} startingPos={startingPos} />
       </Transition>
     </IconContainerStyled>
   );

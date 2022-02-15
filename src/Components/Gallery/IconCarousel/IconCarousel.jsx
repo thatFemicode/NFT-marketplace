@@ -3,8 +3,9 @@ import IconContainer from "../IconContainer/IconContainer";
 import { IconCarouselStyled } from "./IconCarouselStyled";
 import { gsap } from "gsap";
 const IconCarousel = ({ icons }) => {
+  //   console.log(icons.length);
   let tl = gsap.timeline({ paused: true });
-  //   tl.add("start");
+  //   tl.add("<");
   const [numIconsLoaded, setNumIconsLoaded] = useState(0);
   const [timeline] = useState(tl);
   const checkAllLoaded = () => {
