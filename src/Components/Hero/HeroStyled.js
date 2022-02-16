@@ -17,7 +17,7 @@ export const HeroStyled = styled.section`
     padding-bottom: 3rem;
   }
   @media (max-width: ${({ theme }) => theme.service}) {
-    height: 100vh;
+    height: 90vh;
     padding-top: 1rem;
   }
   @media (max-width: ${({ theme }) => theme.text}) {

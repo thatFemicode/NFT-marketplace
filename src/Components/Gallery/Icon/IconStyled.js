@@ -5,7 +5,6 @@ export const IconStyled = styled.div`
     opacity: 0;
     width: 130px;
     height: 130px;
-
     margin: 0px 0 0 -75px;
     border-radius: 50%;
     position: absolute;
@@ -20,9 +19,10 @@ export const IconStyled = styled.div`
       width: 120px;
       height: 120px;
     }
-    @media (max-width: ${({ theme }) => theme.images}) {
+    @media (max-width: ${({ theme }) => theme.make}) {
       width: 100px;
       height: 100px;
+      left: 0.2rem;
     }
     &:hover {
       z-index: 1000;
