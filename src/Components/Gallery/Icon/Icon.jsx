@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
-import { slide, bounce } from "../animation";
+import { slide, bounce, show } from "../animation";
 import { IconStyled } from "./IconStyled";
 
 const Icon = ({ ...props }) => {
   //   console.log(props);
   let icon = useRef(null);
-  const { startingPos, timeline, title, image } = { ...props };
+  const { startingPos, timeline, title, image, scale } = { ...props };
   useEffect(() => {
-    timeline.add([slide(icon, startingPos), bounce(icon)], "<");
+    timeline.add([show(icon, scale, startingPos), bounce(icon)], "start");
   }, []);
 
   return (

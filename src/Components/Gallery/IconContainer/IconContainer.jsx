@@ -17,12 +17,12 @@ const IconContainer = ({ iconEntered, scale, startingPos, ...props }) => {
         // starting of the main timeline
 
         onEntered={() => iconEntered()}
-        onExit={hide}
+        // onExit={hide}
         appear
         in
         timeout={APPEAR_TIME * 1000}
       >
-        <Icon {...props} startingPos={startingPos} />
+        <Icon {...props} startingPos={startingPos} scale={scale} />
       </Transition>
     </IconContainerStyled>
   );

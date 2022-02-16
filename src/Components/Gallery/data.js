@@ -26,25 +26,18 @@ import Trae from "./Img/TraeYoung.jpg";
 const icons = [
   {
     id: 1,
-    s: 0.6,
-    x: 1134,
+    s: 0.7,
+    x: 234,
     y: 45,
     image: Labador,
     title: "Labador",
   },
-  {
-    id: 2,
-    s: 0.6,
-    x: 1620,
-    y: 271,
-    image: Steve,
-    title: "Steve Kerr",
-  },
+
   {
     id: 3,
-    s: 0.6,
-    x: 1761,
-    y: 372,
+    s: 0.8,
+    x: 82,
+    y: 72,
     image: Paraphase,
     title: "Paraphase",
   },
@@ -72,14 +65,7 @@ const icons = [
     image: Blend,
     title: "Blend",
   },
-  {
-    id: 7,
-    s: 0.6,
-    x: 795,
-    y: 226,
-    image: CaptainBoredApe,
-    title: "Captain Bored Ape",
-  },
+
   {
     id: 8,
     s: 0.6,
@@ -98,8 +84,8 @@ const icons = [
   },
   {
     id: 10,
-    s: 0.6,
-    x: 444,
+    s: 0.75,
+    x: 344,
     y: 193,
     image: Rock,
     title: "Rock",
@@ -115,7 +101,7 @@ const icons = [
   {
     id: 12,
     s: 0.8,
-    x: 1303,
+    x: 133,
     y: 193,
     image: TwochainzApe,
     title: "2Chainz Ape",
@@ -136,14 +122,7 @@ const icons = [
     image: Bust,
     title: "Human Bust",
   },
-  {
-    id: 15,
-    s: 0.8,
-    x: 213,
-    y: 60,
-    image: Mitchell,
-    title: "Donovan Mitchell",
-  },
+
   {
     id: 16,
     s: 0.8,
@@ -152,22 +131,7 @@ const icons = [
     image: HumanGrid,
     title: "Human Grid",
   },
-  {
-    id: 17,
-    s: 0.8,
-    x: 1440,
-    y: 342,
-    image: Derulo,
-    title: "Jason Derulo",
-  },
-  {
-    id: 18,
-    s: 0.8,
-    x: 1929,
-    y: 293,
-    image: Trae,
-    title: "Trae Young",
-  },
+
   {
     id: 19,
     s: 0.8,
@@ -179,43 +143,21 @@ const icons = [
   {
     id: 20,
     s: 0.8,
-    x: 2276,
+    x: 476,
     y: 82,
     image: Hidden,
     title: "Hidden",
   },
-  {
-    id: 21,
-    s: 0.8,
-    x: 2654,
-    y: 182,
-    image: Wade,
-    title: "Dwayne Wade",
-  },
+
   {
     id: 22,
     s: 0.8,
-    x: 2783,
+    x: 583,
     y: 60,
     image: Frank,
     title: "Frank Ocean",
   },
-  {
-    id: 23,
-    s: 0.8,
-    x: 1519,
-    y: 118,
-    image: Kanye,
-    title: "Kanye West",
-  },
-  {
-    id: 24,
-    s: 0.8,
-    x: 1071,
-    y: 233,
-    image: Kendrick,
-    title: "Kendrick Lamar",
-  },
+
   {
     id: 25,
     x: 1773,

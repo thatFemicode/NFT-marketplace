@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const IconStyled = styled.div`
   .wrapper {
     opacity: 0;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+
     margin: 0px 0 0 -75px;
     border-radius: 50%;
     position: absolute;
@@ -15,6 +16,14 @@ export const IconStyled = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
+    @media (max-width: ${({ theme }) => theme.desktop}) {
+      width: 120px;
+      height: 120px;
+    }
+    @media (max-width: ${({ theme }) => theme.images}) {
+      width: 100px;
+      height: 100px;
+    }
     &:hover {
       z-index: 1000;
       .label {

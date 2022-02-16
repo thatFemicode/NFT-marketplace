@@ -9,9 +9,7 @@ const IconCarousel = ({ icons }) => {
   const [numIconsLoaded, setNumIconsLoaded] = useState(0);
   const [timeline] = useState(tl);
   const checkAllLoaded = () => {
-    if (numIconsLoaded === icons.length) {
-      timeline.play();
-    }
+    timeline.play();
   };
   const iconEntered = () => {
     setNumIconsLoaded(numIconsLoaded + 1);

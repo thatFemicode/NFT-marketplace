@@ -27,8 +27,12 @@ export const HeroStyled = styled.section`
     height: 100vh;
     padding-top: 5rem;
   }
-  @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 900px) {
-    padding-bottom: 30rem;
+  @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 1700px) {
+    padding-bottom: 40rem;
+    padding-top: 0rem;
+  }
+  @media screen and (min-height: 100px) and (max-height: 500px) and (max-width: 1200px) {
+    padding-bottom: 34rem;
     padding-top: 0rem;
   }
   @media (max-width: ${({ theme }) => theme.make}) {
