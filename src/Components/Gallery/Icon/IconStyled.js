@@ -8,8 +8,7 @@ export const IconStyled = styled.div`
     margin: 0px 0 0 -75px;
     border-radius: 50%;
     position: absolute;
-    /* top: 120px; */
-    /* background-color: white; */
+    background-image: url(${({ image }) => image});
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
     background-size: cover;
     background-repeat: no-repeat;

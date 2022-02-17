@@ -1,11 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Transition } from "react-transition-group";
-import { show, hide } from "../animation";
+import { show } from "../animation";
 import Icon from "../Icon/Icon";
 import { IconContainerStyled } from "./IconContainerStyled";
 import { APPEAR_TIME } from "../constant";
 const IconContainer = ({ iconEntered, scale, startingPos, ...props }) => {
-  const node3 = useRef(null);
   return (
     <IconContainerStyled>
       <Transition

@@ -11,13 +11,12 @@ const Icon = ({ ...props }) => {
   }, []);
 
   return (
-    <IconStyled>
+    <IconStyled image={image}>
       <div
         className="wrapper"
         ref={(el) => {
           icon = el;
         }}
-        style={{ backgroundImage: `url(${image})` }}
       >
         <h2 className="label">{title}</h2>
       </div>

@@ -50,7 +50,7 @@ export const GalleryStyled = styled.section`
       }
     }
     .carousel {
-      padding-top: 4rem;
+      padding-top: 2.5rem;
     }
   }
 `;
