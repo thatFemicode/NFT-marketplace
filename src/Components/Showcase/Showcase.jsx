@@ -1,5 +1,6 @@
 import React, { useState, useLayoutEffect, useRef } from "react";
 import { OuterLayout } from "../../Layout/Layout";
+import images from "./data";
 import { ShowCaseStyled } from "./ShowcaseStyled";
 
 const Showcase = () => {
