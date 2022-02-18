@@ -1,11 +1,11 @@
 import Chris from "./Img/ChrisPaul.jpg";
 import Can from "./Img/CrushedCan.jpg";
-import Distortion from "./Img/Distorttion.png";
+import Distortion from "./Img/Human Art.jpg";
 import Emimen from "./Img/Eminem.jpg";
 import Nanny from "./Img/NannyBoredApe.jpg";
 import Obsidian from "./Img/ObsidianBoredApe.jpg";
-import World from "./Img/World.jpg";
-import Wrapped from "./Img/Wrapped.jpg";
+import World from "./Img/Modelpose.png";
+
 const images = [
   { id: 1, image: Chris },
   { id: 2, image: Can },
@@ -14,6 +14,5 @@ const images = [
   { id: 5, image: Distortion },
   { id: 6, image: World },
   { id: 7, image: Obsidian },
-  { id: 8, image: Wrapped },
 ];
 export default images;

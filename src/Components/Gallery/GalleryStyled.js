@@ -7,7 +7,7 @@ export const GalleryStyled = styled.section`
   overflow: hidden;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   @media (max-width: ${({ theme }) => theme.images}) {
     padding-top: 0;
   }

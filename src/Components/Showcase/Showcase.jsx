@@ -3,7 +3,7 @@ import { OuterLayout } from "../../Layout/Layout";
 import images from "./data";
 import { ShowCaseStyled } from "./ShowcaseStyled";
 import gsap from "gsap";
-
+import Button from "../Button/PrimaryButton";
 const Showcase = () => {
   let timer = null;
   let elems = useRef([]);
@@ -102,7 +102,7 @@ const Showcase = () => {
                   alt=""
                 />
               </div>
-              <div className="stripes">
+              {/* <div className="stripes">
                 {images.map((_item, index) =>
                   index === state.current ? (
                     <span
@@ -118,12 +118,17 @@ const Showcase = () => {
                     ></span>
                   )
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="showcase-content">
-            <h1>Trending NFTS in different categories</h1>
+            <h1>Trending NFTS from our various collection</h1>
             <p>Have</p>
+            <Button
+              name={"Visit Marketplace"}
+              bgColor={"#87ceeb"}
+              color={"#000"}
+            />
           </div>
         </div>
       </OuterLayout>

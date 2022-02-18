@@ -4,18 +4,33 @@ export const ShowCaseStyled = styled.section`
   position: relative;
   /* height: 100%; */
   width: 100%;
-  padding-top: 3rem;
+  padding-top: 8rem;
   padding-left: 2rem;
   padding-right: 2rem;
 
   .showcase {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: ${({ theme }) => theme.images}) {
+      flex-direction: column-reverse;
+    }
     &-carousel {
-      flex: 2;
+      flex: 1;
       .album-container {
         position: relative;
-        height: 500px;
-        width: 500px;
+        /* height: 400px;
+        width: 400px; */
+        height: 350px;
+        width: 350px;
+        @media (max-width: ${({ theme }) => theme.kobe}) {
+          height: 300px;
+          width: 300px;
+        }
+        @media (max-width: ${({ theme }) => theme.text}) {
+          height: 250px;
+          width: 250px;
+        }
         overflow: hidden;
 
         /* background-color: #040404; */
@@ -37,13 +52,13 @@ export const ShowCaseStyled = styled.section`
           img {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            object-fit: cover;
           }
         }
-        .stripes {
+        /* .stripes {
           position: absolute;
-          left: 0;
-          bottom: -60px;
+          right: 0;
+          bottom: -20px;
           width: 100%;
           z-index: 100;
           height: 50px;
@@ -59,13 +74,28 @@ export const ShowCaseStyled = styled.section`
             margin: 1rem;
             cursor: pointer;
           }
-        }
+        } */
       }
     }
     &-content {
       flex: 2;
       text-align: left;
+      /* padding-left: 3rem; */
+      @media (max-width: ${({ theme }) => theme.kobe}) {
+        padding-left: 3rem;
+      }
+      @media (max-width: ${({ theme }) => theme.images}) {
+        padding-left: 0;
+      }
       h1 {
+        font-size: 3rem;
+        @media (max-width: ${({ theme }) => theme.service}) {
+          font-size: 2.5rem;
+        }
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          font-size: 2rem;
+        }
+        /* max-width: 600px; */
       }
     }
   }
