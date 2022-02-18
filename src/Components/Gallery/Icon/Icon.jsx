@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { slide, bounce, show } from "../animation";
+import { bounce, show } from "../animation";
 import { IconStyled } from "./IconStyled";
 
 const Icon = ({ ...props }) => {
@@ -8,7 +8,7 @@ const Icon = ({ ...props }) => {
   const { startingPos, timeline, title, image, scale } = { ...props };
   useEffect(() => {
     timeline.add([show(icon, scale, startingPos), bounce(icon)], "start");
-  }, []);
+  }, [timeline, scale, startingPos]);
 
   return (
     <IconStyled image={image}>

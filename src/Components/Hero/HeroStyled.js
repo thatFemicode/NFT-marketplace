@@ -230,6 +230,10 @@ export const HeroStyled = styled.section`
       @media (max-width: ${({ theme }) => theme.desktop}) {
         width: 50%;
       }
+
+      @media screen and (min-height: 812px) and (max-height: 896px) {
+        margin-top: 3rem;
+      }
       .box {
         position: absolute;
         /* display: block; */
@@ -332,6 +336,7 @@ export const HeroStyled = styled.section`
             left: 90px;
             width: 100px;
             height: 130px;
+            top: 4px;
           }
           @media (max-width: ${({ theme }) => theme.max}) {
             left: 90px;

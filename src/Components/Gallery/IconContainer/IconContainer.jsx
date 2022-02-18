@@ -14,9 +14,7 @@ const IconContainer = ({ iconEntered, scale, startingPos, ...props }) => {
         }}
         // When onEnter has completed, this triggers a callback that handles the
         // starting of the main timeline
-
         onEntered={() => iconEntered()}
-        // onExit={hide}
         appear
         in
         timeout={APPEAR_TIME * 1000}

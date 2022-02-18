@@ -11,7 +11,7 @@ export const IconCarouselStyled = styled.div`
     width: 320px;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding-top: 1.4rem;
+    padding-top: 2.4rem;
   }
   /* padding-top: 2rem; */
 `;

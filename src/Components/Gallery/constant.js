@@ -8,7 +8,7 @@ export const X_TOTAL_DISTANCE = 2800;
 export const X_MAX = X_TOTAL_DISTANCE - X_OFFSET;
 export const X_MIN = -X_OFFSET;
 // How much the icons 'bounce' up and down
-export const BOUNCE_HEIGHT = 15;
+export const BOUNCE_HEIGHT = 25;
 // Time to move from highest to lowest bounce point (s)
 export const BOUNCE_TIME = 4;
 // Time to go from 0 opactity fo 1 opacity on first load

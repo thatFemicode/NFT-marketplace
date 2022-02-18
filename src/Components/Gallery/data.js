@@ -2,27 +2,18 @@ import Apple from "./Img/Apple.jpg";
 import Labador from "./Img/BlackLabrador.png";
 import Rock from "./Img/BlackRock.jpg";
 import Blend from "./Img/Blend.jpg";
-import BoredApre from "./Img/BoredApe.jpg";
-import BoredApe from "./Img/BoredApe.png";
-import CaptainBoredApe from "./Img/CaptainBoredApe.png";
 import CaveBoredApe from "./Img/CaveBoredApe.png";
 import TwochainzApe from "./Img/ChainzBoredApe.png";
 import Bust from "./Img/DigitalBust.jpg";
-import Mitchell from "./Img/DonovanMitchell.jpg";
-import Wade from "./Img/DwayneWade.jpg";
 import Frank from "./Img/FrankOcean.png";
 import Hidden from "./Img/Hidden.jpg";
 import HumanGrid from "./Img/HumanGrid.jpg";
 import Ja from "./Img/JaMorant.jpg";
-import Derulo from "./Img/JasonDerulo.jpg";
 import Jcole from "./Img/JCole.jpg";
-import Kanye from "./Img/Kanye.jpg";
-import Kendrick from "./Img/KendrickLamar.png";
 import Lefou from "./Img/Lefou.jpg";
 import Mark from "./Img/MarkRuffalo.jpg";
 import Paraphase from "./Img/PARAPHASE.jpg";
-import Steve from "./Img/SteveKerr.jpg";
-import Trae from "./Img/TraeYoung.jpg";
+
 const icons = [
   {
     id: 1,
