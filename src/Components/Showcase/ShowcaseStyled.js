@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const ShowCaseStyled = styled.section`
   position: relative;
-  /* height: 100%; */
+  height: 100%;
   width: 100%;
   padding-top: 8rem;
+  padding-bottom: 8rem;
   padding-left: 2rem;
   padding-right: 2rem;
-
+  /* background-color: #f6f8fb; */
+  @media (max-width: ${({ theme }) => theme.desktop}) {
+    padding-top: 3rem;
+  }
   .showcase {
     display: flex;
     justify-content: space-between;
@@ -16,6 +20,9 @@ export const ShowCaseStyled = styled.section`
       flex-direction: column-reverse;
     }
     &-carousel {
+      @media (max-width: ${({ theme }) => theme.images}) {
+        padding-top: 3rem;
+      }
       flex: 1;
       .album-container {
         position: relative;
@@ -23,6 +30,7 @@ export const ShowCaseStyled = styled.section`
         width: 400px; */
         height: 350px;
         width: 350px;
+        border-radius: 2rem;
         @media (max-width: ${({ theme }) => theme.kobe}) {
           height: 300px;
           width: 300px;
@@ -30,6 +38,10 @@ export const ShowCaseStyled = styled.section`
         @media (max-width: ${({ theme }) => theme.text}) {
           height: 250px;
           width: 250px;
+        }
+        @media (max-width: ${({ theme }) => theme.images}) {
+          height: 200px;
+          width: 200px;
         }
         overflow: hidden;
 
@@ -89,13 +101,24 @@ export const ShowCaseStyled = styled.section`
       }
       h1 {
         font-size: 3rem;
+        line-height: 1.4;
         @media (max-width: ${({ theme }) => theme.service}) {
           font-size: 2.5rem;
         }
-        @media (max-width: ${({ theme }) => theme.desktop}) {
+        @media (max-width: ${({ theme }) => theme.text}) {
           font-size: 2rem;
         }
         /* max-width: 600px; */
+        span {
+          color: #87ceeb;
+          &.collection {
+            color: #ff7f7f;
+          }
+        }
+      }
+      p {
+        max-width: 400px;
+        line-height: 1.6;
       }
     }
   }

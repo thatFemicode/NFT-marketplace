@@ -122,8 +122,14 @@ const Showcase = () => {
             </div>
           </div>
           <div className="showcase-content">
-            <h1>Trending NFTS from our various collection</h1>
-            <p>Have</p>
+            <h1>
+              Trending <span> NFTS</span> from our various
+              <span className="collection">collections</span>
+            </h1>
+            <p>
+              View art from different artist from our collections and visit
+              marketplace
+            </p>
             <Button
               name={"Visit Marketplace"}
               bgColor={"#87ceeb"}

@@ -8,7 +8,7 @@ export const HeroStyled = styled.section`
   height: 100vh;
   width: 100%;
   z-index: 10;
-  /* background-color: #f6f8fb; */
+  background-color: #f6f8fb;
 
   @media (max-width: ${({ theme }) => theme.mind}) {
   }
@@ -147,7 +147,7 @@ export const HeroStyled = styled.section`
       h1 {
         max-width: 600px;
         font-weight: 600;
-        font-size: 2.7rem;
+        font-size: 3rem;
         line-height: 1.6;
         /* color: transparent; */
 
@@ -177,9 +177,10 @@ export const HeroStyled = styled.section`
             animation: expand 0.5s ease forwards;
           } */
         }
+        @media (max-width: ${({ theme }) => theme.mins}) {
+          font-size: 2.7rem;
+        }
         @media (max-width: ${({ theme }) => theme.dont}) {
-          /* font-size: 2.2rem; */
-
           font-size: 2.6rem;
         }
         @media (max-width: ${({ theme }) => theme.text}) {

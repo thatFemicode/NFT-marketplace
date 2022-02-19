@@ -1,4 +1,4 @@
-import Chris from "./Img/ChrisPaul.jpg";
+import Chris from "./Img/Chris.jpg";
 import Can from "./Img/CrushedCan.jpg";
 import Distortion from "./Img/Human Art.jpg";
 import Emimen from "./Img/Eminem.jpg";
