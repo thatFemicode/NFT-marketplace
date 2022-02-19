@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer">
           <div className="footer-top">
             <div className="footer-top-left">
-              <h1>Dont admire, stay in the loop</h1>
+              <h1>Dont admire from afar, stay in the loop</h1>
               <p className="content">
                 Join our mailing list to stay in the loop with our newest
                 feature releases, NFT drops, and tips and tricks for navigating
@@ -60,8 +60,10 @@ const Footer = () => {
                 <h1>ExpressSea</h1>
               </div>
               <div className="content">
-                The best digital market to get mind blowing digital art. Come
-                and get that dream art today
+                <p>
+                  The best digital market to get mind blowing digital art. Come
+                  and get that dream art today
+                </p>
               </div>
             </div>
             <div className="footer-mid-right">
@@ -77,9 +79,13 @@ const Footer = () => {
               </div>
               <div className="footer-mid-right-two">
                 <h3>Why ExpressSea</h3>
-              </div>
-              <div className="footer-mid-right-three">
-                <h3>Marketplace</h3>
+                <ul className="list">
+                  <li>Digital Art</li>
+                  <li>Crypto Reliance</li>
+                  <li>Wallet Connection</li>
+                  <li>Creative Artist</li>
+                  <li>Awesome Arts</li>
+                </ul>
               </div>
             </div>
           </div>

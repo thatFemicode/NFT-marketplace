@@ -21,16 +21,21 @@ export const FooterStyled = styled.footer`
       flex-wrap: wrap;
       padding-bottom: 40px;
       margin-bottom: 20px;
-      border-bottom: 1px solid rgba(229, 232, 235, 0.25);
+      border-bottom: 1px solid #fff;
 
       &-left {
         display: flex;
         flex-direction: column;
         flex: 1 0 50%;
+
         align-items: flex-start;
         text-align: left;
         padding-top: 40px;
         padding-right: 64px;
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          flex: 0 0 100%;
+          align-items: center;
+        }
         h1 {
           color: rgb(255, 255, 255);
           /* font-weight: 600; */
@@ -76,6 +81,9 @@ export const FooterStyled = styled.footer`
                 font-size: 16px;
                 &::placeholder {
                   color: #000;
+                  @media (max-width: ${({ theme }) => theme.make}) {
+                    font-size: 0.7rem;
+                  }
                 }
                 /* line-height: 26px; */
                 /* min-height: 26px; */
@@ -100,15 +108,24 @@ export const FooterStyled = styled.footer`
         align-items: flex-start;
         text-align: left;
         padding-top: 40px;
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          flex: 0 0 100%;
+          /* align-items: center;
+          justify-content: center;
+          text-align: center; */
+        }
         h1 {
           font-size: 1.3rem;
         }
         .icons {
           display: flex;
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            /* align-items: center;
+            justify-content: center; */
+          }
           .icon {
             display: inline-flex;
             flex-direction: row;
-
             align-items: center;
             border-radius: 50%;
             justify-content: center;
@@ -131,8 +148,8 @@ export const FooterStyled = styled.footer`
       display: flex;
       padding-bottom: 40px;
       margin-bottom: 20px;
-      border-bottom: 1px solid rgba(229, 232, 235, 0.25);
-
+      border-bottom: 1px solid #fff;
+      flex-wrap: wrap;
       &-left {
         display: flex;
         flex-direction: column;
@@ -140,15 +157,38 @@ export const FooterStyled = styled.footer`
         padding-top: 40px;
         align-items: flex-start;
         text-align: left;
-
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          width: 100%;
+          /* align-items: center;
+          text-align: center; */
+        }
         .logo {
           margin-bottom: 1rem;
+          display: inline-flex;
+          flex-direction: row;
+          align-items: center;
+          border-radius: 50%;
+          justify-content: center;
+          padding: 8px 10px;
+          background-color: #fff;
+          border: none;
+          width: 64px;
+          height: 64px;
+          margin-top: 8px;
         }
         .heading {
           margin-bottom: 1rem;
+          h1 {
+            font-size: 2rem;
+          }
         }
         .content {
           margin-bottom: 1rem;
+          p {
+            @media (max-width: ${({ theme }) => theme.desktop}) {
+              max-width: 500px;
+            }
+          }
         }
       }
       &-right {
@@ -160,22 +200,42 @@ export const FooterStyled = styled.footer`
         padding-top: 40px;
         align-items: flex-start;
         padding-left: 72px;
+        @media (max-width: ${({ theme }) => theme.desktop}) {
+          width: 100%;
+          padding-left: 0;
+        }
         &-one {
           display: flex;
           flex-direction: column;
           height: 100%;
-          width: 20%;
+          width: 30%;
           padding-top: 20px;
           align-items: flex-start;
           margin-bottom: 1rem;
-
+          @media (max-width: ${({ theme }) => theme.dont}) {
+            width: 40%;
+          }
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            width: 50%;
+          }
+          @media (max-width: ${({ theme }) => theme.max}) {
+            width: 100%;
+            /* align-items: center; */
+          }
           h3 {
             margin-bottom: 1rem;
+            font-size: 1.3rem;
+            @media (max-width: ${({ theme }) => theme.text}) {
+              font-size: 1rem;
+            }
           }
           .list {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            @media (max-width: ${({ theme }) => theme.make}) {
+              /* align-items: center; */
+            }
             li {
               margin-bottom: 1rem;
             }
@@ -185,10 +245,38 @@ export const FooterStyled = styled.footer`
           display: flex;
           flex-direction: column;
           height: 100%;
-          width: 20%;
+          width: 30%;
           padding-top: 20px;
           align-items: flex-start;
           margin-bottom: 1rem;
+          @media (max-width: ${({ theme }) => theme.dont}) {
+            width: 40%;
+          }
+          @media (max-width: ${({ theme }) => theme.desktop}) {
+            width: 50%;
+          }
+          @media (max-width: ${({ theme }) => theme.max}) {
+            width: 100%;
+            /* align-items: center; */
+          }
+          h3 {
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            @media (max-width: ${({ theme }) => theme.text}) {
+              font-size: 1rem;
+            }
+          }
+          .list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            @media (max-width: ${({ theme }) => theme.make}) {
+              /* align-items: center; */
+            }
+            li {
+              margin-bottom: 1rem;
+            }
+          }
         }
       }
     }
