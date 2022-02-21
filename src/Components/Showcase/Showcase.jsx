@@ -4,6 +4,8 @@ import images from "./data";
 import { ShowCaseStyled } from "./ShowcaseStyled";
 import gsap from "gsap";
 import Button from "../Button/PrimaryButton";
+import { Link } from "react-router-dom";
+
 const Showcase = () => {
   let timer = null;
   let elems = useRef([]);
@@ -130,11 +132,13 @@ const Showcase = () => {
               View art from different artist from our collections and visit
               marketplace
             </p>
-            <Button
-              name={"Visit Marketplace"}
-              bgColor={"#87ceeb"}
-              color={"#000"}
-            />
+            <Link to="/marketplace">
+              <Button
+                name={"Visit Marketplace"}
+                bgColor={"#87ceeb"}
+                color={"#000"}
+              />
+            </Link>
           </div>
         </div>
       </OuterLayout>

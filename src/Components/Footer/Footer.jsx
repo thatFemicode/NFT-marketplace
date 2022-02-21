@@ -2,6 +2,7 @@ import React from "react";
 import { OuterLayout } from "../../Layout/Layout";
 import { FooterStyled } from "./FooterStyled";
 import Logo from "./Img/slack.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,7 +25,9 @@ const Footer = () => {
                       name="email"
                     ></input>
                   </div>
-                  <button>Marketplace</button>
+                  <Link to="/marketplace">
+                    <button>Marketplace</button>
+                  </Link>
                 </div>
               </form>
             </div>

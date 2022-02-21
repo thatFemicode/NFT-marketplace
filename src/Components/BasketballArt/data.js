@@ -1,33 +1,33 @@
-import Caruso from "./Basketball-NFT/Alex Caruso.jpg";
-import Ben from "./Basketball-NFT/Ben Simmons.jpg";
-import ChrisPaul from "./Basketball-NFT/Chris Paul.jpg";
-import Dennis from "./Basketball-NFT/Dennis Schroder.jpg";
-import Derrick from "./Basketball-NFT/Derrick Rose 🌹.jpg";
-import Booker from "./Basketball-NFT/Devin Booker.jpg";
-import Mitchell from "./Basketball-NFT/Donovan Mitchell.jpg";
+import Caruso from "./Basketball-NFT/Caruso.jpg";
+import Ben from "./Basketball-NFT/Ben.jpg";
+import ChrisPaul from "./Basketball-NFT/Chris.jpg";
+import Dennis from "./Basketball-NFT/Dennis.jpg";
+import Derrick from "./Basketball-NFT/Derrick.jpg";
+import Booker from "./Basketball-NFT/Debin.jpg";
+import Mitchell from "./Basketball-NFT/Donovan.jpg";
 import Wade from "./Basketball-NFT/Dwayne Wade.jpg";
-import Giannis from "./Basketball-NFT/Giannis Antetokounmpo 🏛.jpg";
-import Hakeem from "./Basketball-NFT/Hakeem Olajuwon 🚀.jpg";
-import Ja from "./Basketball-NFT/Ja Morant.jpg";
-import Jaylen from "./Basketball-NFT/Jaylen Brown.jpg";
-import Jayson from "./Basketball-NFT/Jayson Tatum 0️⃣.jpg";
-import Jimmy from "./Basketball-NFT/Jimmy Butler 🤠.jpg";
-import Joel from "./Basketball-NFT/Joel Embiid 🔨.jpg";
-import Kevin from "./Basketball-NFT/Kevin Durant 💸.jpg";
-import Lebron from "./Basketball-NFT/King James 👑.jpg";
-import Klay from "./Basketball-NFT/Klay Thompson.jpg";
-import Kobe from "./Basketball-NFT/Kobe Bryant.jpg";
-import Kyrie from "./Basketball-NFT/Kyrie Irving.jpg";
-import Luka from "./Basketball-NFT/Luka Doncic.jpg";
-import Manu from "./Basketball-NFT/Manu Ginobilli 🇦🇷.jpg";
-import Gasol from "./Basketball-NFT/Marc Gasol.jpg";
-import Siakam from "./Basketball-NFT/Pascal Siakam 🦖.jpg";
-import Paul from "./Basketball-NFT/Paul George 🎮.jpg";
-import Ricky from "./Basketball-NFT/Ricky Rubio 🇪🇸.jpg";
-import Steph from "./Basketball-NFT/Steph Curry 👨🏽_🍳.jpg";
-import Steve from "./Basketball-NFT/Steve Kerr.jpg";
-import Trae from "./Basketball-NFT/Trae Young.jpg";
-import Zach from "./Basketball-NFT/Zach Lavine 🐂.jpg";
+import Giannis from "./Basketball-NFT/Giannis.jpg";
+import Hakeem from "./Basketball-NFT/Hakeem.jpg";
+import Ja from "./Basketball-NFT/Ja.jpg";
+import Jaylen from "./Basketball-NFT/Brown.jpg";
+import Jayson from "./Basketball-NFT/Jayson.jpg";
+import Jimmy from "./Basketball-NFT/Jimmy.jpg";
+import Joel from "./Basketball-NFT/Joel.jpg";
+import Kevin from "./Basketball-NFT/Kevin.jpg";
+import Lebron from "./Basketball-NFT/Lebron.jpg.jpg";
+import Klay from "./Basketball-NFT/Klay.jpg";
+import Kobe from "./Basketball-NFT/Kobe.jpg";
+import Kyrie from "./Basketball-NFT/Kyrie.jpg";
+import Luka from "./Basketball-NFT/Luka.jpg";
+import Manu from "./Basketball-NFT/Manu.jpg";
+import Gasol from "./Basketball-NFT/Marc.jpg";
+import Siakam from "./Basketball-NFT/Pascal.jpg";
+import Paul from "./Basketball-NFT/Paul.jpg";
+import Ricky from "./Basketball-NFT/Ricky.jpg";
+import Steph from "./Basketball-NFT/Magic.jpg";
+import Magic from "./Basketball-NFT/Magic Kerr.jpg";
+import Trae from "./Basketball-NFT/Trae.jpg";
+import Zach from "./Basketball-NFT/Zach.jpg";
 import Artist from "./Celebrity-NFT/avatar.png";
 const items = [
   {
@@ -221,10 +221,10 @@ const items = [
   },
   {
     id: 28,
-    title: "Steve Kerr",
+    title: "Magic Johnson",
     artist: "Femi",
     artistImage: Artist,
-    image: Steve,
+    image: Magic,
   },
   {
     id: 29,

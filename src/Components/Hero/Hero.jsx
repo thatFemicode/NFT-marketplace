@@ -62,7 +62,7 @@ const Hero = () => {
       <OuterLayout>
         <div className="hero">
           <div className="hero-left">
-            <Link to="/marketplace">
+            <Link className="linking" to="/marketplace">
               <span className="express">ExpressSea</span>
               <span className="visit">Visit Marketplace</span>
               <svg viewBox="0 0 20 20" fill="none">
@@ -90,7 +90,9 @@ const Hero = () => {
               A marketplace to discover rare and creative NFTs minted by
               thousands of creative artist
             </p>
-            <Button name={"Discover Art"} bgColor={"#b06c49"} />
+            <Link to="/marketplace">
+              <Button name={"Discover Art"} bgColor={"#b06c49"} />
+            </Link>
           </div>
           <div className="hero-right">
             <div ref={img1} className="box box-1"></div>

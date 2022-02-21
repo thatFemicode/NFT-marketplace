@@ -99,6 +99,7 @@ export const FooterStyled = styled.footer`
               border: none;
               color: #000;
               margin-left: 1rem;
+              cursor: pointer;
             }
           }
         }
@@ -148,7 +149,7 @@ export const FooterStyled = styled.footer`
       display: flex;
       padding-bottom: 40px;
       margin-bottom: 20px;
-      border-bottom: 1px solid #fff;
+
       flex-wrap: wrap;
       &-left {
         display: flex;

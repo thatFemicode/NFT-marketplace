@@ -20,7 +20,7 @@ import Surprised from "./Ape-NFT/SurprisedBoredApe.png";
 import Talent from "./Ape-NFT/TalentBored.png";
 import Weed from "./Ape-NFT/WeedBoredApe.png";
 import Yatch from "./Ape-NFT/YachtBoredApe.jpg";
-import Artist from "./Celebrity-NFT/avatar.png";
+import Artist from "./Ape-NFT/avatar.png";
 const items = [
   {
     id: 1,

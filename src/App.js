@@ -8,6 +8,8 @@ import { Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { MainStyled } from "./MainStyled";
 import Navbar from "./Components/Navbar/Navbar";
+import MarketplaceMenu from "./Components/MarketplaceMenu/MarketplaceMenu";
+
 function App() {
   const theme = {
     colors: {
@@ -51,6 +53,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         {/* <Navbar /> */}
+        {/* <MarketplaceMenu /> */}
         <MainStyled>
           <CustomRoute>
             <Route path="/" element={<Home />} />

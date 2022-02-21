@@ -74,7 +74,7 @@ export const HeroStyled = styled.section`
         padding-top: 1rem;
         padding-bottom: 0;
       }
-      a {
+      .linking {
         position: relative;
         display: inline-flex;
         /* justify-content: space-between; */
