@@ -5,7 +5,7 @@ import Dennis from "./Basketball-NFT/Dennis.jpg";
 import Derrick from "./Basketball-NFT/Derrick.jpg";
 import Booker from "./Basketball-NFT/Debin.jpg";
 import Mitchell from "./Basketball-NFT/Donovan.jpg";
-import Wade from "./Basketball-NFT/Dwayne Wade.jpg";
+import Wade from "./Basketball-NFT/Dwayne.jpg";
 import Giannis from "./Basketball-NFT/Giannis.jpg";
 import Hakeem from "./Basketball-NFT/Hakeem.jpg";
 import Ja from "./Basketball-NFT/Ja.jpg";
@@ -14,7 +14,7 @@ import Jayson from "./Basketball-NFT/Jayson.jpg";
 import Jimmy from "./Basketball-NFT/Jimmy.jpg";
 import Joel from "./Basketball-NFT/Joel.jpg";
 import Kevin from "./Basketball-NFT/Kevin.jpg";
-import Lebron from "./Basketball-NFT/Lebron.jpg.jpg";
+import Lebron from "./Basketball-NFT/Lebron.jpg";
 import Klay from "./Basketball-NFT/Klay.jpg";
 import Kobe from "./Basketball-NFT/Kobe.jpg";
 import Kyrie from "./Basketball-NFT/Kyrie.jpg";
@@ -24,11 +24,11 @@ import Gasol from "./Basketball-NFT/Marc.jpg";
 import Siakam from "./Basketball-NFT/Pascal.jpg";
 import Paul from "./Basketball-NFT/Paul.jpg";
 import Ricky from "./Basketball-NFT/Ricky.jpg";
-import Steph from "./Basketball-NFT/Magic.jpg";
-import Magic from "./Basketball-NFT/Magic Kerr.jpg";
+import Steph from "./Basketball-NFT/Steph.jpg";
+import Magic from "./Basketball-NFT/Magic.jpg";
 import Trae from "./Basketball-NFT/Trae.jpg";
 import Zach from "./Basketball-NFT/Zach.jpg";
-import Artist from "./Celebrity-NFT/avatar.png";
+import Artist from "./Basketball-NFT/avatar.png";
 const items = [
   {
     id: 1,
