@@ -7,7 +7,7 @@ import {
 } from "./BasketballArtStyled";
 import items from "./data";
 import { useNavigate } from "react-router-dom";
-import Img from "../Img/ImgStyled";
+import Img, { PlayerImg } from "../Img/ImgStyled";
 import { gsap } from "gsap";
 const BasketballArt = () => {
   const nav = useNavigate();
@@ -43,14 +43,16 @@ const BasketballArt = () => {
   return (
     <BasketballArtStyled ref={el}>
       {items.map((item) => {
+        const { id } = item;
+
         return (
           <Item
             className="single"
             onClick={() => {
-              nav("/item:id");
+              nav(`/item/${id}`, { state: item });
             }}
           >
-            <Img src={item.image} />
+            <PlayerImg src={item.image} />
             <Title>{item.title}</Title>
             <SubTitle>{item.subTitle}</SubTitle>
           </Item>

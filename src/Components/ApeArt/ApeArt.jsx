@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { ApeArtStyled, Item, Title, SubTitle } from "./ApeArtStyled";
 import items from "./data";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Img from "../Img/ImgStyled";
 import { gsap } from "gsap";
 
@@ -39,11 +39,13 @@ const ApeArt = () => {
   return (
     <ApeArtStyled ref={el}>
       {items.map((item) => {
+        const { id } = item;
+
         return (
           <Item
             className="single"
             onClick={() => {
-              nav("/item:id");
+              nav(`/item/${id}`, { state: item });
             }}
           >
             <Img src={item.image} />

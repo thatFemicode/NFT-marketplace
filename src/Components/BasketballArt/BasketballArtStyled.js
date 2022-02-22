@@ -11,6 +11,17 @@ export const BasketballArtStyled = styled.div`
   /* height: 600px; */
   max-width: 1300px;
   margin: 0 auto;
+  @media (max-width: ${({ theme }) => theme.desktop}) {
+    max-width: 540px;
+  }
+  @media (max-width: ${({ theme }) => theme.images}) {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {
     display: none;

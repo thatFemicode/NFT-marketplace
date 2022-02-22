@@ -58,7 +58,7 @@ function App() {
           <CustomRoute>
             <Route path="/" element={<Home />} />
             <Route path="/marketplace" element={<MarketPlace />} />
-            <Route path="/item:id" element={<Item />} />
+            <Route path="/item/:id" element={<Item />} />
           </CustomRoute>
         </MainStyled>
       </ThemeProvider>

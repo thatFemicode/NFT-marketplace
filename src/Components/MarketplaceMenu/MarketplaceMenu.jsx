@@ -8,7 +8,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 const MarketplaceMenu = () => {
   const nav = useNavigate();
   const { pathname } = useLocation();
-
+  // console.log(pathname);
   return (
     <MarketplaceMenuStyled>
       <Link
@@ -20,10 +20,10 @@ const MarketplaceMenu = () => {
         <FiHome />
       </Link>
       <Link
-        active={pathname === "/item:id" || pathname === "/product"}
-        onClick={() => {
-          nav("/item:id");
-        }}
+        active={pathname.includes("/item/") || pathname === "/product"}
+        // onClick={() => {
+        //   nav("/item:id");
+        // }}
       >
         <BiStore />
       </Link>

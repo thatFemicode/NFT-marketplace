@@ -50,11 +50,15 @@ export const Content = styled.div`
   position: relative;
   overflow: auto;
   overflow-x: hidden;
-  height: 580px;
+  height: 620px;
   width: 100%;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {
     display: none;
+  }
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    margin: 0;
+    height: 650px;
   }
 `;

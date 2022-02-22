@@ -8,8 +8,9 @@ export const MarketplaceMenuStyled = styled.nav`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 10%;
+  height: 60px;
   backdrop-filter: blur(50px);
+  z-index: 20;
 `;
 export const Link = styled.a`
   font-size: 1.3rem;

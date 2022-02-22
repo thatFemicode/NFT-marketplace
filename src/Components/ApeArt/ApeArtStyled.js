@@ -15,6 +15,10 @@ export const ApeArtStyled = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 `;
 export const Item = styled.div`
   padding: 0 0.4rem;
