@@ -18,7 +18,7 @@ import StrangeAdventure from "./RandomArt-NFT/StrangeAdventure.jpg";
 import Tears from "./RandomArt-NFT/Tears.png";
 import World from "./RandomArt-NFT/World.jpg";
 import Wrapped from "./RandomArt-NFT/Wrapped.jpg";
-import Artist from "./Polygonart-NFT/avatar.png";
+import Artist from "./RandomArt-NFT/avatar.png";
 
 const items = [
   { id: 1, title: "Badoo", artist: "Femi", artistImage: Artist, image: Badoo },
@@ -156,3 +156,4 @@ const items = [
     image: Wrapped,
   },
 ];
+export default items;

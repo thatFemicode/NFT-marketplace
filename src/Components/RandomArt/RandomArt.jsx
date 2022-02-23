@@ -1,14 +1,14 @@
 import React from "react";
-import Img from "../Img/ImgStyled";
 import items from "./data";
-import { PolygonArtStyled, Item, Title, SubTitle } from "./PolygonArtStyled";
+import Img from "../Img/ImgStyled";
+import { RandomArtStyled, Item, Title, SubTitle } from "./RandomArtStyled";
 import { useNavigate } from "react-router-dom";
 
-const PolygonArt = () => {
+const RandomArt = () => {
   const nav = useNavigate();
 
   return (
-    <PolygonArtStyled>
+    <RandomArtStyled>
       {items.map((item) => {
         const { id } = item;
 
@@ -25,8 +25,8 @@ const PolygonArt = () => {
           </Item>
         );
       })}
-    </PolygonArtStyled>
+    </RandomArtStyled>
   );
 };
 
-export default PolygonArt;
+export default RandomArt;

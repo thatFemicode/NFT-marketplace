@@ -45,7 +45,7 @@ export const Title = styled.span`
 `;
 
 export const Content = styled.div`
-  margin: 0 0.5rem;
+  /* margin: 0 0.5rem; */
   margin-top: 1rem;
   position: relative;
   overflow: auto;
@@ -57,7 +57,7 @@ export const Content = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
-  @media (max-width: ${({ theme }) => theme.foot}) {
+  @media (max-width: ${({ theme }) => theme.images}) {
     margin: 0;
     height: 650px;
   }
