@@ -10,6 +10,7 @@ export const MarketplaceStyled = styled.main`
   overflow: hidden;
   height: 100vh;
   overflow-x: hidden;
+  align-items: center;
 `;
 export const Pages = styled.div`
   flex: 1;

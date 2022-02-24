@@ -7,8 +7,8 @@ import CustomRoute from "./Components/CustomSwitch/CustomSwitch";
 import { Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { MainStyled } from "./MainStyled";
-import Navbar from "./Components/Navbar/Navbar";
-import MarketplaceMenu from "./Components/MarketplaceMenu/MarketplaceMenu";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import Artist from "./Pages/Artist/Artist";
 
 function App() {
   const theme = {
@@ -54,11 +54,13 @@ function App() {
       <ThemeProvider theme={theme}>
         {/* <Navbar /> */}
         {/* <MarketplaceMenu /> */}
+        <ScrollToTop />
         <MainStyled>
           <CustomRoute>
             <Route path="/" element={<Home />} />
             <Route path="/marketplace" element={<MarketPlace />} />
             <Route path="/item/:id" element={<Item />} />
+            <Route path="/artist" element={<Artist />} />
           </CustomRoute>
         </MainStyled>
       </ThemeProvider>

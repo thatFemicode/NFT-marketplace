@@ -1,23 +1,23 @@
 import Drake from "./Celebrity-NFT/Drake.png";
 import Eminem from "./Celebrity-NFT/Eminem.jpg";
 import Tyler from "./Celebrity-NFT/Feliciathegoat.jpg";
-import Frank from "./Celebrity-NFT/Frank Ocean.png";
-import IceCube from "./Celebrity-NFT/Ice Cube.png";
-import Jcole from "./Celebrity-NFT/J Cole.jpg";
-import Jason from "./Celebrity-NFT/Jason Derulo.jpg";
+import Frank from "./Celebrity-NFT/FrankOcean.png";
+import IceCube from "./Celebrity-NFT/IceCube.png";
+import Jcole from "./Celebrity-NFT/JCole.jpg";
+import Jason from "./Celebrity-NFT/JasonDerulo.jpg";
 import Juice from "./Celebrity-NFT/Juice.png";
 import Kanye from "./Celebrity-NFT/Kanye.jpg";
-import Kendrick from "./Celebrity-NFT/Kendrick Lamar.png";
+import Kendrick from "./Celebrity-NFT/KendrickLamar.png";
 import LilNas from "./Celebrity-NFT/LilNas.jpg";
-import Nicki from "./Celebrity-NFT/Nicki Minaj.jpg";
-import Nipsey from "./Celebrity-NFT/Nipsey Hussle.jpg";
-import PopSmoke from "./Celebrity-NFT/Pop Smoke.jpg";
-import PostMalone from "./Celebrity-NFT/Post Malone.jpg";
+import Nicki from "./Celebrity-NFT/NickiMinaj.jpg";
+import Nipsey from "./Celebrity-NFT/NipseyHussle.jpg";
+import PopSmoke from "./Celebrity-NFT/PopSmoke.jpg";
+import PostMalone from "./Celebrity-NFT/PostMalone.jpg";
 import Rema from "./Celebrity-NFT/Rema.jpg";
 import Rihana from "./Celebrity-NFT/Rihanna.jpg";
-import Snoop from "./Celebrity-NFT/Snoop Dogg final.png";
-import TheWeekend from "./Celebrity-NFT/The Weeknd.jpg";
-import Travis from "./Celebrity-NFT/Travis Scott.png";
+import Snoop from "./Celebrity-NFT/SnoopDoggfinal.png";
+import TheWeekend from "./Celebrity-NFT/TheWeeknd.jpg";
+import Travis from "./Celebrity-NFT/TravisScott.png";
 import Artist from "./Celebrity-NFT/avatar.png";
 const items = [
   { id: 1, title: "Rema", artist: "Femi", artistImage: Artist, image: Rema },
@@ -37,7 +37,7 @@ const items = [
   },
   {
     id: 4,
-    title: "Tyler the Creator",
+    title: "Tyler",
     artist: "Femi",
     artistImage: Artist,
     image: Tyler,

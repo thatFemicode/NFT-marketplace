@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const CustomCursorStyled = styled.div`
   .secondary-cursor {
-    z-index: 10;
+    z-index: 70;
     border-radius: 50%;
     pointer-events: none;
     overflow: hidden;

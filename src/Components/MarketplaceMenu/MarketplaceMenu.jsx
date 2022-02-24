@@ -27,7 +27,12 @@ const MarketplaceMenu = () => {
       >
         <BiStore />
       </Link>
-      <Link>
+      <Link
+        active={pathname === "/artist"}
+        onClick={() => {
+          nav("/artist");
+        }}
+      >
         <AiOutlineUser />
       </Link>
     </MarketplaceMenuStyled>

@@ -10,7 +10,7 @@ export const MarketplaceMenuStyled = styled.nav`
   width: 100%;
   height: 60px;
   backdrop-filter: blur(50px);
-  z-index: 20;
+  z-index: 40;
 `;
 export const Link = styled.a`
   font-size: 1.3rem;

@@ -10,6 +10,10 @@ export const TitlesContainer = styled.span`
   justify-content: space-around;
   margin: 0 1.5rem;
   padding: 0 1rem;
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    margin: 0;
+    padding: 0 0.5rem;
+  }
 `;
 export const Title = styled.span`
   padding: 1.5rem 0;
@@ -50,15 +54,22 @@ export const Content = styled.div`
   position: relative;
   overflow: auto;
   overflow-x: hidden;
-  height: 620px;
+  height: 720px;
   width: 100%;
+  padding-top: 1rem;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
   &::-webkit-scrollbar {
     display: none;
   }
+  @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
+    height: 100%;
+  }
+  @media screen and (min-height: 900px) and (max-height: 1024px) and (max-width: 768px) {
+    height: 900px;
+  }
   @media (max-width: ${({ theme }) => theme.images}) {
     margin: 0;
-    height: 650px;
+    height: 850px;
   }
 `;

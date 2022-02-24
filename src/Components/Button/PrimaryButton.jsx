@@ -9,13 +9,17 @@ const ButtonStyled = styled.button`
   color: ${({ color }) => color || "#fff"};
   background-color: ${({ bgColor }) => bgColor};
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-top: ${({ margin }) => margin || "1rem"};
-
+  max-width: 200px;
   svg {
     width: 1.2rem;
+  }
+  @media (max-width: ${({ theme }) => theme.se}) {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.55rem;
   }
 `;
 const PrimaryButton = ({ name, bgColor, margin, color }) => {

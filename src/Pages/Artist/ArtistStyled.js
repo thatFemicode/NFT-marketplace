@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StoreStyled = styled.div`
+export const ArtistStyled = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;

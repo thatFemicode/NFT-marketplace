@@ -1,30 +1,41 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import items from "./data";
 import Img from "../Img/ImgStyled";
-import { RandomArtStyled, Item, Title, SubTitle } from "./RandomArtStyled";
+import { RandomArtStyled } from "./RandomArtStyled";
 import { useNavigate } from "react-router-dom";
+import { CardContainer, Item, Title, SubTitle } from "../CardStyled/CardStyled";
+import cardAnimation from "../animations";
 
 const RandomArt = () => {
   const nav = useNavigate();
-
+  let el = useRef();
+  useEffect(() => {
+    cardAnimation(el);
+  }, []);
   return (
-    <RandomArtStyled>
-      {items.map((item) => {
-        const { id } = item;
+    <RandomArtStyled ref={el}>
+      <CardContainer>
+        {items.map((item) => {
+          const { id } = item;
 
-        return (
-          <Item
-            className="single"
-            onClick={() => {
-              nav(`/item/${id}`, { state: item });
-            }}
-          >
-            <Img src={item.image} />
-            <Title>{item.title}</Title>
-            <SubTitle>{item.subTitle}</SubTitle>
-          </Item>
-        );
-      })}
+          return (
+            <Item
+              className="single"
+              onClick={() => {
+                nav(`/item/${id}`, { state: item });
+              }}
+            >
+              <span>
+                <img className="artist" src={item.artistImage} alt="" />
+                <Title>{item.title}</Title>
+              </span>
+              <Img src={item.image} />
+
+              <SubTitle>{item.subTitle}</SubTitle>
+            </Item>
+          );
+        })}
+      </CardContainer>
     </RandomArtStyled>
   );
 };

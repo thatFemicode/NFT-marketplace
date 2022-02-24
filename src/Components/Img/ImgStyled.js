@@ -15,8 +15,8 @@ const Img = styled.div`
     height: 120px;
   }
   @media (max-width: ${({ theme }) => theme.foot}) {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
   }
 `;
 export const PlayerImg = styled.div`
@@ -35,8 +35,8 @@ export const PlayerImg = styled.div`
     height: 120px;
   }
   @media (max-width: ${({ theme }) => theme.foot}) {
-    width: 140px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
 `;
 export default Img;

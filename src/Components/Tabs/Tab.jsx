@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import { TabStyled, Content, TitlesContainer, Title } from "./TabStyled";
 
 const Tab = ({ tabs }) => {
@@ -6,6 +7,7 @@ const Tab = ({ tabs }) => {
 
   return (
     <TabStyled>
+      <ScrollToTop />
       <TitlesContainer>
         {tabs.map((tab) => {
           return (

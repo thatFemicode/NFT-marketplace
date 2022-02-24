@@ -3,11 +3,10 @@ import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import Tab from "../../Components/Tabs/Tab";
 import tabs from "./data";
 import { MarketplaceStyled, Pages, PageContainer } from "./MarketplaceStyled";
-
+import Logo from "./img/slack.svg";
 const Marketplace = () => {
   return (
     <MarketplaceStyled>
-      <h1>ExpressSea</h1>
       <MarketplaceMenu />
       <PageContainer>
         <Tab tabs={tabs} />

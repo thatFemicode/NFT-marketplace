@@ -9,6 +9,6 @@ const tabs = [
   { id: 2, title: "Players ", content: <BasketballArt /> },
   { id: 3, title: "RandomArt", content: <RandomArt /> },
   { id: 4, title: "PolygonArt ", content: <PolygonArt /> },
-  { id: 5, title: "Celebrity ", content: "" },
+  { id: 5, title: "Celebrity ", content: <CelebrityArt /> },
 ];
 export default tabs;
