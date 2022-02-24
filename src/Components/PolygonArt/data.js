@@ -40,13 +40,21 @@ import Waterfall from "./Polygonart-NFT/Waterfall.jpg";
 import Wizard from "./Polygonart-NFT/Wizard.jpg";
 import Artist from "./Polygonart-NFT/avatar.png";
 const items = [
-  { id: 1, title: "Apple", artist: "Femi", artistImage: Artist, image: Apple },
+  {
+    id: 1,
+    title: "Apple",
+    artist: "Femi",
+    artistImage: Artist,
+    image: Apple,
+    info: "Digital art of Apple from our PolygonArt collection",
+  },
   {
     id: 2,
     title: "Avocado",
     artist: "Femi",
     artistImage: Artist,
     image: Avocado,
+    info: "Digital art of Avocado from our PolygonArt collection",
   },
   {
     id: 3,
@@ -54,6 +62,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Labador,
+    info: "Digital art of a Labador from our PolygonArt collection",
   },
   {
     id: 4,
@@ -61,6 +70,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: BrunoMars,
+    info: "Digital art of Bruno Mars from our PolygonArt collection",
   },
   {
     id: 5,
@@ -68,20 +78,23 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: BullDog,
+    info: "Digital art of a Bull Dog from our PolygonArt collection",
   },
   {
     id: 6,
-    title: "Chris Evans",
+    title: "Chris.E",
     artist: "Femi",
     artistImage: Artist,
     image: ChrisEvans,
+    info: "Digital art of Chris Evans from our PolygonArt collection",
   },
   {
     id: 7,
-    title: "Chris HemsWorth",
+    title: "Chris.H",
     artist: "Femi",
     artistImage: Artist,
     image: ChrisHemsWorth,
+    info: "Digital art of Chris HemsWorth from our PolygonArt collection",
   },
   {
     id: 8,
@@ -89,6 +102,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: CrushedCan,
+    info: "Digital art of a Crushed Can from our PolygonArt collection",
   },
   {
     id: 9,
@@ -96,6 +110,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Deer,
+    info: "Digital art of a Deer from our PolygonArt collection",
   },
   {
     id: 10,
@@ -103,6 +118,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: DigitalBust,
+    info: "Digital art of Digital Bust from our PolygonArt collection",
   },
   {
     id: 11,
@@ -110,6 +126,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Distortion,
+    info: "Digital art of Distortion Prism from our PolygonArt collection",
   },
   {
     id: 12,
@@ -117,6 +134,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Elephant,
+    info: "Digital art of a Elephant from our PolygonArt collection",
   },
   {
     id: 13,
@@ -124,13 +142,15 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Flamingo,
+    info: "Digital art of a Flamingo from our PolygonArt collection",
   },
   {
     id: 14,
-    title: "German Sheppard",
+    title: "German.S",
     artist: "Femi",
     artistImage: Artist,
     image: GermanShepperd,
+    info: "Digital art of a German Sheppard from our PolygonArt collection",
   },
   {
     id: 15,
@@ -138,6 +158,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Gobiya,
+    info: "Digital art of Gobiya from our PolygonArt collection",
   },
   {
     id: 16,
@@ -145,6 +166,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: GoldenEagle,
+    info: "Digital art of a Golden Eagle from our PolygonArt collection",
   },
   {
     id: 17,
@@ -152,6 +174,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: GOT,
+    info: "Digital art of GOT  from our PolygonArt collection",
   },
   {
     id: 18,
@@ -159,6 +182,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: HarryPorter,
+    info: "Digital art of a Harry Porter from our PolygonArt collection",
   },
   {
     id: 19,
@@ -166,6 +190,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Holy,
+    info: "Digital art of Holy from our PolygonArt collection",
   },
   {
     id: 20,
@@ -173,6 +198,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: HumanArt,
+    info: "Digital art of Human Art from our PolygonArt collection",
   },
   {
     id: 21,
@@ -180,6 +206,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: HumanGrid,
+    info: "Digital art of a Human Grid from our PolygonArt collection",
   },
   {
     id: 22,
@@ -187,13 +214,15 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: HumanPolygon,
+    info: "Digital art of a Human Polygon from our PolygonArt collection",
   },
   {
     id: 23,
-    title: "Kira Conley",
+    title: "Kira.C",
     artist: "Femi",
     artistImage: Artist,
     image: KiraConley,
+    info: "Digital art of Kira Conley from our PolygonArt collection",
   },
   {
     id: 24,
@@ -201,13 +230,15 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Heart,
+    info: "Digital art of Heart from our PolygonArt collection",
   },
   {
     id: 25,
-    title: "Mark Rufallo",
+    title: "Mark.R",
     artist: "Femi",
     artistImage: Artist,
     image: MarkRuffalo,
+    info: "Digital art of Mark Rufallo from our PolygonArt collection",
   },
   {
     id: 26,
@@ -215,6 +246,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: MetalLion,
+    info: "Digital art of a Metal Lion from our PolygonArt collection",
   },
   {
     id: 27,
@@ -222,6 +254,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Portrait,
+    info: "Digital art of a Portrait from our PolygonArt collection",
   },
   {
     id: 28,
@@ -229,6 +262,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: HumanPortrait,
+    info: "Digital art of a Human Portrait from our PolygonArt collection",
   },
   {
     id: 29,
@@ -236,6 +270,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Princess,
+    info: "Digital art of a Princess from our PolygonArt collection",
   },
   {
     id: 30,
@@ -243,6 +278,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Prism,
+    info: "Digital art of a Prism from our PolygonArt collection",
   },
   {
     id: 31,
@@ -250,13 +286,15 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Rabbit,
+    info: "Digital art of a Rabbit from our PolygonArt collection",
   },
   {
     id: 32,
-    title: "Robert Downey.Jnr",
+    title: "RDJ",
     artist: "Femi",
     artistImage: Artist,
     image: Rdj,
+    info: "Digital art of Robert Downey.Jnr from our PolygonArt collection",
   },
   {
     id: 33,
@@ -264,6 +302,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Samuel,
+    info: "Digital art of Samuel from our PolygonArt collection",
   },
   {
     id: 34,
@@ -271,6 +310,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Scarett,
+    info: "Digital art of Scarlett Johanson from our PolygonArt collection",
   },
   {
     id: 35,
@@ -278,6 +318,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Skull,
+    info: "Digital art of a Skull from our PolygonArt collection",
   },
   {
     id: 36,
@@ -285,6 +326,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: StanLee,
+    info: "Digital art of Stan Lee from our PolygonArt collection",
   },
   {
     id: 37,
@@ -292,6 +334,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: ThessaThompson,
+    info: "Digital art of Thessa Thompson from our PolygonArt collection",
   },
   {
     id: 38,
@@ -299,6 +342,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Universo,
+    info: "Digital art of Universo from our PolygonArt collection",
   },
   {
     id: 39,
@@ -306,6 +350,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Waterfall,
+    info: "Digital art of a Waterfall from our PolygonArt collection",
   },
   {
     id: 40,
@@ -313,6 +358,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Wizard,
+    info: "Digital art of a Wizard from our PolygonArt collection",
   },
 ];
 export default items;
