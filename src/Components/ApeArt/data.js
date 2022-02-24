@@ -28,6 +28,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Surprised,
+    info: "Digital art of Surprised Ape from our Ape collection",
   },
   {
     id: 2,
@@ -35,6 +36,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Basketball,
+    info: "Digital art of Basketball Ape from our Ape collection",
   },
   {
     id: 3,
@@ -42,6 +44,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Bored,
+    info: "Digital art of Bored Ape from our Ape collection",
   },
   {
     id: 4,
@@ -49,6 +52,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Captain,
+    info: "Digital art of Captain Ape from our Ape collection",
   },
   {
     id: 5,
@@ -56,13 +60,15 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Chainz,
+    info: "Digital art of 2Chainz Ape from our Ape collection",
   },
   {
     id: 6,
-    title: "ColdBlodded Ape",
+    title: "ColdBlooded Ape",
     artist: "David",
     artistImage: Artist,
     image: ColdBlodded,
+    info: "Digital art of ColdBlooded Ape from our Ape collection",
   },
   {
     id: 7,
@@ -70,6 +76,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Cyclops,
+    info: "Digital art of Cyclops Ape from our Ape collection",
   },
   {
     id: 8,
@@ -77,6 +84,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Famous,
+    info: "Digital art of Famous Ape from our Ape collection",
   },
   {
     id: 9,
@@ -84,6 +92,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Fashion,
+    info: "Digital art of Fashion Ape from our Ape collection",
   },
   {
     id: 10,
@@ -91,6 +100,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Football,
+    info: "Digital art of Football Ape from our Ape collection",
   },
   {
     id: 11,
@@ -98,6 +108,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Happy,
+    info: "Digital art of Happy Ape from our Ape collection",
   },
   {
     id: 12,
@@ -105,6 +116,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Jordan,
+    info: "Digital art of Jordan Ape from our Ape collection",
   },
   {
     id: 13,
@@ -112,6 +124,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Lover,
+    info: "Digital art of Lover Ape from our Ape collection",
   },
   {
     id: 14,
@@ -119,6 +132,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Machine,
+    info: "Digital art of Machine Ape from our Ape collection",
   },
   {
     id: 15,
@@ -126,6 +140,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Monk,
+    info: "Digital art of Monk Ape from our Ape collection",
   },
   {
     id: 16,
@@ -133,6 +148,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Nanny,
+    info: "Digital art of Nanny Ape from our Ape collection",
   },
   {
     id: 17,
@@ -140,6 +156,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Obsidian,
+    info: "Digital art of Obsidian Ape from our Ape collection",
   },
   {
     id: 18,
@@ -147,6 +164,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Old,
+    info: "Digital art of Old Ape from our Ape collection",
   },
   {
     id: 19,
@@ -154,6 +172,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Space,
+    info: "Digital art of Space Ape from our Ape collection",
   },
   {
     id: 20,
@@ -161,6 +180,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Talent,
+    info: "Digital art of Talent Ape from our Ape collection",
   },
   {
     id: 21,
@@ -168,6 +188,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Weed,
+    info: "Digital art of High Ape from our Ape collection",
   },
   {
     id: 22,
@@ -175,6 +196,7 @@ const items = [
     artist: "David",
     artistImage: Artist,
     image: Yatch,
+    info: "Digital art of Yatch Ape from our Ape collection",
   },
 ];
 export default items;

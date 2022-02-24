@@ -36,7 +36,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Caruso,
-    info: "Digital art of Alex Caruso, AC fresh from our players collection",
+    info: "Digital art of Alex Caruso, AC fresh from our Players collection",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Ben,
-    info: "Digital art of Ben Simmons from our players collection",
+    info: "Digital art of Ben Simmons from our Players collection",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: ChrisPaul,
-    info: "Digital art of Chris Paul, point god from our players collection",
+    info: "Digital art of Chris Paul, point god from our Players collection",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ const items = [
     artistImage: Artist,
     image: Dennis,
     info:
-      "Digital art of Dennis Scrhoder, the Menance from our players collection",
+      "Digital art of Dennis Scrhoder, the Menance from our Players collection",
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Derrick,
-    info: "Digital art of Derrick Rose 🌹 from our players collection",
+    info: "Digital art of Derrick Rose 🌹 from our Players collection",
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Booker,
-    info: "Digital art of Devin Booker from our players collection",
+    info: "Digital art of Devin Booker from our Players collection",
   },
   {
     id: 7,
@@ -86,7 +86,7 @@ const items = [
     artistImage: Artist,
     image: Mitchell,
     info:
-      "Digital art of Donovan Mitchell 🕷, the Spida  from our players collection",
+      "Digital art of Donovan Mitchell 🕷, the Spida  from our Players collection",
   },
   {
     id: 8,
@@ -95,7 +95,7 @@ const items = [
     artistImage: Artist,
     image: Wade,
     info:
-      "Digital art of Dwayne Wade ⚡, the Flash from our players collection",
+      "Digital art of Dwayne Wade ⚡, the Flash from our Players collection",
   },
   {
     id: 9,
@@ -104,7 +104,7 @@ const items = [
     artistImage: Artist,
     image: Giannis,
     info:
-      "Digital art of Giannis Antentokunpo, the Greek Freak from our players collection",
+      "Digital art of Giannis Antentokunpo, the Greek Freak from our Players collection",
   },
   {
     id: 10,
@@ -113,7 +113,7 @@ const items = [
     artistImage: Artist,
     image: Hakeem,
     info:
-      "Digital art of Hakeem Olajuwon, the dream from our players collection",
+      "Digital art of Hakeem Olajuwon, the dream from our Players collection",
   },
   {
     id: 11,
@@ -121,7 +121,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Ja,
-    info: "Digital art of Ja Morant from our players collection",
+    info: "Digital art of Ja Morant from our Players collection",
   },
   {
     id: 12,
@@ -129,7 +129,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Jaylen,
-    info: "Digital art of Jaylen Brown from our players collection",
+    info: "Digital art of Jaylen Brown from our Players collection",
   },
   {
     id: 13,
@@ -137,7 +137,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Jayson,
-    info: "Digital art of Jayson Tatum from our players collection",
+    info: "Digital art of Jayson Tatum from our Players collection",
   },
   {
     id: 14,
@@ -146,7 +146,7 @@ const items = [
     artistImage: Artist,
     image: Jimmy,
     info:
-      "Digital art of Jimmy Butler, Jimmy Buckets from our players collection",
+      "Digital art of Jimmy Butler, Jimmy Buckets from our Players collection",
   },
   {
     id: 15,
@@ -154,7 +154,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Joel,
-    info: "Digital art of Joel Embid, The Process from our players collection",
+    info: "Digital art of Joel Embid, The Process from our Players collection",
   },
   {
     id: 16,
@@ -163,7 +163,7 @@ const items = [
     artistImage: Artist,
     image: Kevin,
     info:
-      "Digital art of Kevin Durant, easyMoneySniper from our players collection",
+      "Digital art of Kevin Durant, easyMoneySniper from our Players collection",
   },
   {
     id: 17,
@@ -172,7 +172,7 @@ const items = [
     artistImage: Artist,
     image: Lebron,
     info:
-      "Digital art of Lebron James 👑, the King from our players collection",
+      "Digital art of Lebron James 👑, the King from our Players collection",
   },
   {
     id: 18,
@@ -181,7 +181,7 @@ const items = [
     artistImage: Artist,
     image: Klay,
     info:
-      "Digital art of Klay Thompson 🌊, Sea Captain from our players collection",
+      "Digital art of Klay Thompson 🌊, Sea Captain from our Players collection",
   },
   {
     id: 19,
@@ -189,7 +189,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Kobe,
-    info: "Digital art of Kobe Bryant 🐍, Mamba  M from our players collection",
+    info: "Digital art of Kobe Bryant 🐍, Mamba  M from our Players collection",
   },
   {
     id: 20,
@@ -197,7 +197,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Kyrie,
-    info: "Digital art of Kyrie Irving, Box office from our players collection",
+    info: "Digital art of Kyrie Irving, Box office from our Players collection",
   },
   {
     id: 21,
@@ -205,7 +205,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Luka,
-    info: "Digital art of Luka Doncic, Luka Magic from our players collection",
+    info: "Digital art of Luka Doncic, Luka Magic from our Players collection",
   },
   {
     id: 22,
@@ -213,7 +213,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Manu,
-    info: "Digital art of Manu Ginobli from our players collection",
+    info: "Digital art of Manu Ginobli from our Players collection",
   },
   {
     id: 23,
@@ -221,7 +221,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Gasol,
-    info: "Digital art of Marc Gasol from our players collection",
+    info: "Digital art of Marc Gasol from our Players collection",
   },
   {
     id: 24,
@@ -229,7 +229,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Siakam,
-    info: "Digital art of Pascal Siakam from our players collection",
+    info: "Digital art of Pascal Siakam from our Players collection",
   },
   {
     id: 25,
@@ -237,7 +237,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Paul,
-    info: "Digital art of Paul George, pandemic P from our players collection",
+    info: "Digital art of Paul George, pandemic P from our Players collection",
   },
   {
     id: 26,
@@ -245,7 +245,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Ricky,
-    info: "Digital art of Ricky Rubio from our players collection",
+    info: "Digital art of Ricky Rubio from our Players collection",
   },
   {
     id: 27,
@@ -254,7 +254,7 @@ const items = [
     artistImage: Artist,
     image: Steph,
     info:
-      "Digital art of Steph Curry, baby faced assasin from our players collection",
+      "Digital art of Steph Curry, baby faced assasin from our Players collection",
   },
   {
     id: 28,
@@ -262,7 +262,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Magic,
-    info: "Digital art of Magic Johnson from our players collection",
+    info: "Digital art of Magic Johnson from our Players collection",
   },
   {
     id: 29,
@@ -270,7 +270,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Trae,
-    info: "Digital art of Trae Young ❄, Ice Trae from our players collection",
+    info: "Digital art of Trae Young ❄, Ice Trae from our Players collection",
   },
   {
     id: 30,
@@ -279,7 +279,7 @@ const items = [
     artistImage: Artist,
     image: Zach,
     info:
-      "Digital art of Zach Lavine ✈, Air flight from our players collection",
+      "Digital art of Zach Lavine ✈, Air flight from our Players collection",
   },
 ];
 export default items;
