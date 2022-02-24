@@ -67,7 +67,7 @@ export const Item = styled.div`
     }
     @media (max-width: ${({ theme }) => theme.foot}) {
       width: 93%;
-      bottom: 0px;
+      bottom: -1px;
       border-radius: 12px;
     }
     .artist {
