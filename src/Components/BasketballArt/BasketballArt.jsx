@@ -26,6 +26,7 @@ const BasketballArt = () => {
               onClick={() => {
                 nav(`/item/${id}`, { state: item });
               }}
+              key={id}
             >
               <span>
                 <img className="artist" src={item.artistImage} alt="" />

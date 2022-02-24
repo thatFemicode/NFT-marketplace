@@ -16,6 +16,10 @@ const Hero = () => {
   const img1 = useRef(null);
   const img2 = useRef(null);
   const img3 = useRef(null);
+  const link = useRef(null);
+  const h1 = useRef(null);
+  const p = useRef(null);
+  const button = useRef(null);
   var imgs = [
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472039/grapevine/img10_eelwxu.png",
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472041/grapevine/img11_vep1pm.png",
@@ -23,7 +27,15 @@ const Hero = () => {
     "https://res.cloudinary.com/dljsalifp/image/upload/v1640472044/grapevine/img13_zj4cjj.png",
   ];
   useEffect(() => {
-    animate(img1.current, img2.current, img3.current);
+    animate(
+      link.current,
+      h1.current,
+      p.current,
+      button.current,
+      img1.current,
+      img2.current,
+      img3.current
+    );
   }, []);
   useEffect(() => {
     new hoverEffect({
@@ -62,7 +74,7 @@ const Hero = () => {
       <OuterLayout>
         <div className="hero">
           <div className="hero-left">
-            <Link className="linking" to="/marketplace">
+            <Link ref={link} className="linking" to="/marketplace">
               <span className="express">ExpressSea</span>
               <span className="visit">Visit Marketplace</span>
               <svg viewBox="0 0 20 20" fill="none">
@@ -82,15 +94,15 @@ const Hero = () => {
                 ></path>
               </svg>
             </Link>
-            <h1>
+            <h1 ref={h1}>
               Discover and collect <span>NFTs</span> that are extraordinary on
               the largest <span className="market">market place</span>
             </h1>
-            <p>
+            <p ref={p}>
               A marketplace to discover rare and creative NFTs minted by
               thousands of creative artist
             </p>
-            <Link to="/marketplace">
+            <Link ref={button} to="/marketplace">
               <Button name={"Discover Art"} bgColor={"#b06c49"} />
             </Link>
           </div>
