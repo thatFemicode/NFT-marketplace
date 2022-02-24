@@ -18,6 +18,7 @@ const Tab = ({ tabs }) => {
                 }
               }}
               active={CurrentTab.id === tab.id}
+              key={tab.id}
             >
               {tab.title}
             </Title>
