@@ -21,13 +21,21 @@ import Wrapped from "./RandomArt-NFT/Wrapped.jpg";
 import Artist from "./RandomArt-NFT/avatar.png";
 
 const items = [
-  { id: 1, title: "Badoo", artist: "Femi", artistImage: Artist, image: Badoo },
+  {
+    id: 1,
+    title: "Badoo",
+    artist: "Femi",
+    artistImage: Artist,
+    image: Badoo,
+    info: "Digital art of Badoo from our RandomArt collection",
+  },
   {
     id: 2,
     title: "BlackRock",
     artist: "Femi",
     artistImage: Artist,
     image: BlackRock,
+    info: "Digital art of Black Rock from our RandomArt collection",
   },
   {
     id: 3,
@@ -35,6 +43,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Blend,
+    info: "Digital art of Blend from our RandomArt collection",
   },
   {
     id: 4,
@@ -42,6 +51,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Ceasar,
+    info: "Digital art of Ceasar from our RandomArt collection",
   },
   {
     id: 5,
@@ -49,6 +59,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Emoboy,
+    info: "Digital art of Emoboy from our RandomArt collection",
   },
   {
     id: 6,
@@ -56,6 +67,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Hidden,
+    info: "Digital art of Hidden from our RandomArt collection",
   },
   {
     id: 7,
@@ -63,6 +75,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: InMyHead,
+    info: "Digital art of InMyHead from our RandomArt collection",
   },
   {
     id: 8,
@@ -70,6 +83,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Lefou,
+    info: "Digital art of Lefou from our RandomArt collection",
   },
   {
     id: 9,
@@ -77,6 +91,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Lloys,
+    info: "Digital art of Lloys from our RandomArt collection",
   },
   {
     id: 10,
@@ -84,6 +99,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Mansa,
+    info: "Digital art of Mansa from our RandomArt collection",
   },
   {
     id: 11,
@@ -91,6 +107,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: MetaBorg,
+    info: "Digital art of MetaBorg from our RandomArt collection",
   },
   {
     id: 12,
@@ -98,6 +115,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: ModelPose,
+    info: "Digital art of ModelPose from our RandomArt collection",
   },
   {
     id: 13,
@@ -105,6 +123,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Moet,
+    info: "Digital art of Moet from our RandomArt collection",
   },
   {
     id: 14,
@@ -112,6 +131,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: MoneyDrown,
+    info: "Digital art of MoneyDrown from our RandomArt collection",
   },
   {
     id: 15,
@@ -119,6 +139,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Paraphase,
+    info: "Digital art of ParaPhase from our RandomArt collection",
   },
   {
     id: 16,
@@ -126,13 +147,15 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: SkullTears,
+    info: "Digital art of SkullTears from our RandomArt collection",
   },
   {
     id: 17,
-    title: "Strange Adventure",
+    title: "Strange",
     artist: "Femi",
     artistImage: Artist,
     image: StrangeAdventure,
+    info: "Digital art of Strange from our RandomArt collection",
   },
   {
     id: 18,
@@ -140,6 +163,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Tears,
+    info: "Digital art of Tears from our RandomArt collection",
   },
   {
     id: 19,
@@ -147,6 +171,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: World,
+    info: "Digital art of World from our RandomArt collection",
   },
   {
     id: 20,
@@ -154,6 +179,7 @@ const items = [
     artist: "Femi",
     artistImage: Artist,
     image: Wrapped,
+    info: "Digital art of Wrapped  from our RandomArt collection",
   },
 ];
 export default items;
