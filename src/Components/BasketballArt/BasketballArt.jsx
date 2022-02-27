@@ -1,10 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { BasketballArtStyled } from "./BasketballArtStyled";
 import items from "./data";
-import { useNavigate } from "react-router-dom";
-import { PlayerImg } from "../Img/ImgStyled";
-import { gsap } from "gsap";
-import { CardContainer, Item, Title, SubTitle } from "../CardStyled/CardStyled";
+import { CardContainer } from "../CardStyled/CardStyled";
 import cardAnimation from "../animations";
 import PlayerCard from "../CardStyled/PlayerCard";
 

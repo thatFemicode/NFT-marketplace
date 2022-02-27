@@ -1,13 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import items from "./data";
-import Img from "../Img/ImgStyled";
 import { RandomArtStyled } from "./RandomArtStyled";
-import { useNavigate } from "react-router-dom";
-import { CardContainer, Item, Title, SubTitle } from "../CardStyled/CardStyled";
+import { CardContainer } from "../CardStyled/CardStyled";
 import cardAnimation from "../animations";
+import Card from "../CardStyled/Card";
 
 const RandomArt = () => {
-  const nav = useNavigate();
   let el = useRef();
   useEffect(() => {
     cardAnimation(el);
@@ -17,24 +15,7 @@ const RandomArt = () => {
       <CardContainer>
         {items.map((item) => {
           const { id } = item;
-
-          return (
-            <Item
-              className="single"
-              onClick={() => {
-                nav(`/item/${id}`, { state: item });
-              }}
-              key={id}
-            >
-              <span>
-                <img className="artist" src={item.artistImage} alt="" />
-                <Title>{item.title}</Title>
-              </span>
-              <Img src={item.image} />
-
-              <SubTitle>{item.subTitle}</SubTitle>
-            </Item>
-          );
+          return <Card key={id} item={item} />;
         })}
       </CardContainer>
     </RandomArtStyled>

@@ -43,6 +43,7 @@ export const Item = styled.div`
   position: relative;
 
   span {
+    opacity: 1;
     position: absolute;
     height: 20%;
     width: 94%;

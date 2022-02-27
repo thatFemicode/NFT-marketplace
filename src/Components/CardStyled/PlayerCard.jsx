@@ -1,10 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Item, Title, SubTitle } from "./CardStyled";
+import { Item, Title } from "./CardStyled";
 import { PlayerImg } from "../Img/ImgStyled";
 const PlayerCard = ({ item }) => {
   const nav = useNavigate();
-  const { id, title, image, subTitle, artistImage } = item;
+  const { id, title, image, artistImage } = item;
   return (
     <div>
       <Item className="single">
@@ -18,7 +18,6 @@ const PlayerCard = ({ item }) => {
           }}
           src={image}
         />
-        <SubTitle>{item.subTitle}</SubTitle>
       </Item>
     </div>
   );
