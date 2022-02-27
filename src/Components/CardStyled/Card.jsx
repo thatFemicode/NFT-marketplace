@@ -6,17 +6,17 @@ const Card = ({ item }) => {
   const nav = useNavigate();
   const { id, title, image, subTitle, artistImage } = item;
   return (
-    <Item
-      onClick={() => {
-        nav(`/item/${id}`, { state: item });
-      }}
-      className="single"
-    >
+    <Item className="single">
       <span>
         <img className="artist" src={item.artistImage} alt="" />
         <Title>{item.title}</Title>
       </span>
-      <Img src={item.image} />
+      <Img
+        onClick={() => {
+          nav(`/item/${id}`, { state: item });
+        }}
+        src={item.image}
+      />
 
       <SubTitle>{item.subTitle}</SubTitle>
     </Item>

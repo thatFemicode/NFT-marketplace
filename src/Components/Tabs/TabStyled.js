@@ -4,6 +4,10 @@ export const TabStyled = styled.div`
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+  height: 100%;
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    /* max-width: 400px; */
+  }
 `;
 export const TitlesContainer = styled.span`
   display: flex;

@@ -15,8 +15,8 @@ const Img = styled.div`
     height: 120px;
   }
   @media (max-width: ${({ theme }) => theme.foot}) {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 `;
 export const PlayerImg = styled.div`
@@ -25,7 +25,7 @@ export const PlayerImg = styled.div`
   height: 180px;
   /* border-radius: 50%; */
   background-image: url(${({ src }) => src});
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
+  /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.07); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,8 +35,8 @@ export const PlayerImg = styled.div`
     height: 120px;
   }
   @media (max-width: ${({ theme }) => theme.foot}) {
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
   }
 `;
 export default Img;
