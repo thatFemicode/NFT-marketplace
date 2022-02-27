@@ -41,49 +41,6 @@ export const Item = styled.div`
   cursor: pointer;
   flex-direction: column;
   position: relative;
-
-  span {
-    opacity: 1;
-    position: absolute;
-    height: 20%;
-    width: 94%;
-    margin: 0 auto;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: red;
-    z-index: 20;
-    bottom: 0px;
-    backdrop-filter: blur(50px);
-    background-color: rgba(255, 255, 255, 0.01);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    @media (max-width: ${({ theme }) => theme.images}) {
-      width: 90%;
-    }
-    @media (max-width: ${({ theme }) => theme.max}) {
-      width: 93%;
-      bottom: -1px;
-      border-radius: 12px;
-    }
-    @media (max-width: ${({ theme }) => theme.foot}) {
-      width: 140px;
-      bottom: -1px;
-      border-radius: 12px;
-    }
-    @media (max-width: ${({ theme }) => theme.se}) {
-      width: 91%;
-      bottom: 0px;
-      border-radius: 20px;
-    }
-    .artist {
-      max-width: 40px;
-      justify-self: flex-start;
-      @media (max-width: ${({ theme }) => theme.images}) {
-        max-width: 30px;
-      }
-    }
-  }
 `;
 
 export const Title = styled.p`
@@ -100,4 +57,45 @@ export const Title = styled.p`
 
 export const SubTitle = styled.p`
   font-size: 1rem;
+`;
+export const Highlight = styled.div`
+  position: absolute;
+  height: 20%;
+  width: 94%;
+  margin: 0 auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: red;
+  z-index: 20;
+  bottom: 0px;
+  backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, 0.01);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  @media (max-width: ${({ theme }) => theme.images}) {
+    width: 90%;
+  }
+  @media (max-width: ${({ theme }) => theme.max}) {
+    width: 93%;
+    bottom: -1px;
+    border-radius: 12px;
+  }
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    width: 140px;
+    bottom: -1px;
+    border-radius: 12px;
+  }
+  @media (max-width: ${({ theme }) => theme.se}) {
+    width: 91%;
+    bottom: 0px;
+    border-radius: 20px;
+  }
+  .artist {
+    max-width: 40px;
+    justify-self: flex-start;
+    @media (max-width: ${({ theme }) => theme.images}) {
+      max-width: 30px;
+    }
+  }
 `;

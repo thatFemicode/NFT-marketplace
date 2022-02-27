@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { Item, Title } from "./CardStyled";
+import { Item, Title, Highlight } from "./CardStyled";
 import { PlayerImg } from "../Img/ImgStyled";
 const PlayerCard = ({ item }) => {
   const nav = useNavigate();
@@ -8,10 +8,10 @@ const PlayerCard = ({ item }) => {
   return (
     <div>
       <Item className="single">
-        <span>
+        <Highlight>
           <img className="artist" src={artistImage} alt="" />
           <Title>{title}</Title>
-        </span>
+        </Highlight>
         <PlayerImg
           onClick={() => {
             nav(`/item/${id}`, { state: item });
