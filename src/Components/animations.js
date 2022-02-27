@@ -1,4 +1,5 @@
 import gsap from "gsap";
+
 const cardAnimation = (el) => {
   let tl = gsap.timeline();
   let q = gsap.utils.selector(el);
