@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MarketplaceStyled = styled.main`
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;

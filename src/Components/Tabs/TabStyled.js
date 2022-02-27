@@ -66,7 +66,7 @@ export const Content = styled.div`
   position: relative;
   overflow: auto;
   overflow-x: hidden;
-  height: 920px;
+  height: 100%;
   width: 100%;
   padding-top: 1rem;
   -ms-overflow-style: none; /* Internet Explorer 10+ */

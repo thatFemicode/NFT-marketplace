@@ -11,8 +11,12 @@ const Img = styled.div`
   /* background-position: center; */
   z-index: 1;
   @media (max-width: ${({ theme }) => theme.images}) {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
+  }
+  @media (max-width: ${({ theme }) => theme.make}) {
+    width: 130px;
+    height: 130px;
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     width: 160px;
