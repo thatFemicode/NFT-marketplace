@@ -21,9 +21,13 @@ export const CardContainer = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
-  @media (max-width: ${({ theme }) => theme.foot}) {
+  @media (max-width: ${({ theme }) => theme.max}) {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+  }
+  @media (max-width: ${({ theme }) => theme.se}) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
   scrollbar-width: none;
   &::-webkit-scrollbar {
@@ -56,10 +60,20 @@ export const Item = styled.div`
     @media (max-width: ${({ theme }) => theme.images}) {
       width: 90%;
     }
-    @media (max-width: ${({ theme }) => theme.foot}) {
+    @media (max-width: ${({ theme }) => theme.max}) {
       width: 93%;
       bottom: -1px;
       border-radius: 12px;
+    }
+    @media (max-width: ${({ theme }) => theme.foot}) {
+      width: 140px;
+      bottom: -1px;
+      border-radius: 12px;
+    }
+    @media (max-width: ${({ theme }) => theme.se}) {
+      width: 91%;
+      bottom: 0px;
+      border-radius: 20px;
     }
     .artist {
       max-width: 40px;

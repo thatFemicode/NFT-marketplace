@@ -1,14 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { ApeArtStyled } from "./ApeArtStyled";
 import items from "./data";
-import { useNavigate } from "react-router-dom";
-import Img from "../Img/ImgStyled";
-import { CardContainer, Item, Title, SubTitle } from "../CardStyled/CardStyled";
+import { CardContainer } from "../CardStyled/CardStyled";
 import cardAnimation from "../animations";
 import Card from "../CardStyled/Card";
 
 const ApeArt = () => {
-  const nav = useNavigate();
   let el = useRef();
 
   useEffect(() => {

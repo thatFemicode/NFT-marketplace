@@ -14,6 +14,11 @@ export const TitlesContainer = styled.span`
   justify-content: space-around;
   margin: 0 1.5rem;
   padding: 0 1rem;
+
+  @media (max-width: ${({ theme }) => theme.max}) {
+    margin: 0;
+    /* padding: 0 1.5rem; */
+  }
   @media (max-width: ${({ theme }) => theme.foot}) {
     margin: 0;
     padding: 0 0.5rem;
@@ -50,6 +55,9 @@ export const Title = styled.span`
   @media (max-width: ${({ theme }) => theme.max}) {
     font-size: 0.7rem;
   }
+  @media (max-width: ${({ theme }) => theme.se}) {
+    font-size: 0.6rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -75,5 +83,8 @@ export const Content = styled.div`
   @media (max-width: ${({ theme }) => theme.images}) {
     margin: 0;
     height: 850px;
+  }
+  @media (max-width: ${({ theme }) => theme.max}) {
+    padding: 0;
   }
 `;

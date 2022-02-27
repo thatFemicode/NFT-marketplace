@@ -6,9 +6,9 @@ import { PlayerImg } from "../Img/ImgStyled";
 import { gsap } from "gsap";
 import { CardContainer, Item, Title, SubTitle } from "../CardStyled/CardStyled";
 import cardAnimation from "../animations";
+import PlayerCard from "../CardStyled/PlayerCard";
 
 const BasketballArt = () => {
-  const nav = useNavigate();
   let el = useRef();
 
   useEffect(() => {
@@ -19,24 +19,7 @@ const BasketballArt = () => {
       <CardContainer>
         {items.map((item) => {
           const { id } = item;
-
-          return (
-            <Item
-              className="single"
-              onClick={() => {
-                nav(`/item/${id}`, { state: item });
-              }}
-              key={id}
-            >
-              <span>
-                <img className="artist" src={item.artistImage} alt="" />
-                <Title>{item.title}</Title>
-              </span>
-              <PlayerImg src={item.image} />
-
-              <SubTitle>{item.subTitle}</SubTitle>
-            </Item>
-          );
+          return <PlayerCard key={id} item={item} />;
         })}
       </CardContainer>
     </BasketballArtStyled>

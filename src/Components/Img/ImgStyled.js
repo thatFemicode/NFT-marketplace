@@ -14,9 +14,17 @@ const Img = styled.div`
     width: 120px;
     height: 120px;
   }
+  @media (max-width: ${({ theme }) => theme.max}) {
+    width: 160px;
+    height: 160px;
+  }
   @media (max-width: ${({ theme }) => theme.foot}) {
     width: 140px;
     height: 140px;
+  }
+  @media (max-width: ${({ theme }) => theme.se}) {
+    width: 120px;
+    height: 120px;
   }
 `;
 export const PlayerImg = styled.div`
