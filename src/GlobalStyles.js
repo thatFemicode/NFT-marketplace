@@ -164,6 +164,22 @@ li{
   background-color: #f6f8fb;
   width: 0%;
   height: 100%;
+
+  svg 
+  {
+opacity:0;
+  
+  path{
+    /* stroke-dasharray:100;
+    stroke-dashoffset:100; */
+    fill-opacity:0;
+   stroke-width:10;
+   stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  }
+}
 }
 .Headd {
   opacity: 0;

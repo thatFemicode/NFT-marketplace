@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MarketPlaceTopMenuStyled = styled.nav`
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   /* background-color: rgba(255, 255, 255, 0.01); */
@@ -10,7 +11,7 @@ export const MarketPlaceTopMenuStyled = styled.nav`
   /* height: 60px; */
   z-index: 40;
   max-width: 1200px;
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
   padding-top: 2rem;
   height: 40px;
   margin: 0 auto;
