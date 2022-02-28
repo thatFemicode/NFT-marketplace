@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import Item from "./Pages/Item/Item";
@@ -52,8 +51,6 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        {/* <Navbar /> */}
-        {/* <MarketplaceMenu /> */}
         <ScrollToTop />
         <MainStyled>
           <CustomRoute>

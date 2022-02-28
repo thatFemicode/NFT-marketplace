@@ -74,7 +74,12 @@ export const Highlight = styled.div`
   align-items: center;
   justify-content: flex-start;
   @media (max-width: ${({ theme }) => theme.images}) {
-    width: 90%;
+    width: 140px;
+    border-radius: 12px;
+  }
+  @media (max-width: ${({ theme }) => theme.make}) {
+    width: 130px;
+    border-radius: 12px;
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     width: 93%;
