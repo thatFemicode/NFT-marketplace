@@ -3,6 +3,7 @@ import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import { ItemStyled, BackGround } from "./ItemStyled";
 import { useLocation } from "react-router-dom";
 import itemAnim from "./itemAnimation";
+import ItemMenu from "../../Components/MarketplaceMenu/ItemMenu/ItemMenu";
 
 const Item = () => {
   let screen = useRef(null);
@@ -36,6 +37,7 @@ const Item = () => {
         ref={(el) => (body = el)}
         className="Headd"
       >
+        <ItemMenu />
         <MarketplaceMenu />
         <BackGround src={image} />
       </ItemStyled>

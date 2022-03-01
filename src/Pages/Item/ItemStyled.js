@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const ItemStyled = styled.main`
   height: 100vh;
+  width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   img {
     /* height: 600px;
     width: 600px; */
