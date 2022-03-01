@@ -6,7 +6,6 @@ export const show = (target, scale, startingPos) => {
   gsap.to(target, { duration: 0, x: startingPos.x, top: startingPos.y });
   gsap.fromTo(
     target,
-
     { duration: APPEAR_TIME, scale: 0.5, opacity: 0 },
     { duration: APPEAR_TIME, opacity: 1, scale: scale, ease: Power0.easeNone }
   );

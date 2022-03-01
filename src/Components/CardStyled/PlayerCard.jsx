@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Item, Title, Highlight } from "./CardStyled";
 import { PlayerImg } from "../Img/ImgStyled";
+
 const PlayerCard = ({ item }) => {
   const nav = useNavigate();
   const { id, title, image, artistImage } = item;

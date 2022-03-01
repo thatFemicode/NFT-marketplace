@@ -51,7 +51,6 @@ export const Title = styled.p`
   mix-blend-mode: difference;
   @media (max-width: ${({ theme }) => theme.images}) {
     font-size: 0.6rem;
-    margin-top: ;
   }
 `;
 

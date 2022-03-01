@@ -83,60 +83,7 @@ li{
   height:100vh;
   overflow:hidden;
 } */
-/* .load-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  z-index: 10;
-  pointer-events: none;
-}
-.load-screen {
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #1d428a;
-  width: 0%;
-  height: 100%;
-}
-.load-screen1 {
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #000;
-  width: 100%;
-  height: 0%;
-}
-.load-screen2 {
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #ce1141;
-  width: 100%;
-  height: 0%;
-}
-.load-screen3 {
-  position: relative;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  background-color: #552583;
-  width: 0%;
-  height: 100%;
-}
-.Headd {
-  opacity: 0;
-  pointer-events: none;
-} */
-/* .active-btn{
-    color: rgba(255, 255, 255, var(--tw-text-opacity));
-    background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-} */
+/
 .load-screen1 {
   position: relative;
   padding-top: 0px;
@@ -155,6 +102,9 @@ li{
   overflow: hidden;
   z-index: 13;
   pointer-events: none;
+  display:flex;
+  align-items: center;
+  justify-content:center;
 }
 .load-screen {
   position: relative;
@@ -162,13 +112,29 @@ li{
   padding-left: 0px;
   padding-right: 0px;
   background-color: #f6f8fb;
+  backdrop-filter: blur(9px);
   width: 0%;
   height: 100%;
-
+  display:flex;
+  align-items: center;
+  justify-content:center;
   svg 
   {
 opacity:0;
-  
+align-self:center;
+position: absolute;
+left:50%;
+transform:translateX(-30%);
+@media screen and  (max-width: 430px) {
+transform:translateX(-25%);
+width:300px;
+height:300px;
+  }
+@media screen and  (max-width: 330px) {
+transform:translateX(-22%);
+width:200px;
+height:200px;
+  }
   path{
     /* stroke-dasharray:100;
     stroke-dashoffset:100; */

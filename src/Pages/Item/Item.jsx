@@ -2,7 +2,7 @@ import React, { useRef, useEffect, forwardRef } from "react";
 import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import { ItemStyled, BackGround } from "./ItemStyled";
 import { useLocation } from "react-router-dom";
-import { TweenMax, TimelineMax, Power3, Power4, gsap } from "gsap";
+import { Power3, Power4, gsap } from "gsap";
 
 const Item = () => {
   let screen = useRef(null);
@@ -21,20 +21,30 @@ const Item = () => {
       ease: Power3.easeInOut,
     })
       .to(svg, {
-        duration: 1.5,
-        y: 200,
+        duration: 0.8,
         ease: Power3.easeInOut,
         opacity: 1,
-        delay: 0.3,
       })
-      .to(path, {
-        duration: 3,
-        strokeDashoffset: 0,
-      })
-      .to(path, {
-        duration: 3,
-        fillOpacity: 1,
-      })
+      .fromTo(
+        path,
+        {
+          duration: 1.5,
+          scale: 0.5,
+          opacity: 0,
+          fillOpacity: 0,
+          strokeDashoffset: 1500,
+          ease: Power3.easeInOut,
+        },
+
+        {
+          duration: 2,
+          opacity: 1,
+          scale: 0.7,
+          strokeDashoffset: 0,
+          fillOpacity: 1,
+          ease: Power3.easeInOut,
+        }
+      )
       .to(screen, {
         duration: 1.2,
         left: "100%",
@@ -63,9 +73,9 @@ const Item = () => {
           <svg
             className="svg"
             // ref={(el) => (logo = el)}
-            width="400"
-            height="300.573"
-            viewBox="0 0 256 256"
+            width="500"
+            height="500.573"
+            viewBox="0 0 556 556"
             ref={(el) => (svg = el)}
           >
             <path
