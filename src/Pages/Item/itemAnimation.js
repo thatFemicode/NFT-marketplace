@@ -15,7 +15,7 @@ const itemAnim = (node1, node2, node3, node4) => {
     .fromTo(
       node3,
       {
-        duration: 1.2,
+        duration: 0.7,
         scale: 0.5,
         opacity: 0,
         fillOpacity: 0,
@@ -23,7 +23,7 @@ const itemAnim = (node1, node2, node3, node4) => {
         ease: Power3.easeInOut,
       },
       {
-        duration: 4,
+        duration: 2,
         opacity: 1,
         scale: 0.7,
         strokeDashoffset: 0,
