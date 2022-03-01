@@ -112,7 +112,6 @@ li{
   padding-left: 0px;
   padding-right: 0px;
   background-color: #f6f8fb;
-  backdrop-filter: blur(9px);
   width: 0%;
   height: 100%;
   display:flex;
@@ -121,10 +120,11 @@ li{
   svg 
   {
 opacity:0;
-align-self:center;
 position: absolute;
+width:400px;
+height:400px;
 left:50%;
-transform:translateX(-30%);
+transform:translateX(-40%);
 @media screen and  (max-width: 430px) {
 transform:translateX(-25%);
 width:300px;
@@ -136,14 +136,12 @@ width:200px;
 height:200px;
   }
   path{
-    /* stroke-dasharray:100;
-    stroke-dashoffset:100; */
     fill-opacity:0;
-   stroke-width:10;
-   stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
+    stroke-width:10;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 1500;
+    transform-origin:50% 50%;
   }
 }
 }
