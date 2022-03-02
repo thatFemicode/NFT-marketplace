@@ -1,5 +1,5 @@
 import Drake from "./Celebrity-NFT/Drake.png";
-import Eminem from "./Celebrity-NFT/Eminem.jpg";
+// import Eminem from "./Celebrity-NFT/Eminem.jpg";
 import Tyler from "./Celebrity-NFT/Feliciathegoat.jpg";
 import Frank from "./Celebrity-NFT/FrankOcean.png";
 import IceCube from "./Celebrity-NFT/IceCube.png";
@@ -27,6 +27,9 @@ const items = [
     artistImage: Artist,
     image: Rema,
     info: "Digital art of Rema from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 2,
@@ -35,15 +38,11 @@ const items = [
     artistImage: Artist,
     image: Drake,
     info: "Digital art of Drake from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
-  {
-    id: 3,
-    title: "Eminem",
-    artist: "Femi",
-    artistImage: Artist,
-    image: Eminem,
-    info: "Digital art of Eminem from our Celebrity collection",
-  },
+
   {
     id: 4,
     title: "Tyler",
@@ -51,6 +50,9 @@ const items = [
     artistImage: Artist,
     image: Tyler,
     info: "Digital art of Tyler the creator from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 5,
@@ -59,6 +61,9 @@ const items = [
     artistImage: Artist,
     image: Frank,
     info: "Digital art of Frank Ocean from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 6,
@@ -67,6 +72,9 @@ const items = [
     artistImage: Artist,
     image: IceCube,
     info: "Digital art of Ice Cube from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 7,
@@ -75,6 +83,9 @@ const items = [
     artistImage: Artist,
     image: Jcole,
     info: "Digital art of J Cole from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 8,
@@ -83,6 +94,9 @@ const items = [
     artistImage: Artist,
     image: Jason,
     info: "Digital art of Jason Derulo from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 9,
@@ -91,6 +105,9 @@ const items = [
     artistImage: Artist,
     image: Juice,
     info: "Digital art of Juice Wurld from our Celebrity collection",
+    cover: true,
+    center: false,
+    price: "0.2ETH",
   },
   {
     id: 10,
@@ -99,6 +116,9 @@ const items = [
     artistImage: Artist,
     image: Kanye,
     info: "Digital art of Kanye West from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 11,
@@ -107,6 +127,9 @@ const items = [
     artistImage: Artist,
     image: Kendrick,
     info: "Digital art of Kendrick Lamar from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 12,
@@ -115,6 +138,9 @@ const items = [
     artistImage: Artist,
     image: LilNas,
     info: "Digital art of Lil Nas from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 13,
@@ -123,6 +149,9 @@ const items = [
     artistImage: Artist,
     image: Nicki,
     info: "Digital art of Nicki Minaj from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 14,
@@ -131,23 +160,11 @@ const items = [
     artistImage: Artist,
     image: Nipsey,
     info: "Digital art of Nipsey Hussle from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
-  {
-    id: 15,
-    title: "Pop.S",
-    artist: "Femi",
-    artistImage: Artist,
-    image: PopSmoke,
-    info: "Digital art of Pop Smoke from our Celebrity collection",
-  },
-  {
-    id: 16,
-    title: "Malone.P",
-    artist: "Femi",
-    artistImage: Artist,
-    image: PostMalone,
-    info: "Digital art of Post Malone from our Celebrity collection",
-  },
+
   {
     id: 17,
     title: "Rihana",
@@ -155,6 +172,9 @@ const items = [
     artistImage: Artist,
     image: Rihana,
     info: "Digital art of Rihana from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 18,
@@ -163,6 +183,9 @@ const items = [
     artistImage: Artist,
     image: Snoop,
     info: "Digital art of Snoop Doog from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 19,
@@ -171,6 +194,9 @@ const items = [
     artistImage: Artist,
     image: TheWeekend,
     info: "Digital art of The Weekend from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
   {
     id: 20,
@@ -179,6 +205,9 @@ const items = [
     artistImage: Artist,
     image: Travis,
     info: "Digital art of Travis Scott from our Celebrity collection",
+    cover: true,
+    center: true,
+    price: "0.2ETH",
   },
 ];
 export default items;

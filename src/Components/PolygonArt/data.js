@@ -20,7 +20,7 @@ import Wizard from "./Polygonart-NFT/Wizard.jpg";
 import Artist from "./Polygonart-NFT/avatar.png";
 const items = [
   {
-    id: 2,
+    id: 1,
     title: "Avocado",
     artist: "Femi",
     artistImage: Artist,
@@ -28,9 +28,10 @@ const items = [
     info: "Digital art of Avocado from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 3,
+    id: 2,
     title: "Labador",
     artist: "Femi",
     artistImage: Artist,
@@ -38,10 +39,11 @@ const items = [
     info: "Digital art of a Labador from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
-    id: 8,
+    id: 3,
     title: "Crushed Can",
     artist: "Femi",
     artistImage: Artist,
@@ -49,9 +51,10 @@ const items = [
     info: "Digital art of a Crushed Can from our PolygonArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
-    id: 9,
+    id: 4,
     title: "Deer",
     artist: "Femi",
     artistImage: Artist,
@@ -59,9 +62,10 @@ const items = [
     info: "Digital art of a Deer from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 10,
+    id: 5,
     title: "Digital Bust",
     artist: "Femi",
     artistImage: Artist,
@@ -69,9 +73,10 @@ const items = [
     info: "Digital art of Digital Bust from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 11,
+    id: 6,
     title: "Distortion",
     artist: "Femi",
     artistImage: Artist,
@@ -79,9 +84,10 @@ const items = [
     info: "Digital art of Distortion Prism from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 12,
+    id: 7,
     title: "Elephant",
     artist: "Femi",
     artistImage: Artist,
@@ -89,10 +95,11 @@ const items = [
     info: "Digital art of a Elephant from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
-    id: 14,
+    id: 8,
     title: "German.S",
     artist: "Femi",
     artistImage: Artist,
@@ -100,10 +107,11 @@ const items = [
     info: "Digital art of a German Sheppard from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
-    id: 16,
+    id: 9,
     title: "GoldenEagle",
     artist: "Femi",
     artistImage: Artist,
@@ -111,10 +119,11 @@ const items = [
     info: "Digital art of a Golden Eagle from our PolygonArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
 
   {
-    id: 19,
+    id: 10,
     title: "Holy",
     artist: "Femi",
     artistImage: Artist,
@@ -122,9 +131,10 @@ const items = [
     info: "Digital art of Holy from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 20,
+    id: 11,
     title: "Human Art",
     artist: "Femi",
     artistImage: Artist,
@@ -132,9 +142,10 @@ const items = [
     info: "Digital art of Human Art from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 21,
+    id: 12,
     title: "Human Grid",
     artist: "Femi",
     artistImage: Artist,
@@ -142,9 +153,10 @@ const items = [
     info: "Digital art of a Human Grid from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 24,
+    id: 13,
     title: "Heart",
     artist: "Femi",
     artistImage: Artist,
@@ -152,10 +164,11 @@ const items = [
     info: "Digital art of Heart from our PolygonArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
 
   {
-    id: 27,
+    id: 14,
     title: "Portrait",
     artist: "Femi",
     artistImage: Artist,
@@ -163,9 +176,10 @@ const items = [
     info: "Digital art of a Portrait from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 28,
+    id: 15,
     title: "Human Portrait",
     artist: "Femi",
     artistImage: Artist,
@@ -173,9 +187,10 @@ const items = [
     info: "Digital art of a Human Portrait from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 31,
+    id: 16,
     title: "Rabbit",
     artist: "Femi",
     artistImage: Artist,
@@ -183,10 +198,11 @@ const items = [
     info: "Digital art of a Rabbit from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
-    id: 35,
+    id: 17,
     title: "Skull",
     artist: "Femi",
     artistImage: Artist,
@@ -194,10 +210,11 @@ const items = [
     info: "Digital art of a Skull from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
-    id: 39,
+    id: 18,
     title: "Waterfall",
     artist: "Femi",
     artistImage: Artist,
@@ -205,9 +222,10 @@ const items = [
     info: "Digital art of a Waterfall from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
-    id: 40,
+    id: 19,
     title: "Wizard",
     artist: "Femi",
     artistImage: Artist,
@@ -215,6 +233,7 @@ const items = [
     info: "Digital art of a Wizard from our PolygonArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 ];
 export default items;
