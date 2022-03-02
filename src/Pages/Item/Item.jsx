@@ -40,7 +40,9 @@ const Item = () => {
         <ItemMenu />
         <MarketplaceMenu />
         <div className="item-content">
-          <BackGround center={center} src={image} />
+          <div className="image">
+            <BackGround center={center} src={image} />
+          </div>
           <div className="content">
             <img src={artistImage} alt="" />
             <h1>{artist}</h1>

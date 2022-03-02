@@ -20,12 +20,15 @@ export const ItemStyled = styled.main`
   .item-content {
     display: flex;
     width: 100%;
-
+    align-items: center;
     /* padding-top: 4rem; */
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex-direction: column;
     }
+  }
+  .image {
+    flex: 2;
   }
   .content {
     flex: 2;
@@ -36,10 +39,9 @@ export const ItemStyled = styled.main`
   }
 `;
 export const BackGround = styled.div`
-  flex: 2;
   border-top-right-radius: 1rem;
-  width: 100%;
-  height: 800px;
+  width: 400px;
+  height: 400px;
   /* border-radius: 50%; */
   background-image: url(${({ src }) => src});
   background-size: cover;

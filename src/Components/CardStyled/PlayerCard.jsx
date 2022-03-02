@@ -10,7 +10,6 @@ const PlayerCard = ({ item }) => {
     <div>
       <Item className="single">
         <Highlight>
-          <img className="artist" src={artistImage} alt="" />
           <Title>{title}</Title>
         </Highlight>
         <PlayerImg
