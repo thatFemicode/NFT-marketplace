@@ -37,6 +37,8 @@ const items = [
     artistImage: Artist,
     image: Caruso,
     info: "Digital art of Alex Caruso, AC fresh from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 2,
@@ -45,6 +47,8 @@ const items = [
     artistImage: Artist,
     image: Ben,
     info: "Digital art of Ben Simmons from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 3,
@@ -53,6 +57,8 @@ const items = [
     artistImage: Artist,
     image: ChrisPaul,
     info: "Digital art of Chris Paul, point god from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 4,
@@ -62,6 +68,8 @@ const items = [
     image: Dennis,
     info:
       "Digital art of Dennis Scrhoder, the Menance from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 5,
@@ -70,6 +78,8 @@ const items = [
     artistImage: Artist,
     image: Derrick,
     info: "Digital art of Derrick Rose 🌹 from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 6,
@@ -78,6 +88,8 @@ const items = [
     artistImage: Artist,
     image: Booker,
     info: "Digital art of Devin Booker from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 7,
@@ -87,6 +99,8 @@ const items = [
     image: Mitchell,
     info:
       "Digital art of Donovan Mitchell 🕷, the Spida  from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 8,
@@ -96,6 +110,8 @@ const items = [
     image: Wade,
     info:
       "Digital art of Dwayne Wade ⚡, the Flash from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 9,
@@ -105,6 +121,8 @@ const items = [
     image: Giannis,
     info:
       "Digital art of Giannis Antentokunpo, the Greek Freak from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 10,
@@ -114,6 +132,8 @@ const items = [
     image: Hakeem,
     info:
       "Digital art of Hakeem Olajuwon, the dream from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 11,
@@ -122,6 +142,8 @@ const items = [
     artistImage: Artist,
     image: Ja,
     info: "Digital art of Ja Morant from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 12,
@@ -130,6 +152,8 @@ const items = [
     artistImage: Artist,
     image: Jaylen,
     info: "Digital art of Jaylen Brown from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 13,
@@ -138,6 +162,8 @@ const items = [
     artistImage: Artist,
     image: Jayson,
     info: "Digital art of Jayson Tatum from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 14,
@@ -147,6 +173,8 @@ const items = [
     image: Jimmy,
     info:
       "Digital art of Jimmy Butler, Jimmy Buckets from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 15,
@@ -155,6 +183,8 @@ const items = [
     artistImage: Artist,
     image: Joel,
     info: "Digital art of Joel Embid, The Process from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 16,
@@ -164,6 +194,8 @@ const items = [
     image: Kevin,
     info:
       "Digital art of Kevin Durant, easyMoneySniper from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 17,
@@ -173,6 +205,8 @@ const items = [
     image: Lebron,
     info:
       "Digital art of Lebron James 👑, the King from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 18,
@@ -182,6 +216,8 @@ const items = [
     image: Klay,
     info:
       "Digital art of Klay Thompson 🌊, Sea Captain from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 19,
@@ -190,6 +226,8 @@ const items = [
     artistImage: Artist,
     image: Kobe,
     info: "Digital art of Kobe Bryant 🐍, Mamba  M from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 20,
@@ -198,6 +236,8 @@ const items = [
     artistImage: Artist,
     image: Kyrie,
     info: "Digital art of Kyrie Irving, Box office from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 21,
@@ -206,80 +246,90 @@ const items = [
     artistImage: Artist,
     image: Luka,
     info: "Digital art of Luka Doncic, Luka Magic from our Players collection",
+    cover: true,
+    center: true,
   },
   {
     id: 22,
-    title: "Manu.G",
-    artist: "Femi",
-    artistImage: Artist,
-    image: Manu,
-    info: "Digital art of Manu Ginobli from our Players collection",
-  },
-  {
-    id: 23,
     title: "Marc.G",
     artist: "Femi",
     artistImage: Artist,
     image: Gasol,
     info: "Digital art of Marc Gasol from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 24,
+    id: 23,
     title: "Pascal.S",
     artist: "Femi",
     artistImage: Artist,
     image: Siakam,
     info: "Digital art of Pascal Siakam from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 25,
+    id: 24,
     title: "Paul.G",
     artist: "Femi",
     artistImage: Artist,
     image: Paul,
     info: "Digital art of Paul George, pandemic P from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 26,
+    id: 25,
     title: "Ricky.R",
     artist: "Femi",
     artistImage: Artist,
     image: Ricky,
     info: "Digital art of Ricky Rubio from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 27,
+    id: 26,
     title: "Stephen.C",
     artist: "Femi",
     artistImage: Artist,
     image: Steph,
     info:
       "Digital art of Steph Curry, baby faced assasin from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 28,
+    id: 27,
     title: "Magic.J",
     artist: "Femi",
     artistImage: Artist,
     image: Magic,
     info: "Digital art of Magic Johnson from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 29,
+    id: 28,
     title: "Trae.Y",
     artist: "Femi",
     artistImage: Artist,
     image: Trae,
     info: "Digital art of Trae Young ❄, Ice Trae from our Players collection",
+    cover: true,
+    center: true,
   },
   {
-    id: 30,
+    id: 29,
     title: "Zach.L",
     artist: "Femi",
     artistImage: Artist,
     image: Zach,
     info:
       "Digital art of Zach Lavine ✈, Air flight from our Players collection",
+    cover: true,
+    center: true,
   },
 ];
 export default items;

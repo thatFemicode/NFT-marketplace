@@ -5,11 +5,10 @@ import Img from "../Img/ImgStyled";
 
 const Card = ({ item }) => {
   const nav = useNavigate();
-  const { id, title, image, artistImage } = item;
+  const { id, title, image } = item;
   return (
     <Item className="single">
       <Highlight>
-        <img className="artist" src={artistImage} alt="" />
         <Title>{title}</Title>
       </Highlight>
       <Img

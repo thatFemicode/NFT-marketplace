@@ -2,20 +2,20 @@ import { Power3, Power4, gsap } from "gsap";
 const itemAnim = (node1, node2, node3, node4) => {
   let tl = gsap.timeline();
   tl.to(node1, {
-    duration: 1.2,
+    duration: 1,
     width: "100%",
     left: "0%",
     ease: Power3.easeInOut,
   })
     .to(node2, {
-      duration: 0.8,
+      duration: 0.1,
       ease: Power3.easeInOut,
       opacity: 1,
     })
     .fromTo(
       node3,
       {
-        duration: 0.7,
+        duration: 0.2,
         scale: 0.5,
         opacity: 0,
         fillOpacity: 0,
@@ -23,7 +23,7 @@ const itemAnim = (node1, node2, node3, node4) => {
         ease: Power3.easeInOut,
       },
       {
-        duration: 2,
+        duration: 1,
         opacity: 1,
         scale: 0.7,
         strokeDashoffset: 0,
@@ -33,7 +33,7 @@ const itemAnim = (node1, node2, node3, node4) => {
       }
     )
     .to(node1, {
-      duration: 1.2,
+      duration: 0.7,
       left: "100%",
       ease: Power3.easeInOut,
       delay: 0.3,

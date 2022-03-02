@@ -46,6 +46,7 @@ export const Item = styled.div`
 export const Title = styled.p`
   font-size: 0.8rem;
   text-align: center;
+  margin-left: 1rem;
   mix-blend-mode: exclusion;
   color: #000;
   mix-blend-mode: difference;
