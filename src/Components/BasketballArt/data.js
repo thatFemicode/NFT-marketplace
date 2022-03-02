@@ -39,6 +39,7 @@ const items = [
     info: "Digital art of Alex Caruso, AC fresh from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 2,
@@ -49,6 +50,7 @@ const items = [
     info: "Digital art of Ben Simmons from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 3,
@@ -59,6 +61,7 @@ const items = [
     info: "Digital art of Chris Paul, point god from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 4,
@@ -70,6 +73,7 @@ const items = [
       "Digital art of Dennis Scrhoder, the Menance from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 5,
@@ -80,6 +84,7 @@ const items = [
     info: "Digital art of Derrick Rose 🌹 from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 6,
@@ -90,6 +95,7 @@ const items = [
     info: "Digital art of Devin Booker from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 7,
@@ -101,6 +107,7 @@ const items = [
       "Digital art of Donovan Mitchell 🕷, the Spida  from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 8,
@@ -112,6 +119,7 @@ const items = [
       "Digital art of Dwayne Wade ⚡, the Flash from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 9,
@@ -123,6 +131,7 @@ const items = [
       "Digital art of Giannis Antentokunpo, the Greek Freak from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 10,
@@ -134,6 +143,7 @@ const items = [
       "Digital art of Hakeem Olajuwon, the dream from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 11,
@@ -144,6 +154,7 @@ const items = [
     info: "Digital art of Ja Morant from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 12,
@@ -154,6 +165,7 @@ const items = [
     info: "Digital art of Jaylen Brown from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 13,
@@ -164,6 +176,7 @@ const items = [
     info: "Digital art of Jayson Tatum from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 14,
@@ -175,6 +188,7 @@ const items = [
       "Digital art of Jimmy Butler, Jimmy Buckets from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 15,
@@ -185,6 +199,7 @@ const items = [
     info: "Digital art of Joel Embid, The Process from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 16,
@@ -196,6 +211,7 @@ const items = [
       "Digital art of Kevin Durant, easyMoneySniper from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 17,
@@ -207,6 +223,7 @@ const items = [
       "Digital art of Lebron James 👑, the King from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 18,
@@ -218,6 +235,7 @@ const items = [
       "Digital art of Klay Thompson 🌊, Sea Captain from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 19,
@@ -228,6 +246,7 @@ const items = [
     info: "Digital art of Kobe Bryant 🐍, Mamba  M from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 20,
@@ -238,6 +257,7 @@ const items = [
     info: "Digital art of Kyrie Irving, Box office from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 21,
@@ -248,6 +268,7 @@ const items = [
     info: "Digital art of Luka Doncic, Luka Magic from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 22,
@@ -258,6 +279,7 @@ const items = [
     info: "Digital art of Marc Gasol from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 23,
@@ -268,6 +290,7 @@ const items = [
     info: "Digital art of Pascal Siakam from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 24,
@@ -278,6 +301,7 @@ const items = [
     info: "Digital art of Paul George, pandemic P from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 25,
@@ -288,6 +312,7 @@ const items = [
     info: "Digital art of Ricky Rubio from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 26,
@@ -299,6 +324,7 @@ const items = [
       "Digital art of Steph Curry, baby faced assasin from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 27,
@@ -309,6 +335,7 @@ const items = [
     info: "Digital art of Magic Johnson from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 28,
@@ -319,6 +346,7 @@ const items = [
     info: "Digital art of Trae Young ❄, Ice Trae from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 29,
@@ -330,6 +358,7 @@ const items = [
       "Digital art of Zach Lavine ✈, Air flight from our Players collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
 ];
 export default items;

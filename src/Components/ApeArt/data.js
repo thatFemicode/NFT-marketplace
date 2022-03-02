@@ -30,6 +30,7 @@ const items = [
     info: "Digital art of Surprised Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 2,
@@ -40,6 +41,7 @@ const items = [
     info: "Digital art of Basketball Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 3,
@@ -50,6 +52,7 @@ const items = [
     info: "Digital art of Bored Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ const items = [
     info: "Digital art of Captain Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 5,
@@ -70,6 +74,7 @@ const items = [
     info: "Digital art of 2Chainz Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 6,
@@ -80,6 +85,7 @@ const items = [
     info: "Digital art of ColdBlooded Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 7,
@@ -90,6 +96,7 @@ const items = [
     info: "Digital art of Cyclops Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 8,
@@ -100,6 +107,7 @@ const items = [
     info: "Digital art of Famous Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 9,
@@ -110,6 +118,7 @@ const items = [
     info: "Digital art of Fashion Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 10,
@@ -120,6 +129,7 @@ const items = [
     info: "Digital art of Football Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 11,
@@ -130,6 +140,7 @@ const items = [
     info: "Digital art of Happy Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
 
   {
@@ -141,6 +152,7 @@ const items = [
     info: "Digital art of Lover Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 13,
@@ -151,6 +163,7 @@ const items = [
     info: "Digital art of Machine Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 14,
@@ -161,6 +174,7 @@ const items = [
     info: "Digital art of Monk Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 15,
@@ -171,6 +185,7 @@ const items = [
     info: "Digital art of Nanny Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 16,
@@ -181,6 +196,7 @@ const items = [
     info: "Digital art of Obsidian Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 17,
@@ -191,6 +207,7 @@ const items = [
     info: "Digital art of Old Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 18,
@@ -201,6 +218,7 @@ const items = [
     info: "Digital art of Space Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 19,
@@ -211,6 +229,7 @@ const items = [
     info: "Digital art of Talent Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 20,
@@ -221,6 +240,7 @@ const items = [
     info: "Digital art of High Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 21,
@@ -231,6 +251,7 @@ const items = [
     info: "Digital art of Yatch Ape from our Ape collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
 ];
 export default items;

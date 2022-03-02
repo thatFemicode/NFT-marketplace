@@ -29,6 +29,7 @@ const items = [
     info: "Digital art of Black Rock from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 2,
@@ -39,6 +40,7 @@ const items = [
     info: "Digital art of Blend from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 3,
@@ -49,6 +51,7 @@ const items = [
     info: "Digital art of Hidden from our RandomArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 4,
@@ -59,6 +62,7 @@ const items = [
     info: "Digital art of InMyHead from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 5,
@@ -69,6 +73,7 @@ const items = [
     info: "Digital art of Lefou from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 6,
@@ -79,6 +84,7 @@ const items = [
     info: "Digital art of Lloys from our RandomArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 7,
@@ -89,6 +95,7 @@ const items = [
     info: "Digital art of Mansa from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 8,
@@ -99,6 +106,7 @@ const items = [
     info: "Digital art of MetaBorg from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 9,
@@ -109,6 +117,7 @@ const items = [
     info: "Digital art of ModelPose from our RandomArt collection",
     cover: true,
     center: true,
+    price: "0.2ETH",
   },
   {
     id: 10,
@@ -119,6 +128,7 @@ const items = [
     info: "Digital art of Moet from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 11,
@@ -129,6 +139,7 @@ const items = [
     info: "Digital art of MoneyDrown from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 12,
@@ -139,6 +150,7 @@ const items = [
     info: "Digital art of ParaPhase from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 13,
@@ -149,6 +161,7 @@ const items = [
     info: "Digital art of SkullTears from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 
   {
@@ -160,6 +173,7 @@ const items = [
     info: "Digital art of Tears from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 15,
@@ -170,6 +184,7 @@ const items = [
     info: "Digital art of World from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
   {
     id: 16,
@@ -180,6 +195,7 @@ const items = [
     info: "Digital art of Wrapped  from our RandomArt collection",
     cover: true,
     center: false,
+    price: "0.2ETH",
   },
 ];
 export default items;

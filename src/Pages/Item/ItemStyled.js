@@ -20,15 +20,16 @@ export const ItemStyled = styled.main`
   .item-content {
     display: flex;
     width: 100%;
+
     /* padding-top: 4rem; */
-    @media (max-width: ${({ theme }) => theme.images}) {
+    @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex-direction: column;
     }
   }
   .content {
     flex: 2;
-    @media (max-width: ${({ theme }) => theme.images}) {
+    @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex: unset;
     }
@@ -37,15 +38,15 @@ export const ItemStyled = styled.main`
 export const BackGround = styled.div`
   flex: 2;
   border-top-right-radius: 1rem;
-  width: 400px;
+  width: 100%;
   height: 800px;
   /* border-radius: 50%; */
   background-image: url(${({ src }) => src});
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: ${({ center }) => (center ? "center" : "")};
 
-  @media (max-width: ${({ theme }) => theme.images}) {
+  @media (max-width: ${({ theme }) => theme.service}) {
     /* max-width: 400px; */
     flex: unset;
     width: 100%;

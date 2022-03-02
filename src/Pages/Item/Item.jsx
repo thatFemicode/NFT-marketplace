@@ -13,7 +13,7 @@ const Item = () => {
 
   const { state } = useLocation();
   console.log(state);
-  const { id, title, artist, artistImage, image } = state;
+  const { id, title, artist, artistImage, image, cover, center, price } = state;
   useEffect(() => {
     itemAnim(screen, svg, path, body);
   }, []);
@@ -40,8 +40,13 @@ const Item = () => {
         <ItemMenu />
         <MarketplaceMenu />
         <div className="item-content">
-          <BackGround src={image} />
-          <div className="content"></div>
+          <BackGround center={center} src={image} />
+          <div className="content">
+            <img src={artistImage} alt="" />
+            <h1>{artist}</h1>
+            <p>{title}</p>
+            <p>{price}</p>
+          </div>
         </div>
       </ItemStyled>
     </>
