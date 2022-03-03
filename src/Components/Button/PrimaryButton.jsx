@@ -26,11 +26,7 @@ const PrimaryButton = ({ name, bgColor, margin, color }) => {
   return (
     <ButtonStyled bgColor={bgColor} margin={margin} color={color}>
       {name}
-      <svg
-        viewBox="0 0 20 20"
-        fill="none"
-        // class="w-5 ml-1.25 transition-transform duration-75 transform group-hover:translate-x-0.5 flex-shrink-0"
-      >
+      <svg viewBox="0 0 20 20" fill="none">
         <path
           d="M6 10H14"
           stroke="currentColor"

@@ -75,6 +75,7 @@ export const ItemStyled = styled.main`
       align-items: center;
       justify-content: space-between;
       margin-top: 1rem;
+
       .artist {
         display: flex;
         align-items: center;

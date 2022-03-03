@@ -125,16 +125,7 @@ width:400px;
 height:400px;
 left:50%;
 transform:translateX(-40%);
-@media screen and  (max-width: 430px) {
-transform:translateX(-25%);
-width:300px;
-height:300px;
-  }
-@media screen and  (max-width: 330px) {
-transform:translateX(-22%);
-width:200px;
-height:200px;
-  }
+
   path{
     fill-opacity:0;
     stroke-width:10;

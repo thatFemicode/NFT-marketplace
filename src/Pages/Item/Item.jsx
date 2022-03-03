@@ -1,35 +1,37 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useLayoutEffect } from "react";
 import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import { ItemStyled, BackGround } from "./ItemStyled";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import itemAnim from "./itemAnimation";
 import ItemMenu from "../../Components/MarketplaceMenu/ItemMenu/ItemMenu";
 import { OuterLayout } from "../../Layout/Layout";
 import Details from "../../Components/ItemDetails/Details";
+import ItemButton from "../../Components/Button/ItemButton";
 
 const Item = () => {
+  // Refs for loader animation
   let screen = useRef(null);
   let body = useRef(null);
   let svg = useRef(null);
   let path = useRef(null);
 
   const { state } = useLocation();
-  console.log(state);
   const {
-    id,
     title,
     artist,
     artistImage,
     image,
     info,
     collection,
-    cover,
     center,
     price,
   } = state;
+
   useEffect(() => {
-    itemAnim(screen, svg, path, body);
-  }, []);
+    if (state) {
+      itemAnim(screen, svg, path, body);
+    }
+  }, [state]);
   return (
     <>
       <div className="load-container">
@@ -64,10 +66,15 @@ const Item = () => {
               <Details name="Price" info={price} />
               <div className="artist-details">
                 <div className="artist">
-                  <img src={artistImage} alt="" />
+                  <Link to="/artist">
+                    <img src={artistImage} alt="" />
+                  </Link>
                 </div>
                 <p>{artist}</p>
               </div>
+              <Link to="/artist">
+                <ItemButton name="Buy" />
+              </Link>
             </div>
           </div>
         </OuterLayout>
