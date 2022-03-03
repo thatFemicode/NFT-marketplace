@@ -5,7 +5,7 @@ import { PlayerImg } from "../Img/ImgStyled";
 
 const PlayerCard = ({ item }) => {
   const nav = useNavigate();
-  const { id, title, image, artistImage } = item;
+  const { id, title, image } = item;
   return (
     <div>
       <Item className="single">

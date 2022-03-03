@@ -11,8 +11,8 @@ import Kendrick from "./Celebrity-NFT/KendrickLamar.png";
 import LilNas from "./Celebrity-NFT/LilNas.jpg";
 import Nicki from "./Celebrity-NFT/NickiMinaj.jpg";
 import Nipsey from "./Celebrity-NFT/NipseyHussle.jpg";
-import PopSmoke from "./Celebrity-NFT/PopSmoke.jpg";
-import PostMalone from "./Celebrity-NFT/PostMalone.jpg";
+// import PopSmoke from "./Celebrity-NFT/PopSmoke.jpg";
+// import PostMalone from "./Celebrity-NFT/PostMalone.jpg";
 import Rema from "./Celebrity-NFT/Rema.jpg";
 import Rihana from "./Celebrity-NFT/Rihanna.jpg";
 import Snoop from "./Celebrity-NFT/SnoopDoggfinal.png";
@@ -46,7 +46,7 @@ const items = [
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Tyler",
     artist: "Femi",
     artistImage: Artist,
@@ -58,7 +58,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 5,
+    id: 4,
     title: "Frank.O",
     artist: "Femi",
     artistImage: Artist,
@@ -70,7 +70,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 6,
+    id: 5,
     title: "Ice.C",
     artist: "Femi",
     artistImage: Artist,
@@ -82,7 +82,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 7,
+    id: 6,
     title: "Jcole",
     artist: "Femi",
     artistImage: Artist,
@@ -94,7 +94,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 8,
+    id: 7,
     title: "Jason.D",
     artist: "Femi",
     artistImage: Artist,
@@ -106,7 +106,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 9,
+    id: 8,
     title: "Juice.W",
     artist: "Femi",
     artistImage: Artist,
@@ -118,7 +118,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 10,
+    id: 9,
     title: "Kanye.W",
     artist: "Femi",
     artistImage: Artist,
@@ -130,7 +130,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 11,
+    id: 10,
     title: "Kendrick.L",
     artist: "Femi",
     artistImage: Artist,
@@ -142,7 +142,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 12,
+    id: 11,
     title: "Lil Nas",
     artist: "Femi",
     artistImage: Artist,
@@ -154,7 +154,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 13,
+    id: 12,
     title: "Nicki.M",
     artist: "Femi",
     artistImage: Artist,
@@ -166,7 +166,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 14,
+    id: 13,
     title: "Nipsey.H",
     artist: "Femi",
     artistImage: Artist,
@@ -179,7 +179,7 @@ const items = [
   },
 
   {
-    id: 17,
+    id: 14,
     title: "Rihana",
     artist: "Femi",
     artistImage: Artist,
@@ -191,7 +191,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 18,
+    id: 15,
     title: "Snoop.D",
     artist: "Femi",
     artistImage: Artist,
@@ -203,7 +203,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 19,
+    id: 16,
     title: "Weekend",
     artist: "Femi",
     artistImage: Artist,
@@ -215,7 +215,7 @@ const items = [
     collection: "Celebrity Collection",
   },
   {
-    id: 20,
+    id: 17,
     title: "Travis.S",
     artist: "Femi",
     artistImage: Artist,

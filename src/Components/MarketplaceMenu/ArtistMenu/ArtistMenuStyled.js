@@ -1,5 +1,5 @@
 import styled from "styled-components";
-export const ItemMenuStyled = styled.nav`
+export const ArtistMenuStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;

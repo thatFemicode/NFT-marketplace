@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useLayoutEffect } from "react";
+import React, { useRef, useLayoutEffect } from "react";
 import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import { ItemStyled, BackGround } from "./ItemStyled";
 import { useLocation, Link } from "react-router-dom";

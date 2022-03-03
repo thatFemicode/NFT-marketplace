@@ -13,7 +13,6 @@ import Moet from "./RandomArt-NFT/Moet.png";
 import MoneyDrown from "./RandomArt-NFT/MoneyDrown.png";
 import Paraphase from "./RandomArt-NFT/PARAPHASE.jpg";
 import SkullTears from "./RandomArt-NFT/SkullTears.png";
-import StrangeAdventure from "./RandomArt-NFT/StrangeAdventure.jpg";
 import Tears from "./RandomArt-NFT/Tears.png";
 import World from "./RandomArt-NFT/World.jpg";
 import Wrapped from "./RandomArt-NFT/Wrapped.jpg";
@@ -208,6 +207,30 @@ const items = [
     artistImage: Artist,
     image: Wrapped,
     info: "Digital art of Wrapped  from our RandomArt collection",
+    cover: true,
+    center: false,
+    price: "0.2ETH",
+    collection: "RandomArt Collection",
+  },
+  {
+    id: 17,
+    title: "Emoboy",
+    artist: "Femi",
+    artistImage: Artist,
+    image: Emoboy,
+    info: "Digital art of Emoboy from our RandomArt collection",
+    cover: true,
+    center: false,
+    price: "0.2ETH",
+    collection: "RandomArt Collection",
+  },
+  {
+    id: 18,
+    title: "Ceasar",
+    artist: "Femi",
+    artistImage: Artist,
+    image: Ceasar,
+    info: "Digital art of Ceasar from our RandomArt collection",
     cover: true,
     center: false,
     price: "0.2ETH",

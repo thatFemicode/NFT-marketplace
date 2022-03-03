@@ -19,7 +19,7 @@ import Klay from "./Basketball-NFT/Klay.jpg";
 import Kobe from "./Basketball-NFT/Kobe.jpg";
 import Kyrie from "./Basketball-NFT/Kyrie.jpg";
 import Luka from "./Basketball-NFT/Luka.jpg";
-import Manu from "./Basketball-NFT/Manu.jpg";
+// import Manu from "./Basketball-NFT/Manu.jpg";
 import Gasol from "./Basketball-NFT/Marc.jpg";
 import Siakam from "./Basketball-NFT/Pascal.jpg";
 import Paul from "./Basketball-NFT/Paul.jpg";
