@@ -5,6 +5,8 @@ import { useLocation } from "react-router-dom";
 import itemAnim from "./itemAnimation";
 import ItemMenu from "../../Components/MarketplaceMenu/ItemMenu/ItemMenu";
 import { OuterLayout } from "../../Layout/Layout";
+import Details from "../../Components/ItemDetails/Details";
+
 const Item = () => {
   let screen = useRef(null);
   let body = useRef(null);
@@ -57,15 +59,9 @@ const Item = () => {
             </div>
             <div className="content">
               <h1>{title}</h1>
-              <div className="collection">
-                <h3>Collection</h3>
-                <p>{collection}</p>
-              </div>
-              <div className="description">
-                <h3>Description:</h3>
-                <p>{info}</p>
-              </div>
-              <p>{price}</p>
+              <Details name="Collection" info={collection} />
+              <Details name="Description" info={info} />
+              <Details name="Price" info={price} />
               <div className="artist-details">
                 <div className="artist">
                   <img src={artistImage} alt="" />
