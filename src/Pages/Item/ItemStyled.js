@@ -5,9 +5,9 @@ export const ItemStyled = styled.main`
   width: 100%;
   overflow: hidden;
   display: flex;
-  align-items: center;
   justify-content: center;
   position: relative;
+
   @media (max-width: ${({ theme }) => theme.images}) {
     /* max-width: 400px; */
     align-items: unset;
@@ -20,7 +20,9 @@ export const ItemStyled = styled.main`
   .item-content {
     display: flex;
     width: 100%;
-    align-items: center;
+    height: 100%;
+    padding: 0 3rem;
+    padding-top: 5rem;
     /* padding-top: 4rem; */
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
@@ -28,20 +30,60 @@ export const ItemStyled = styled.main`
     }
   }
   .image {
-    flex: 2;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .artist-details {
+      display: flex;
+      width: 100%;
+      .artist {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+    }
   }
   .content {
     flex: 2;
+    text-align: left;
+    padding-left: 3rem;
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex: unset;
     }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-top: 1rem;
+    }
+    .artist-details {
+      display: flex;
+      width: 400px;
+      align-items: center;
+      justify-content: space-between;
+      .artist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #000;
+      }
+    }
   }
 `;
 export const BackGround = styled.div`
-  border-top-right-radius: 1rem;
+  /* border-top-right-radius: 1rem; */
+  border-radius: 1rem;
   width: 400px;
-  height: 400px;
+  height: 90%;
   /* border-radius: 50%; */
   background-image: url(${({ src }) => src});
   background-size: cover;

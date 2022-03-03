@@ -4,7 +4,7 @@ import { ItemStyled, BackGround } from "./ItemStyled";
 import { useLocation } from "react-router-dom";
 import itemAnim from "./itemAnimation";
 import ItemMenu from "../../Components/MarketplaceMenu/ItemMenu/ItemMenu";
-
+import { OuterLayout } from "../../Layout/Layout";
 const Item = () => {
   let screen = useRef(null);
   let body = useRef(null);
@@ -13,7 +13,18 @@ const Item = () => {
 
   const { state } = useLocation();
   console.log(state);
-  const { id, title, artist, artistImage, image, cover, center, price } = state;
+  const {
+    id,
+    title,
+    artist,
+    artistImage,
+    image,
+    info,
+    collection,
+    cover,
+    center,
+    price,
+  } = state;
   useEffect(() => {
     itemAnim(screen, svg, path, body);
   }, []);
@@ -39,17 +50,25 @@ const Item = () => {
       >
         <ItemMenu />
         <MarketplaceMenu />
-        <div className="item-content">
-          <div className="image">
-            <BackGround center={center} src={image} />
+        <OuterLayout>
+          <div className="item-content">
+            <div className="image">
+              <BackGround center={center} src={image} />
+            </div>
+            <div className="content">
+              <h1>{title}</h1>
+              <p>Collection: {collection}</p>
+              <p>{info}</p>
+              <p>{price}</p>
+              <div className="artist-details">
+                <div className="artist">
+                  <img src={artistImage} alt="" />
+                </div>
+                <p>{artist}</p>
+              </div>
+            </div>
           </div>
-          <div className="content">
-            <img src={artistImage} alt="" />
-            <h1>{artist}</h1>
-            <p>{title}</p>
-            <p>{price}</p>
-          </div>
-        </div>
+        </OuterLayout>
       </ItemStyled>
     </>
   );

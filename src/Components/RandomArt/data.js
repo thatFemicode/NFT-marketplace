@@ -30,6 +30,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 2,
@@ -41,6 +42,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 3,
@@ -52,6 +54,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 5,
@@ -74,6 +78,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 6,
@@ -85,6 +90,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 7,
@@ -96,6 +102,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 8,
@@ -107,6 +114,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 9,
@@ -118,6 +126,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 10,
@@ -129,6 +138,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 11,
@@ -140,6 +150,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 12,
@@ -151,6 +162,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 13,
@@ -162,6 +174,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
 
   {
@@ -174,6 +187,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 15,
@@ -185,6 +199,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
   {
     id: 16,
@@ -196,6 +211,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "RandomArt Collection",
   },
 ];
 export default items;

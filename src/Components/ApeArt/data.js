@@ -31,6 +31,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 3,
@@ -53,6 +55,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 4,
@@ -64,6 +67,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 5,
@@ -75,6 +79,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 6,
@@ -86,6 +91,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 7,
@@ -97,6 +103,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 8,
@@ -108,6 +115,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 9,
@@ -119,6 +127,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 10,
@@ -130,6 +139,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 11,
@@ -141,6 +151,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
 
   {
@@ -153,6 +164,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 13,
@@ -164,6 +176,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 14,
@@ -175,6 +188,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 15,
@@ -186,6 +200,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 16,
@@ -197,6 +212,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 17,
@@ -208,6 +224,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 18,
@@ -219,6 +236,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 19,
@@ -230,6 +248,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 20,
@@ -241,6 +260,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
   {
     id: 21,
@@ -252,6 +272,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Ape Collection",
   },
 ];
 export default items;

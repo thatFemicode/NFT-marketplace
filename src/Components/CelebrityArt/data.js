@@ -30,6 +30,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 2,
@@ -41,6 +42,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
 
   {
@@ -53,6 +55,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 5,
@@ -64,6 +67,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 6,
@@ -75,6 +79,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 7,
@@ -86,6 +91,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 8,
@@ -97,6 +103,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 9,
@@ -108,6 +115,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 10,
@@ -119,6 +127,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 11,
@@ -130,6 +139,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 12,
@@ -141,6 +151,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 13,
@@ -152,6 +163,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 14,
@@ -163,6 +175,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
 
   {
@@ -175,6 +188,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 18,
@@ -186,6 +200,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 19,
@@ -197,6 +212,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
   {
     id: 20,
@@ -208,6 +224,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Celebrity Collection",
   },
 ];
 export default items;

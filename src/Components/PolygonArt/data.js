@@ -29,6 +29,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 2,
@@ -40,6 +41,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -52,6 +54,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 5,
@@ -74,6 +78,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 6,
@@ -85,6 +90,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 7,
@@ -96,6 +102,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -108,6 +115,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -120,6 +128,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -132,6 +141,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 11,
@@ -143,6 +153,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 12,
@@ -154,6 +165,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 13,
@@ -165,6 +177,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -177,6 +190,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 15,
@@ -188,6 +202,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 16,
@@ -199,6 +214,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -211,6 +227,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 
   {
@@ -223,6 +240,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
   {
     id: 19,
@@ -234,6 +252,7 @@ const items = [
     cover: true,
     center: false,
     price: "0.2ETH",
+    collection: "PolygonArt Collection",
   },
 ];
 export default items;

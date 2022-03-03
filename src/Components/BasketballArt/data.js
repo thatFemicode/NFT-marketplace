@@ -40,6 +40,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 2,
@@ -51,6 +52,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 3,
@@ -62,6 +64,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 4,
@@ -74,6 +77,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 5,
@@ -85,6 +89,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 6,
@@ -96,6 +101,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 7,
@@ -108,6 +114,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 8,
@@ -120,6 +127,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 9,
@@ -132,6 +140,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 10,
@@ -144,6 +153,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 11,
@@ -155,6 +165,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 12,
@@ -166,6 +177,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 13,
@@ -177,6 +189,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 14,
@@ -189,6 +202,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 15,
@@ -200,6 +214,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 16,
@@ -212,6 +227,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 17,
@@ -224,6 +240,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 18,
@@ -236,6 +253,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 19,
@@ -247,6 +265,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 20,
@@ -258,6 +277,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 21,
@@ -269,6 +289,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 22,
@@ -280,6 +301,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 23,
@@ -291,6 +313,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 24,
@@ -302,6 +325,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 25,
@@ -313,6 +337,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 26,
@@ -325,6 +350,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 27,
@@ -336,6 +362,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 28,
@@ -347,6 +374,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
   {
     id: 29,
@@ -359,6 +387,7 @@ const items = [
     cover: true,
     center: true,
     price: "0.2ETH",
+    collection: "Player Collection",
   },
 ];
 export default items;
