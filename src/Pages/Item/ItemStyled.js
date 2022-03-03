@@ -2,15 +2,21 @@ import styled from "styled-components";
 import Bg from "./noise.png";
 export const ItemStyled = styled.main`
   height: 100vh;
-  width: 100%;
+
   overflow: hidden;
   display: flex;
   justify-content: center;
   position: relative;
   background: url(${Bg});
-  @media (max-width: ${({ theme }) => theme.images}) {
+  background-size: contain;
+  width: 100%;
+  background-repeat: repeat;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  @media (max-width: ${({ theme }) => theme.service}) {
     /* max-width: 400px; */
-    align-items: unset;
+    overflow: visible;
+    height: 100%;
   }
   img {
     /* height: 600px;
@@ -22,37 +28,33 @@ export const ItemStyled = styled.main`
     width: 100%;
     height: 100%;
     padding: 0 3rem;
-    padding-top: 5rem;
-    /* padding-top: 4rem; */
+
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
     }
   }
   .image {
-    display: flex;
-    flex-direction: column;
     flex: 1;
-    .artist-details {
-      display: flex;
-      width: 100%;
-      .artist {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-      }
+    height: 100%;
+    @media (max-width: ${({ theme }) => theme.service}) {
+      /* max-width: 400px; */
+      flex: unset;
     }
   }
   .content {
     flex: 2;
+    width: 100%;
+    height: 100%;
     text-align: left;
     padding-left: 3rem;
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
       flex: unset;
+      padding-left: 1rem;
     }
 
     h1 {
@@ -74,6 +76,12 @@ export const ItemStyled = styled.main`
       background-size: 50%;
       background-clip: text;
       -webkit-background-clip: text;
+      @media (max-width: ${({ theme }) => theme.dont}) {
+        font-size: 3rem;
+      }
+      @media (max-width: ${({ theme }) => theme.service}) {
+        font-size: 2.5rem;
+      }
     }
     h3 {
       font-size: 1.5rem;
@@ -122,10 +130,6 @@ export const BackGround = styled.div`
   background-position: ${({ center }) => (center ? "center" : "")};
 
   @media (max-width: ${({ theme }) => theme.service}) {
-    /* max-width: 400px; */
-    flex: unset;
-    width: 100%;
     height: 400px;
-    border-radius: 0;
   }
 `;

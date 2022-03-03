@@ -61,7 +61,6 @@ const Item = () => {
                 <h3>Collection</h3>
                 <p>{collection}</p>
               </div>
-
               <div className="description">
                 <h3>Description:</h3>
                 <p>{info}</p>
