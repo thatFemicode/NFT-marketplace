@@ -57,8 +57,15 @@ const Item = () => {
             </div>
             <div className="content">
               <h1>{title}</h1>
-              <p>Collection: {collection}</p>
-              <p>{info}</p>
+              <div className="collection">
+                <h3>Collection</h3>
+                <p>{collection}</p>
+              </div>
+
+              <div className="description">
+                <h3>Description:</h3>
+                <p>{info}</p>
+              </div>
               <p>{price}</p>
               <div className="artist-details">
                 <div className="artist">

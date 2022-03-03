@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import Bg from "./img/noise.png";
 export const MarketplaceStyled = styled.main`
   display: flex;
   flex-direction: column;
@@ -11,6 +11,7 @@ export const MarketplaceStyled = styled.main`
   height: 100vh;
   overflow-x: hidden;
   align-items: center;
+  background: url(${Bg});
 `;
 export const Pages = styled.div`
   flex: 1;
