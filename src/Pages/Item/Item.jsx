@@ -27,10 +27,8 @@ const Item = () => {
     price,
   } = state;
 
-  useEffect(() => {
-    if (state) {
-      itemAnim(screen, svg, path, body);
-    }
+  useLayoutEffect(() => {
+    itemAnim(screen, svg, path, body);
   }, [state]);
   return (
     <>

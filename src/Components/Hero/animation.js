@@ -3,14 +3,13 @@ let tl = gsap.timeline();
 const animate = (node1, node2, node3, node4, image1, image2, image3) => {
   tl.from(
     [node1, node2, node3, node4],
-
     {
       duration: 2,
       opacity: 0,
       y: 100,
       skewY: 10,
       stagger: {
-        amount: 0.5,
+        amount: 2,
       },
     },
     "+=1"
