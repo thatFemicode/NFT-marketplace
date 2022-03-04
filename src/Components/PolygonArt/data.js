@@ -22,7 +22,7 @@ const items = [
   {
     id: 1,
     title: "Avocado",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Avocado,
     info: "Digital art of Avocado from our PolygonArt collection",
@@ -30,11 +30,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 2,
     title: "Labador",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Labador,
     info: "Digital art of a Labador from our PolygonArt collection",
@@ -42,12 +45,15 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 3,
     title: "Crushed Can",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: CrushedCan,
     info: "Digital art of a Crushed Can from our PolygonArt collection",
@@ -55,11 +61,14 @@ const items = [
     center: true,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 4,
     title: "Deer",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Deer,
     info: "Digital art of a Deer from our PolygonArt collection",
@@ -67,11 +76,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 5,
     title: "Digital Bust",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: DigitalBust,
     info: "Digital art of Digital Bust from our PolygonArt collection",
@@ -79,11 +91,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 6,
     title: "Distortion",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Distortion,
     info: "Digital art of Distortion Prism from our PolygonArt collection",
@@ -91,11 +106,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 7,
     title: "Elephant",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Elephant,
     info: "Digital art of a Elephant from our PolygonArt collection",
@@ -103,12 +121,15 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 8,
     title: "German.S",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: GermanShepperd,
     info: "Digital art of a German Sheppard from our PolygonArt collection",
@@ -116,12 +137,15 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 9,
     title: "GoldenEagle",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: GoldenEagle,
     info: "Digital art of a Golden Eagle from our PolygonArt collection",
@@ -129,12 +153,15 @@ const items = [
     center: true,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 10,
     title: "Holy",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Holy,
     info: "Digital art of Holy from our PolygonArt collection",
@@ -142,11 +169,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 11,
     title: "Human Art",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: HumanArt,
     info: "Digital art of Human Art from our PolygonArt collection",
@@ -154,11 +184,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 12,
     title: "Human Grid",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: HumanGrid,
     info: "Digital art of a Human Grid from our PolygonArt collection",
@@ -166,11 +199,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 13,
     title: "Heart",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Heart,
     info: "Digital art of Heart from our PolygonArt collection",
@@ -178,12 +214,15 @@ const items = [
     center: true,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 14,
     title: "Portrait",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Portrait,
     info: "Digital art of a Portrait from our PolygonArt collection",
@@ -191,11 +230,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 15,
     title: "Human Portrait",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: HumanPortrait,
     info: "Digital art of a Human Portrait from our PolygonArt collection",
@@ -203,11 +245,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 16,
     title: "Rabbit",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Rabbit,
     info: "Digital art of a Rabbit from our PolygonArt collection",
@@ -215,12 +260,15 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 17,
     title: "Skull",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Skull,
     info: "Digital art of a Skull from our PolygonArt collection",
@@ -228,12 +276,15 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 
   {
     id: 18,
     title: "Waterfall",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Waterfall,
     info: "Digital art of a Waterfall from our PolygonArt collection",
@@ -241,11 +292,14 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
   {
     id: 19,
     title: "Wizard",
-    artist: "Femi",
+    artist: "David",
     artistImage: Artist,
     image: Wizard,
     info: "Digital art of a Wizard from our PolygonArt collection",
@@ -253,6 +307,9 @@ const items = [
     center: false,
     price: "0.2ETH",
     collection: "PolygonArt Collection",
+    post: "Digital Creative Artist",
+    artistStory:
+      "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
 ];
 export default items;

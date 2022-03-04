@@ -10,7 +10,7 @@ const About = () => {
 
   const { state } = location;
   const { mine } = state;
-  const { artist, artistImage } = mine;
+  const { artist, artistImage, post, artistStory } = mine;
   useEffect(() => {
     const tl = gsap.timeline();
     let split = new SplitText(text, { type: "words,chars" });
@@ -27,8 +27,7 @@ const About = () => {
   return (
     <AboutStyled>
       <p ref={(el) => (text = el)} className="headline">
-        My boys is the best basketballer in the entire workd and he definitely
-        balls a lot
+        {artistStory}
       </p>
     </AboutStyled>
   );

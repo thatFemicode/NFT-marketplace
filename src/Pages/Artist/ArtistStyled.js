@@ -2,7 +2,8 @@ import styled from "styled-components";
 import Bg from "../Item/noise.png";
 export const ArtistStyled = styled.div`
   height: 100vh;
-  overflow: hidden;
+  overflow: auto;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   position: relative;
@@ -12,7 +13,11 @@ export const ArtistStyled = styled.div`
   padding-top: 5rem;
   padding-bottom: 4rem;
   background: url(${Bg});
-
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
   .artist-content {
     width: 100%;
     &-image {
@@ -32,6 +37,12 @@ export const ArtistStyled = styled.div`
           width: 150px;
           height: 150px;
         }
+      }
+      h1 {
+        margin-top: 0.5rem;
+      }
+      p {
+        margin-top: 0.5rem;
       }
     }
   }

@@ -11,7 +11,7 @@ const Artist = () => {
 
   const { state } = location;
   const { mine } = state;
-  const { artist, artistImage } = mine;
+  const { artist, artistImage, post } = mine;
   return (
     <ArtistStyled>
       <MarketplaceMenu />
@@ -22,7 +22,7 @@ const Artist = () => {
             <img src={artistImage} alt="" />
           </div>
           <h1>{artist} </h1>
-          <p>Digital Creative Artist</p>
+          <p>{post}</p>
         </div>
         <PageContainer>
           <Tab tabs={tabs} />
