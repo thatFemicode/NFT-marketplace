@@ -12,4 +12,20 @@ export const ArtistStyled = styled.div`
   padding-top: 5rem;
   padding-bottom: 4rem;
   background: url(${Bg});
+
+  .artist-content {
+    &-image {
+      display: flex;
+      flex-direction: column;
+      .artist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+    }
+  }
 `;

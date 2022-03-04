@@ -5,6 +5,7 @@ export const ItemStyled = styled.main`
   height: 100vh;
   overflow: hidden;
   display: flex;
+  z-index: 50;
   justify-content: center;
   position: relative;
   background: url(${Bg});

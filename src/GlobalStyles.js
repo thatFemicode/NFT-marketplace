@@ -100,18 +100,19 @@ li{
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  z-index: 13;
+  z-index: -13;
   pointer-events: none;
   display:flex;
   align-items: center;
   justify-content:center;
+  background-color: #f6f8fb;
 }
 .load-screen {
   position: relative;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  background-color: #f6f8fb;
+  background-color: #fff;
   width: 0%;
   height: 100%;
   display:flex;
