@@ -3,6 +3,7 @@ import { AboutStyled } from "./AboutStyled";
 import gsap from "gsap";
 import { useLocation } from "react-router-dom";
 import SplitText from "../../utils/Split3.min";
+import Twitter from "../Icons/Twitter";
 const About = () => {
   let text = useRef(null);
 
@@ -29,6 +30,9 @@ const About = () => {
       <p ref={(el) => (text = el)} className="headline">
         {artistStory}
       </p>
+      <div className="socials">
+        <Twitter />
+      </div>
     </AboutStyled>
   );
 };
