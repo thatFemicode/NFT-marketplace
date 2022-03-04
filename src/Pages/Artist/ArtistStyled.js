@@ -14,9 +14,12 @@ export const ArtistStyled = styled.div`
   background: url(${Bg});
 
   .artist-content {
+    width: 100%;
     &-image {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
       .artist {
         display: flex;
         align-items: center;
@@ -25,6 +28,10 @@ export const ArtistStyled = styled.div`
         height: 250px;
         border-radius: 50%;
         background-color: #fff;
+        @media (max-width: ${({ theme }) => theme.make}) {
+          width: 150px;
+          height: 150px;
+        }
       }
     }
   }

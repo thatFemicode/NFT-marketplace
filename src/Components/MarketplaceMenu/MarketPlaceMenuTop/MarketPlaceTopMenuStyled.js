@@ -13,7 +13,7 @@ export const MarketPlaceTopMenuStyled = styled.nav`
   max-width: 1200px;
   padding: 0rem 2rem;
   padding-top: 2rem;
-  height: 40px;
+
   margin: 0 auto;
 
   img {

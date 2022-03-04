@@ -1,5 +1,6 @@
 import styled from "styled-components";
 export const CardContainer = styled.div`
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
@@ -23,11 +24,10 @@ export const CardContainer = styled.div`
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
   }
   @media (max-width: ${({ theme }) => theme.se}) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
   }
   scrollbar-width: none;
   &::-webkit-scrollbar {
@@ -35,7 +35,7 @@ export const CardContainer = styled.div`
   }
 `;
 export const Item = styled.div`
-  padding: 0 0.4rem;
+  padding: 1rem 0.4rem;
   border-radius: 12px;
   display: flex;
   cursor: pointer;

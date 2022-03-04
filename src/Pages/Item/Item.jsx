@@ -1,7 +1,7 @@
 import React, { useRef, useLayoutEffect } from "react";
 import MarketplaceMenu from "../../Components/MarketplaceMenu/MarketplaceMenu";
 import { ItemStyled, BackGround } from "./ItemStyled";
-import { useLocation, Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import itemAnim from "./itemAnimation";
 import ItemMenu from "../../Components/MarketplaceMenu/ItemMenu/ItemMenu";
 import { OuterLayout } from "../../Layout/Layout";
@@ -16,6 +16,7 @@ const Item = () => {
   let path = useRef(null);
 
   const { state } = useLocation();
+  const mine = state;
   const {
     title,
     artist,
@@ -64,7 +65,7 @@ const Item = () => {
               <Details name="Price" info={price} />
               <div className="artist-details">
                 <div className="artist">
-                  <Link to="/artist">
+                  <Link to="/artist" state={{ mine }}>
                     <img src={artistImage} alt="" />
                   </Link>
                 </div>

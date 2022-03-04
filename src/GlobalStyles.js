@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import bg from "./Pages/Marketplace/img/noise.png";
 const GlobalStyle = createGlobalStyle`
 
 :root {
@@ -118,6 +118,7 @@ li{
   display:flex;
   align-items: center;
   justify-content:center;
+  background: url(${bg});
   svg 
   {
 opacity:0;
