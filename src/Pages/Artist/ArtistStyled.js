@@ -18,6 +18,9 @@ export const ArtistStyled = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
+  @media (max-width: ${({ theme }) => theme.images}) {
+    overflow: hidden;
+  }
   .artist-content {
     width: 100%;
     &-image {
@@ -29,8 +32,8 @@ export const ArtistStyled = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         background-color: #fff;
         @media (max-width: ${({ theme }) => theme.make}) {

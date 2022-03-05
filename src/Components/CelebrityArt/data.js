@@ -19,6 +19,8 @@ import Snoop from "./Celebrity-NFT/SnoopDoggfinal.png";
 import TheWeekend from "./Celebrity-NFT/TheWeeknd.jpg";
 import Travis from "./Celebrity-NFT/TravisScott.png";
 import Artist from "./Celebrity-NFT/avatar.png";
+import Steph from "../BasketballArt/Basketball-NFT/Steph.jpg";
+import Paraphase from "../RandomArt/RandomArt-NFT/PARAPHASE.jpg";
 const items = [
   {
     id: 1,
@@ -32,6 +34,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -47,6 +54,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -63,6 +75,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -78,6 +95,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -93,6 +115,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -108,6 +135,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -123,6 +155,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -138,6 +175,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -153,6 +195,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -168,6 +215,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -183,6 +235,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -198,6 +255,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -213,6 +275,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -229,6 +296,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -244,6 +316,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -259,6 +336,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },
@@ -274,6 +356,11 @@ const items = [
     price: "0.2ETH",
     collection: "Celebrity Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Player Collection", pic: Steph },
+      { id: 2, name: "Celebrity Collection", pic: Drake },
+      { id: 3, name: "RandomArt Collection", pic: Paraphase },
+    ],
     artistStory:
       "Femi a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. Femi has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Femis Works via his social media pages to know more about him ",
   },

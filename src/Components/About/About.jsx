@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useLocation } from "react-router-dom";
 import SplitText from "../../utils/Split3.min";
 import Twitter from "../Icons/Twitter";
+import { Instagram, Twitch, Youtube } from "react-feather";
 const About = () => {
   let text = useRef(null);
 
@@ -32,6 +33,8 @@ const About = () => {
       </p>
       <div className="socials">
         <Twitter />
+        <Instagram />
+        <Youtube />
       </div>
     </AboutStyled>
   );

@@ -19,6 +19,7 @@ import Surprised from "./Ape-NFT/SurprisedBoredApe.png";
 import Talent from "./Ape-NFT/TalentBored.png";
 import Weed from "./Ape-NFT/WeedBoredApe.png";
 import Yatch from "./Ape-NFT/YachtBoredApe.jpg";
+import Waterfall from "../PolygonArt/Polygonart-NFT/Waterfall.jpg";
 import Artist from "./Ape-NFT/avatar.png";
 const items = [
   {
@@ -33,6 +34,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -48,6 +53,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -63,6 +72,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -78,6 +91,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -93,6 +110,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -108,6 +129,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -123,6 +148,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -138,6 +167,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -153,7 +186,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
-
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -169,6 +205,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -184,6 +224,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -199,6 +243,10 @@ const items = [
     center: true,
     price: "0.2ETH",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     collection: "Ape Collection",
   },
   {
@@ -213,6 +261,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -228,6 +280,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -243,6 +299,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -258,6 +318,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -273,6 +337,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -288,6 +356,11 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
+
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -303,6 +376,10 @@ const items = [
     price: "0.2ETH",
     post: "Digital Creative Artist",
     collection: "Ape Collection",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -318,6 +395,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
@@ -333,6 +414,10 @@ const items = [
     price: "0.2ETH",
     collection: "Ape Collection",
     post: "Digital Creative Artist",
+    collections: [
+      { id: 1, name: "Ape Collection", pic: Space },
+      { id: 2, name: "PolygonArt Collection", pic: Waterfall },
+    ],
     artistStory:
       "David a talented artist born out of Nigeria from the trenches of Lagos sees art as a way to express his thoughts and tell stories from his minted pieces. David has been in the art business for more than a decade now and with the emergence of NFTs he plans on taking showing people and the world at large how talented he is with his pieces, follow Davids Works via his social media pages to know more about him ",
   },
