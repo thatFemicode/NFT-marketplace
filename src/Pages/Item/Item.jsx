@@ -71,9 +71,8 @@ const Item = () => {
                 </div>
                 <p>{artist}</p>
               </div>
-              <Link to="/artist">
-                <ItemButton name="Buy" />
-              </Link>
+
+              <ItemButton name="Buy" />
             </div>
           </div>
         </OuterLayout>
