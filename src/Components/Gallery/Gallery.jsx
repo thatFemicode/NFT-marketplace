@@ -9,7 +9,7 @@ import useOnScreen from "../../Hooks/useOnScreen";
 const Gallery = () => {
   const ref = useRef(null);
   const [reveal, setReveal] = useState(false);
-  const onScreen = useOnScreen(ref);
+  const onScreen = useOnScreen(ref, 0.2);
 
   useEffect(() => {
     if (onScreen) setReveal(onScreen);

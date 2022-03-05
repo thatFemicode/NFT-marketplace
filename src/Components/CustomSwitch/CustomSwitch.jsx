@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import TopBarProgress from "react-topbar-progress-indicator";
 TopBarProgress.config({
   barColors: {
-    0: "#000",
-    "1.0": "#000",
+    0: "#beaef0",
+    "1.0": "#b06c49",
   },
   shadowBlur: 5,
 });

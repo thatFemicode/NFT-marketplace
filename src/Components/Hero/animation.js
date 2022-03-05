@@ -4,12 +4,12 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
   tl.from(
     [node1, node2, node3, node4],
     {
-      duration: 2,
+      duration: 1.5,
       opacity: 0,
       y: 100,
       skewY: 10,
       stagger: {
-        amount: 2,
+        amount: 1.5,
       },
     },
     "+=1"
@@ -18,9 +18,8 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
       image1,
       {
         duration: 1.2,
-        y: 1200,
+        y: -100,
         ease: "power3.inOut",
-        opacity: 0,
       },
       "-=1"
     )
@@ -28,6 +27,7 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
       image1,
       {
         duration: 2,
+        opacity: 0,
         scale: 1.6,
         ease: "power3.inOut",
       },
@@ -37,7 +37,7 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
       image2,
       {
         duration: 1.2,
-        y: 1200,
+        x: 1200,
         ease: "power3.inOut",
         opacity: 0,
       },
@@ -56,9 +56,8 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
       image3,
       {
         duration: 1.2,
-        y: 1200,
+        y: 100,
         ease: "power3.inOut",
-        opacity: 0,
       },
       "-=1"
     )
@@ -66,6 +65,7 @@ const animate = (node1, node2, node3, node4, image1, image2, image3) => {
       image3,
       {
         duration: 2,
+        opacity: 0,
         scale: 1.6,
         ease: "power3.inOut",
       },

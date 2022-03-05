@@ -41,7 +41,9 @@ export const CollectionStyled = styled.div`
     li {
       display: flex;
       align-items: center;
-
+      a {
+        display: flex;
+      }
       div {
         ${hover}
         margin-left: 10px;

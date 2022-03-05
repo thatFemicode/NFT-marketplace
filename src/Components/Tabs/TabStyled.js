@@ -25,7 +25,7 @@ export const TitlesContainer = styled.span`
   }
 `;
 export const Title = styled.span`
-  padding: 0.8rem 0.8rem;
+  padding: 0.5rem 0.8rem;
 
   cursor: pointer;
   font-size: 1rem;
@@ -40,7 +40,7 @@ export const Title = styled.span`
     content: "";
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: 3px;
     width: 0.3rem;
     border-radius: 50%;
     margin-left: 50%;

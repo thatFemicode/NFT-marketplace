@@ -34,7 +34,7 @@ export const WhyStyled = styled.div`
   height: 100%;
   width: 100%;
   .primary {
-    > li {
+    li {
       ${h3}
       ${hover}
       display: flex;

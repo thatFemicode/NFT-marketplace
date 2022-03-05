@@ -75,7 +75,7 @@ export const AboutStyled = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 300px;
 
     li {
       /* margin-right: 20px; */
