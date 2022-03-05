@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { OuterLayout } from "../../Layout/Layout";
 import icons from "./data";
 import { GalleryStyled } from "./GalleryStyled";
 import IconCarousel from "./IconCarousel/IconCarousel";
 import { X_OFFSET, Y_OFFSET } from "./constant";
+import useOnScreen from "../../Hooks/useOnScreen";
+
 const Gallery = () => {
+  const ref = useRef(null);
+  const [reveal, setReveal] = useState(false);
+  const onScreen = useOnScreen(ref);
+
+  useEffect(() => {
+    if (onScreen) setReveal(onScreen);
+  }, [onScreen]);
+
   const icond = icons.map((icon, index) => {
     const { s, x, y, image, title, id } = icon;
     let newIcon = {};
@@ -20,12 +30,12 @@ const Gallery = () => {
   return (
     <GalleryStyled>
       <OuterLayout>
-        <div className="gallery">
+        <div ref={ref} className="gallery">
           <h1>
-            Popular <span> NFTs</span> on{" "}
+            Popular <span> NFTs</span> on
             <span className="express">ExpressSea</span>
             <div className="carousel">
-              <IconCarousel icons={icond} />
+              {reveal && <IconCarousel icons={icond} />}
             </div>
           </h1>
         </div>

@@ -25,20 +25,22 @@ export const TitlesContainer = styled.span`
   }
 `;
 export const Title = styled.span`
-  padding: 1.5rem 0;
+  padding: 0.8rem 0.8rem;
 
   cursor: pointer;
   font-size: 1rem;
   position: relative;
   ${(p) => (p.active ? "" : `color:#868687;`)}
   ${(p) => (p.active ? `font-weight:500;` : "")}
+  ${(p) => (p.active ? `background-color:#fff;` : "")}
+  ${(p) => (p.active ? `border-radius:1rem;` : "")}
 
  ::after {
     ${(p) => (!p.active ? "display:none;" : "")}
     content: "";
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 5px;
     width: 0.3rem;
     border-radius: 50%;
     margin-left: 50%;

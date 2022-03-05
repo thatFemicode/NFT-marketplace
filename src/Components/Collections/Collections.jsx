@@ -4,11 +4,12 @@ import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 const Collections = () => {
   const location = useLocation();
-
   const { state } = location;
-  const { mine } = state;
-  const { artist, artistImage, post, artistStory, collections } = mine;
-  console.log(collections);
+  const {
+    mine: { artist, collections },
+  } = state;
+  // const { artist, collections } = mine;
+
   return (
     <CollectionStyled>
       <p>{artist}'s collections:</p>

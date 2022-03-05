@@ -9,6 +9,10 @@ export const CollectionStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  @media (max-width: ${({ theme }) => theme.images}) {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
   p {
     text-align: left;
     font-size: 2rem;
@@ -18,6 +22,7 @@ export const CollectionStyled = styled.div`
   }
 
   .collection-list {
+    margin-top: 1rem;
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
     width: 100%;

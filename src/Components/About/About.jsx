@@ -19,11 +19,12 @@ const About = () => {
     let char = split.chars;
     console.log(char);
     tl.from(split.chars, {
-      duration: 0.4,
+      duration: 1,
       autoAlpha: 0,
       stagger: {
-        each: 0.05,
+        each: 0.1,
       },
+      delay: 3,
     });
   }, []);
   return (
