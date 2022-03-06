@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Bg from "../Item/noise.png";
+
 export const ArtistStyled = styled.div`
   height: 100vh;
   overflow: auto;
