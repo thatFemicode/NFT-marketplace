@@ -31,8 +31,8 @@ const About = () => {
           </div>
         </li>
       </div>
-
-      <ul className="secondary">
+<div className="secondary">
+      <ul className="secondary-main">
         <li>
           <span className="art"></span>
         </li>
@@ -43,6 +43,7 @@ const About = () => {
           <span className="random"></span>
         </li>
       </ul>
+      </div>
     </AboutStyled>
   );
 };

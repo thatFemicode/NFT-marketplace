@@ -1,11 +1,10 @@
-import React, { forwardRef, useState, useEffect } from "react";
+import React, { forwardRef, useState } from "react";
 import {
   NavbarStyled,
   Container,
   DropdownStyles,
   Buttons,
 } from "./NavbarStyled";
-
 import logo from "./img/slack.svg";
 import { DropdownProvider, DropdownOption, DropdownRoot } from "./Dropdown";
 import About from "./Content/About/About";
@@ -14,13 +13,13 @@ import Why from "./Content/WhyExpress/Why";
 import { Link } from "react-router-dom";
 import Hamburger from "./Hambuger/Hamburger";
 // import { useGlobalContext } from "../../Context/context.js";
-import { Hash } from "react-feather";
+// import { Hash } from "react-feather";
 import { useScrollLock } from "../ScrollLock/ScrollLock";
 import Button from "../Button/PrimaryButton";
 
 const Navbar = forwardRef(({ children }, ref) => {
   const [disabled, setDisabled] = useState(false);
-  const [clicked, setClicked] = useState(false);
+  const [clicked] = useState(false);
   const [state, setState] = useState({
     initial: false,
     clicked: null,

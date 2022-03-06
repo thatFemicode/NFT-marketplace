@@ -9,12 +9,12 @@ const h3 = css`
   color: #32325d;
   text-align: left;
 `;
-const h2 = css`
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #32325d;
-  /* text-align: left; */
-`;
+// const h2 = css`
+//   font-size: 0.9rem;
+//   font-weight: bold;
+//   color: #32325d;
+//   /* text-align: left; */
+// `;
 
 const p = css`
   color: #6b7c93;
@@ -72,11 +72,13 @@ export const AboutStyled = styled.div`
   }
   .secondary {
     margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 300px;
-
+    width: 400px;
+    &-main {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
     li {
       /* margin-right: 20px; */
       margin-top: 20px;

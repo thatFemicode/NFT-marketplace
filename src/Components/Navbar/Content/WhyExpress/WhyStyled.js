@@ -8,18 +8,18 @@ const h3 = css`
   color: #32325d;
   text-align: left;
 `;
-const h2 = css`
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #32325d;
-  /* text-align: left; */
-`;
+// const h2 = css`
+//   font-size: 0.9rem;
+//   font-weight: bold;
+//   color: #32325d;
+//   /* text-align: left; */
+// `;
 
-const p = css`
-  color: #6b7c93;
-  font-size: 0.8rem;
-  text-align: left;
-`;
+// const p = css`
+//   color: #6b7c93;
+//   font-size: 0.8rem;
+//   text-align: left;
+// `;
 
 const hover = css`
   cursor: pointer;

@@ -2,14 +2,8 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { HamburgerStyled } from "./HamburgerStyled";
 import { OuterLayout } from "../../../Layout/Layout";
-import {
-  staggerText,
-  staggerReveal,
-  fadeInUp,
-  handleHover,
-  handleHoverExit,
-  staggerRevealClose,
-} from "./Animation";
+import { Link } from "react-router-dom";
+import { staggerReveal, staggerRevealClose } from "./Animation";
 
 const Hamburger = ({ state }) => {
   let menuLayer = useRef(null);
@@ -86,41 +80,51 @@ const Hamburger = ({ state }) => {
               <h3>Collections</h3>
 
               <ul className="collection-main">
-                <li>
-                  <span className="ape"></span>
-                  <div>
-                    <h3>Ape Collection</h3>
-                    <p>A collection of different Apes in different forms</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="ball"></span>
-                  <div>
-                    <h3>Polygon Art Collection</h3>
-                    <p>A collection of Polygon art of various objects </p>
-                  </div>
-                </li>
-                <li>
-                  <span className="basket"></span>
-                  <div>
-                    <h3>Player Collection</h3>
-                    <p>Collection of different Basketball players</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="celebrity"></span>
-                  <div>
-                    <h3>Celebrity Collection</h3>
-                    <p>Collection of different Music Artist</p>
-                  </div>
-                </li>
-                <li>
-                  <span className="random"></span>
-                  <div>
-                    <h3>Random Art Collection</h3>
-                    <p>Collection of Random Art by different artist</p>
-                  </div>
-                </li>
+                <Link to="/marketplace">
+                  <li>
+                    <span className="ape"></span>
+                    <div>
+                      <h3>Ape Collection</h3>
+                      <p>A collection of different Apes in different forms</p>
+                    </div>
+                  </li>
+                </Link>
+                <Link to="/marketplace">
+                  <li>
+                    <span className="ball"></span>
+                    <div>
+                      <h3>Polygon Art Collection</h3>
+                      <p>A collection of Polygon art of various objects </p>
+                    </div>
+                  </li>
+                </Link>
+                <Link to="/marketplace">
+                  <li>
+                    <span className="basket"></span>
+                    <div>
+                      <h3>Player Collection</h3>
+                      <p>Collection of different Basketball players</p>
+                    </div>
+                  </li>
+                </Link>
+                <Link to="/marketplace">
+                  <li>
+                    <span className="celebrity"></span>
+                    <div>
+                      <h3>Celebrity Collection</h3>
+                      <p>Collection of different Music Artist</p>
+                    </div>
+                  </li>
+                </Link>
+                <Link to="/marketplace">
+                  <li>
+                    <span className="random"></span>
+                    <div>
+                      <h3>Random Art Collection</h3>
+                      <p>Collection of Random Art by different artist</p>
+                    </div>
+                  </li>
+                </Link>
               </ul>
             </div>
             <div className="why">

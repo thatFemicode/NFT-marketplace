@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { AboutStyled } from "./AboutStyled";
-import gsap from "gsap";
 import { useLocation } from "react-router-dom";
-import SplitText from "../../utils/Split3.min";
+// import SplitText from "../../utils/Split3.min";
 import Twitter from "../Icons/Twitter";
-import { Instagram, Twitch, Youtube } from "react-feather";
+import { Instagram, Youtube } from "react-feather";
 // import useOnScreen from "../../Hooks/useOnScreen";
 const About = () => {
   // const ref = useRef(null);
