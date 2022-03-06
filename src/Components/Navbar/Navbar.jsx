@@ -1,5 +1,10 @@
 import React, { forwardRef, useState, useEffect } from "react";
-import { NavbarStyled, Container, DropdownStyles } from "./NavbarStyled";
+import {
+  NavbarStyled,
+  Container,
+  DropdownStyles,
+  Buttons,
+} from "./NavbarStyled";
 
 import logo from "./img/slack.svg";
 import { DropdownProvider, DropdownOption, DropdownRoot } from "./Dropdown";
@@ -15,11 +20,13 @@ import Button from "../Button/PrimaryButton";
 
 const Navbar = forwardRef(({ children }, ref) => {
   const [disabled, setDisabled] = useState(false);
+  const [clicked, setClicked] = useState(false);
   const [state, setState] = useState({
     initial: false,
     clicked: null,
-    menuName: "Open",
+    menuName: <Buttons clicked={clicked} />,
   });
+
   const { lockScroll, unlockScroll } = useScrollLock();
   // Disabled Menu function
   const disableMenu = () => {
@@ -97,9 +104,14 @@ const Navbar = forwardRef(({ children }, ref) => {
               </Link>
             </div>
             <div className="mobile-nav">
-              <button onClick={handleMenu} disabled={disabled}>
-                <Hash /> {state.menuName}
-              </button>
+              {/* <button onClick={handleMenu} disabled={disabled}>
+                {state.menuName}
+              </button> */}
+              <Buttons
+                clicked={state.clicked}
+                onClick={handleMenu}
+                disabled={disabled}
+              />
             </div>
             <Hamburger state={state} />
           </Container>

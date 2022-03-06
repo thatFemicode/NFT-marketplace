@@ -45,7 +45,8 @@ export const NavbarStyled = styled.div`
   }
 `;
 export const Buttons = styled.button`
-  background-color: var(--black);
+  background-color: #000;
+  background-color: #b06c49;
   border: none;
   width: 2.5rem;
   height: 2.5rem;
@@ -55,6 +56,7 @@ export const Buttons = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: relative;
   &::before,
   &::after {
@@ -73,7 +75,7 @@ export const Buttons = styled.button`
     top: ${(props) => (props.clicked ? "1.2" : "1.5rem")};
     transform: ${(props) => (props.clicked ? "rotate(-135deg)" : "rotate(0)")};
   }
-  @media (min-width: ${({ theme }) => theme.images}) {
+  @media (min-width: ${({ theme }) => theme.nav}) {
     display: none;
   }
 `;
@@ -117,12 +119,7 @@ export const Container = styled.nav`
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    button {
-      display: flex;
-      align-items: center;
-      background: transparent;
-      border: none;
-    }
+
     @media (min-width: ${({ theme }) => theme.nav}) {
       display: none;
     }
