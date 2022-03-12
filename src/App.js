@@ -1,4 +1,3 @@
-import "./App.css";
 import Home from "./Pages/Home/Home";
 import Item from "./Pages/Item/Item";
 import MarketPlace from "./Pages/Marketplace/Marketplace";

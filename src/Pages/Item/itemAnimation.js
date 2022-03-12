@@ -16,18 +16,19 @@ const itemAnim = (node1, node2, node3, node4) => {
       node3,
       {
         duration: 0.2,
-        scale: 0.5,
+        scale: 0.1,
         opacity: 0,
         fillOpacity: 0,
+        transformOrigin: "center",
         strokeDashoffset: 1500,
         ease: Power3.easeInOut,
       },
       {
         duration: 1,
         opacity: 1,
-        scale: 0.7,
+        scale: 0.5,
         strokeDashoffset: 0,
-        transformOrigin: "50%, 50%",
+        // transformOrigin: "50%, 50%",
         fillOpacity: 1,
         ease: Power3.easeInOut,
       }

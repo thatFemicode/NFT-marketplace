@@ -55,6 +55,7 @@ overflow-x: hidden;
 height:100%;
 width:100%;
 color:var(--black);
+
 /* background-color:#e9dbd4; */
 -ms-overflow-style: none; /* Internet Explorer 10+ */
 scrollbar-width: none; /* Firefox */
@@ -126,9 +127,18 @@ position: absolute;
 width:400px;
 height:400px;
 left:50%;
-transform:translateX(-40%);
-
-  path{
+transform:translateX(-50%);
+@media screen and (max-width:450px){
+  width:200px;
+  height:200px;
+  /* transform:translateX(-60%); */
+}
+@media screen and (max-width:376px){
+  width:150px;
+  height:150px;
+  /* transform:translateX(-40%); */
+}
+path{
     fill-opacity:0;
     stroke-width:10;
     stroke-linejoin: round;
@@ -136,7 +146,7 @@ transform:translateX(-40%);
     stroke-dasharray: 1500;
     transform-origin:50% 50%;
   }
-}
+  }
 }
 .Headd {
   opacity: 0;

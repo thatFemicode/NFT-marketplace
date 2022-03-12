@@ -30,7 +30,7 @@ export const ShowCaseStyled = styled.section`
         width: 400px; */
         height: 350px;
         width: 350px;
-        border-radius: 2rem;
+        /* border-radius: 2rem; */
         @media (max-width: ${({ theme }) => theme.kobe}) {
           height: 300px;
           width: 300px;
@@ -60,10 +60,11 @@ export const ShowCaseStyled = styled.section`
           position: relative;
           height: 100%;
           width: 100%;
-
+          border-radius: 2rem;
           img {
             width: 100%;
             height: 100%;
+            border-radius: 2rem;
             object-fit: cover;
           }
         }

@@ -16,7 +16,7 @@ export const ItemStyled = styled.main`
   padding-bottom: 4rem;
   @media (max-width: ${({ theme }) => theme.service}) {
     /* max-width: 400px; */
-    overflow-y: visible;
+    overflow: auto;
     height: 100%;
   }
 

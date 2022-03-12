@@ -44,7 +44,7 @@ const Hamburger = ({ state }) => {
       <div ref={(el) => (reveal3 = el)} className="menu-layer">
         <OuterLayout>
           <div className="wrapper">
-            <div className="about">
+            {/* <div className="about">
               <h3>About</h3>
               <li>
                 <span className="documentation" />
@@ -75,7 +75,7 @@ const Hamburger = ({ state }) => {
                   <p>Room for creative artist to show out awesome works .</p>
                 </div>
               </li>
-            </div>
+            </div> */}
             <div className="collection">
               <h3>Collections</h3>
 

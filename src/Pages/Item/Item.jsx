@@ -35,7 +35,13 @@ const Item = () => {
     <>
       <div className="load-container">
         <div className="load-screen" ref={(el) => (screen = el)}>
-          <svg className="svg" viewBox="0 0 556 556" ref={(el) => (svg = el)}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            className="svg"
+            viewBox="0 0 250 250"
+            ref={(el) => (svg = el)}
+          >
             <path
               ref={(el) => (path = el)}
               className="logo"

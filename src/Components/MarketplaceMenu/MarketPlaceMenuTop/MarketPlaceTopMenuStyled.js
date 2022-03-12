@@ -13,12 +13,17 @@ export const MarketPlaceTopMenuStyled = styled.nav`
   max-width: 1200px;
   padding: 0rem 2rem;
   padding-top: 2rem;
-
   margin: 0 auto;
-
+  @media (max-width: ${({ theme }) => theme.images}) {
+    padding-top: 1rem;
+  }
   img {
     width: 40px;
     height: 40px;
+    @media (max-width: ${({ theme }) => theme.max}) {
+      width: 30px;
+      height: 30px;
+    }
   }
   h1 {
     font-size: 0.9rem;

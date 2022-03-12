@@ -18,10 +18,11 @@ export const TitlesContainer = styled.span`
   @media (max-width: ${({ theme }) => theme.max}) {
     margin: 0;
     /* padding: 0 1.5rem; */
+    padding: 1rem 1.5rem;
   }
   @media (max-width: ${({ theme }) => theme.foot}) {
     margin: 0;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
   }
 `;
 export const Title = styled.span`
@@ -46,7 +47,10 @@ export const Title = styled.span`
     margin-left: 50%;
     transform: translateX(-50%);
     height: 0.3rem;
-    background-color: #ff164e;
+    background-color: #b06c49;
+    @media (max-width: ${({ theme }) => theme.max}) {
+      bottom: 1px;
+    }
   }
   @media (max-width: ${({ theme }) => theme.desktop}) {
     font-size: 0.9rem;
@@ -55,7 +59,8 @@ export const Title = styled.span`
     font-size: 0.8rem;
   }
   @media (max-width: ${({ theme }) => theme.max}) {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
+    padding: 0.5rem 0.6rem;
   }
   @media (max-width: ${({ theme }) => theme.se}) {
     font-size: 0.6rem;
@@ -88,5 +93,7 @@ export const Content = styled.div`
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
   }
 `;

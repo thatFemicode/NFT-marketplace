@@ -17,7 +17,7 @@ export const Link = styled.a`
   @media (max-width: ${({ theme }) => theme.max}) {
     font-size: 1rem;
   }
-  ${(p) => (p.active ? `color:#FF164E;` : "")}
+  ${(p) => (p.active ? `color:#b06c49;` : "")}
   position: relative;
   cursor: pointer;
 
@@ -32,7 +32,8 @@ export const Link = styled.a`
     margin-left: 50%;
     transform: translateX(-50%);
     height: 0.3rem;
-    background-color: #ff164e;
+    /* background-color: #ff164e; */
+    background-color: #b06c49;
     @media (max-width: ${({ theme }) => theme.max}) {
       bottom: -0.2rem;
     }

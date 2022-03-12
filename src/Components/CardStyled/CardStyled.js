@@ -24,7 +24,7 @@ export const CardContainer = styled.div`
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 0rem;
   }
   @media (max-width: ${({ theme }) => theme.se}) {
     grid-template-columns: repeat(2, 1fr);
