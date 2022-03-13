@@ -1,6 +1,6 @@
 import Chris from "./Img/Chris.jpg";
 import Can from "./Img/CrushedCan.jpg";
-import Distortion from "./Img/Human Art.jpg";
+import Distortion from "./Img/Holyjpg.jpg";
 import Emimen from "./Img/Eminem.jpg";
 import Nanny from "./Img/NannyBoredApe.jpg";
 import Obsidian from "./Img/ObsidianBoredApe.jpg";

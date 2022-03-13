@@ -83,7 +83,7 @@ const Showcase = () => {
     return () => {
       clearTimeout(timer);
     };
-  }, [state]);
+  }, [state, activateTimer, timer, userDetected]);
   return (
     <ShowCaseStyled>
       <OuterLayout>

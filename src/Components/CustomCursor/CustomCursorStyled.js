@@ -16,6 +16,9 @@ export const CustomCursorStyled = styled.div`
     @media screen and (max-width: 680px) {
       display: none;
     }
+    @media (hover: none) and (pointer: coarse), (max-width: 500px) {
+      display: none;
+    }
     &.small {
       width: 1.8rem;
       height: 1.8rem;

@@ -19,6 +19,7 @@ function App() {
     se: "330px",
     vSmall: "290px",
     teams: "350px",
+    teamd: "360px",
     foot: "375px",
     max: "415px",
     mobil: "430px",

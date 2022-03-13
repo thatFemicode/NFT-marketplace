@@ -20,10 +20,12 @@ export const ArtistStyled = styled.div`
     display: none;
   }
   @media (max-width: ${({ theme }) => theme.images}) {
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: 100%;
   }
   .artist-content {
     width: 100%;
+
     &-image {
       display: flex;
       flex-direction: column;

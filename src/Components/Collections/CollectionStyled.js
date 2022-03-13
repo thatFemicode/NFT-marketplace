@@ -26,6 +26,9 @@ export const CollectionStyled = styled.div`
     display: grid;
     /* grid-template-columns: repeat(3, 1fr); */
     width: 100%;
+    @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
     @media (max-width: ${({ theme }) => theme.dont}) {
       grid-template-columns: repeat(2, 1fr);
     }

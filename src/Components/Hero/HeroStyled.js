@@ -10,8 +10,6 @@ export const HeroStyled = styled.section`
   z-index: 10;
   background-color: #f6f8fb;
 
-  @media (max-width: ${({ theme }) => theme.mind}) {
-  }
   @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
     height: unset;
     padding-bottom: 3rem;
@@ -42,7 +40,11 @@ export const HeroStyled = styled.section`
   @media (max-width: ${({ theme }) => theme.make}) {
     padding-top: 4rem;
   }
-  @media (max-width: ${({ theme }) => theme.se}) {
+  @media screen and (min-height: 100px) and (max-height: 475px) and (max-width: 667px) {
+    padding-bottom: 44rem;
+    padding-top: 4rem;
+  }
+  @media (max-width: ${({ theme }) => theme.teamd}) {
     height: 110vh;
   }
   @media (max-width: ${({ theme }) => theme.vSmall}) {
@@ -62,6 +64,7 @@ export const HeroStyled = styled.section`
       justify-content: center;
     }
     &-left {
+      height: 100%;
       width: 100%;
       position: relative;
       flex: 2;
@@ -80,6 +83,10 @@ export const HeroStyled = styled.section`
       @media (max-width: ${({ theme }) => theme.images}) {
         padding-top: 1rem;
         padding-bottom: 0;
+      }
+      @media screen and (min-height: 100px) and (max-height: 475px) and (max-width: 667px) {
+        /* padding-bottom: 44rem; */
+        /* padding-top: 4rem; */
       }
       .linking {
         position: relative;
@@ -303,7 +310,7 @@ export const HeroStyled = styled.section`
           }
           @media (max-width: ${({ theme }) => theme.foot}) {
             width: 110px;
-            height: 190px;
+            height: 180px;
             top: 60px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {
@@ -367,8 +374,8 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 125px;
-            top: 20px;
+            height: 118px;
+            top: 22px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {
             width: 80px;
@@ -439,8 +446,8 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 125px;
-            top: 160px;
+            height: 118px;
+            top: 155px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {
             width: 80px;

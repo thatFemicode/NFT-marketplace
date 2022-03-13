@@ -19,9 +19,9 @@ export const IconStyled = styled.div`
       height: 120px;
     }
     @media (max-width: ${({ theme }) => theme.make}) {
-      width: 100px;
-      height: 100px;
-      left: 0.2rem;
+      width: 120px;
+      height: 120px;
+      left: 0rem;
     }
     &:hover {
       z-index: 1000;

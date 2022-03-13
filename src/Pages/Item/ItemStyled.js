@@ -24,7 +24,7 @@ export const ItemStyled = styled.main`
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 0 3rem;
+    padding: 0 5rem;
 
     @media (max-width: ${({ theme }) => theme.service}) {
       /* max-width: 400px; */
@@ -104,12 +104,22 @@ export const BackGround = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: ${({ center }) => (center ? "center" : "")};
-
+  @media screen and (min-height: 1000px) and (max-height: 1366px) and (max-width: 1024px) {
+    background-size: contain;
+    background-position: top;
+  }
   @media (max-width: ${({ theme }) => theme.service}) {
     height: 400px;
+  }
+  @media screen and (min-height: 1000px) and (max-height: 1024px) and (max-width: 768px) {
+    background-size: cover;
   }
   @media (max-width: ${({ theme }) => theme.max}) {
     width: 300px;
     height: 350px;
+  }
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    width: 250px;
+    height: 300px;
   }
 `;

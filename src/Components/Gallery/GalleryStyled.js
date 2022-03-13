@@ -44,7 +44,7 @@ export const GalleryStyled = styled.section`
         max-width: 400px;
       }
       @media (max-width: ${({ theme }) => theme.foot}) {
-        font-size: 1.4rem;
+        /* font-size: 1.4rem; */
       }
       @media (max-width: ${({ theme }) => theme.vSmall}) {
         font-size: 1.2rem;
