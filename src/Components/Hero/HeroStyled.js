@@ -39,14 +39,18 @@ export const HeroStyled = styled.section`
   }
   @media (max-width: ${({ theme }) => theme.make}) {
     padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   @media screen and (min-height: 100px) and (max-height: 475px) and (max-width: 667px) {
     padding-bottom: 44rem;
     padding-top: 4rem;
   }
-  @media (max-width: ${({ theme }) => theme.teamd}) {
-    height: 110vh;
+  @media (max-width: ${({ theme }) => theme.foot}) {
+    height: 105vh;
+    padding-top: 2.5rem;
   }
+
   @media (max-width: ${({ theme }) => theme.vSmall}) {
     padding-top: 3rem;
   }
@@ -310,7 +314,7 @@ export const HeroStyled = styled.section`
           }
           @media (max-width: ${({ theme }) => theme.foot}) {
             width: 110px;
-            height: 180px;
+            height: 170px;
             top: 60px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {
@@ -374,8 +378,13 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 118px;
-            top: 22px;
+            height: 116px;
+            top: 24px;
+          }
+          @media (max-width: ${({ theme }) => theme.teamd}) {
+            left: 65px;
+            width: 100px;
+            height: 112px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {
             width: 80px;
@@ -446,7 +455,13 @@ export const HeroStyled = styled.section`
           @media (max-width: ${({ theme }) => theme.foot}) {
             left: 65px;
             width: 100px;
-            height: 118px;
+            height: 116px;
+            top: 157px;
+          }
+          @media (max-width: ${({ theme }) => theme.teamd}) {
+            left: 65px;
+            width: 100px;
+            height: 112px;
             top: 155px;
           }
           @media (max-width: ${({ theme }) => theme.se}) {

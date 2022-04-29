@@ -12,6 +12,13 @@ export const ShowCaseStyled = styled.section`
   @media (max-width: ${({ theme }) => theme.desktop}) {
     padding-top: 3rem;
   }
+  @media (max-width: ${({ theme }) => theme.make}) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  @media (max-width: ${({ theme }) => theme.max}) {
+    padding-top: 0rem;
+  }
   .showcase {
     display: flex;
     justify-content: space-between;

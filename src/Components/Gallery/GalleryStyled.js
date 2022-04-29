@@ -12,6 +12,10 @@ export const GalleryStyled = styled.section`
   @media (max-width: ${({ theme }) => theme.images}) {
     padding-top: 2rem;
   }
+  @media (max-width: ${({ theme }) => theme.make}) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .gallery {
     h1 {
       max-width: 600px;

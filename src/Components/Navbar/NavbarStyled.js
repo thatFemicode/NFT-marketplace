@@ -32,8 +32,12 @@ export const NavbarStyled = styled.div`
       @media (max-width: ${({ theme }) => theme.make}) {
         width: 45px;
       }
+
       @media screen and (min-height: 100px) and (max-height: 600px) and (max-width: 1024px) {
         width: 65px;
+      }
+      @media (max-width: ${({ theme }) => theme.foot}) {
+        width: 30px;
       }
     }
     .mid-nav {
@@ -51,7 +55,6 @@ export const Buttons = styled.button`
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  margin: 0.5rem 0 0 0.5rem;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -96,7 +99,14 @@ export const Container = styled.nav`
     padding-left: 2rem;
     padding-right: 2rem;
   }
-
+  .logo {
+    @media (max-width: ${({ theme }) => theme.images}) {
+      width: 55px;
+    }
+    @media (max-width: ${({ theme }) => theme.make}) {
+      width: 45px;
+    }
+  }
   .options {
     display: flex;
     align-items: center;
@@ -107,9 +117,6 @@ export const Container = styled.nav`
     }
   }
   .hashtag {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-self: flex-end; */
     @media (max-width: ${({ theme }) => theme.nav}) {
       display: none;
     }

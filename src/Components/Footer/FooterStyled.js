@@ -13,7 +13,10 @@ export const FooterStyled = styled.footer`
   display: flex;
 
   justify-content: center;
-
+  @media (max-width: ${({ theme }) => theme.make}) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   width: 100%;
   .footer {
     &-top {
